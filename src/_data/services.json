@@ -1,0 +1,489 @@
+{
+  "items": [
+    {
+      "slug": "web-design-development",
+      "image": "/assets/images/services/web-design.jpg",
+      "en": {
+        "title": "Website Design & Development",
+        "metaTitle": "Professional Website Design & Development Services | ELAI Studio",
+        "metaDesc": "Custom website design and web development services. From responsive landing pages to complex web applications — fast, SEO-optimized, and built to convert.",
+        "keywords": "website design, web development, custom website, responsive design, landing page, web application, SEO, UI/UX design, frontend development",
+        "heroSubtitle": "Fast, beautiful, and built to convert",
+        "intro": "Your website is the digital face of your brand. At ELAI Studio, we design and develop custom websites that don't just look stunning — they perform. Every pixel is intentional, every interaction is smooth, and every page is optimized for speed and search engines.",
+        "sections": [
+          {
+            "title": "Custom Design, Zero Templates",
+            "text": "We don't use cookie-cutter templates. Every website we build starts from a blank canvas, designed specifically around your brand identity, target audience, and business goals. The result is a unique digital experience that sets you apart from competitors and leaves a lasting impression on visitors."
+          },
+          {
+            "title": "Responsive & Mobile-First Development",
+            "text": "Over 60% of web traffic comes from mobile devices. Our websites are built mobile-first, ensuring a flawless experience across smartphones, tablets, and desktops. We use modern CSS frameworks and progressive enhancement techniques to deliver consistent performance everywhere."
+          },
+          {
+            "title": "SEO-Optimized Architecture",
+            "text": "A beautiful website means nothing if no one can find it. We build every site with clean semantic HTML, structured data markup, optimized meta tags, fast load times, and Core Web Vitals compliance. Your site will be ready to rank from day one."
+          },
+          {
+            "title": "Lightning-Fast Performance",
+            "text": "Speed kills — slow speed, that is. Our websites consistently score 95+ on Google PageSpeed Insights. We achieve this through optimized assets, lazy loading, modern image formats, minimal JavaScript, and edge-based CDN delivery."
+          },
+          {
+            "title": "Our Web Development Process",
+            "text": "Discovery & strategy → wireframing → UI design → development → testing → launch → ongoing support. We keep you in the loop at every stage with transparent communication and regular check-ins. No surprises, just results."
+          }
+        ],
+        "cta": "Ready to build your dream website?"
+      },
+      "es": {
+        "title": "Diseño y Desarrollo Web",
+        "metaTitle": "Servicios Profesionales de Diseño y Desarrollo Web | ELAI Studio",
+        "metaDesc": "Servicios de diseño y desarrollo web personalizados. Desde landing pages responsivas hasta aplicaciones web complejas — rápidas, optimizadas para SEO y diseñadas para convertir.",
+        "keywords": "diseño web, desarrollo web, sitio web personalizado, diseño responsivo, landing page, aplicación web, SEO, diseño UI/UX",
+        "heroSubtitle": "Rápido, hermoso y diseñado para convertir",
+        "intro": "Tu sitio web es la cara digital de tu marca. En ELAI Studio, diseñamos y desarrollamos sitios web personalizados que no solo se ven impresionantes — funcionan. Cada píxel es intencional, cada interacción es fluida y cada página está optimizada para velocidad y motores de búsqueda.",
+        "sections": [
+          {
+            "title": "Diseño Personalizado, Cero Plantillas",
+            "text": "No usamos plantillas genéricas. Cada sitio web que construimos comienza desde cero, diseñado específicamente alrededor de tu identidad de marca, público objetivo y objetivos comerciales. El resultado es una experiencia digital única que te diferencia de la competencia."
+          },
+          {
+            "title": "Desarrollo Responsivo y Mobile-First",
+            "text": "Más del 60% del tráfico web proviene de dispositivos móviles. Nuestros sitios web se construyen con enfoque mobile-first, asegurando una experiencia impecable en smartphones, tablets y escritorios."
+          },
+          {
+            "title": "Arquitectura Optimizada para SEO",
+            "text": "Un sitio web hermoso no significa nada si nadie puede encontrarlo. Construimos cada sitio con HTML semántico limpio, datos estructurados, meta tags optimizados, tiempos de carga rápidos y cumplimiento de Core Web Vitals."
+          },
+          {
+            "title": "Rendimiento Ultra Rápido",
+            "text": "Nuestros sitios web consistentemente obtienen 95+ en Google PageSpeed Insights. Lo logramos a través de assets optimizados, lazy loading, formatos de imagen modernos, JavaScript mínimo y entrega CDN."
+          },
+          {
+            "title": "Nuestro Proceso de Desarrollo Web",
+            "text": "Descubrimiento y estrategia → wireframing → diseño UI → desarrollo → pruebas → lanzamiento → soporte continuo. Te mantenemos informado en cada etapa con comunicación transparente."
+          }
+        ],
+        "cta": "¿Listo para construir el sitio web de tus sueños?"
+      },
+      "ru": {
+        "title": "Дизайн и Разработка Сайтов",
+        "metaTitle": "Профессиональный Дизайн и Разработка Сайтов | ELAI Studio",
+        "metaDesc": "Индивидуальный дизайн и разработка сайтов. От адаптивных лендингов до сложных веб-приложений — быстро, SEO-оптимизировано и создано для конверсии.",
+        "keywords": "дизайн сайтов, веб-разработка, индивидуальный сайт, адаптивный дизайн, лендинг, веб-приложение, SEO, UI/UX дизайн",
+        "heroSubtitle": "Быстро, красиво и создано для конверсии",
+        "intro": "Ваш сайт — это цифровое лицо вашего бренда. В ELAI Studio мы проектируем и разрабатываем индивидуальные сайты, которые не просто выглядят потрясающе — они работают. Каждый пиксель продуман, каждое взаимодействие плавное, каждая страница оптимизирована.",
+        "sections": [
+          {
+            "title": "Индивидуальный Дизайн, Никаких Шаблонов",
+            "text": "Мы не используем готовые шаблоны. Каждый сайт начинается с чистого холста, разработанного специально под вашу айдентику, целевую аудиторию и бизнес-цели."
+          },
+          {
+            "title": "Адаптивная и Mobile-First Разработка",
+            "text": "Более 60% веб-трафика приходится на мобильные устройства. Наши сайты создаются по принципу mobile-first, обеспечивая безупречный опыт на смартфонах, планшетах и десктопах."
+          },
+          {
+            "title": "SEO-Оптимизированная Архитектура",
+            "text": "Красивый сайт бесполезен, если его никто не может найти. Мы строим каждый сайт с чистым семантическим HTML, структурированными данными, оптимизированными мета-тегами и соответствием Core Web Vitals."
+          },
+          {
+            "title": "Молниеносная Производительность",
+            "text": "Наши сайты стабильно набирают 95+ баллов в Google PageSpeed Insights. Мы достигаем этого через оптимизацию ресурсов, ленивую загрузку, современные форматы изображений и CDN-доставку."
+          },
+          {
+            "title": "Наш Процесс Веб-Разработки",
+            "text": "Исследование и стратегия → прототипирование → UI-дизайн → разработка → тестирование → запуск → постоянная поддержка. Мы держим вас в курсе на каждом этапе."
+          }
+        ],
+        "cta": "Готовы создать сайт вашей мечты?"
+      }
+    },
+    {
+      "slug": "branding-design",
+      "image": "/assets/images/services/branding.jpg",
+      "en": {
+        "title": "Branding Design",
+        "metaTitle": "Professional Branding & Brand Identity Design | ELAI Studio",
+        "metaDesc": "Complete brand identity design services — logos, typography, color systems, and brand guidelines that make your business unforgettable. Stand out from the competition.",
+        "keywords": "branding design, brand identity, logo design, visual identity, brand guidelines, brand strategy, typography, color palette, corporate identity",
+        "heroSubtitle": "Make your brand unforgettable",
+        "intro": "Your brand is more than a logo — it's the entire experience people have with your business. At ELAI Studio, we create comprehensive brand identity systems that communicate who you are, what you stand for, and why you matter. From startups finding their voice to established companies ready for a refresh.",
+        "sections": [
+          {
+            "title": "Logo Design & Visual Identity",
+            "text": "A great logo is simple, memorable, and timeless. We craft logos that work across every medium — from a tiny favicon to a massive billboard. Our design process explores dozens of concepts before refining the perfect mark that captures your brand essence."
+          },
+          {
+            "title": "Typography & Color Systems",
+            "text": "The right typeface and color palette can transform how people perceive your brand. We select and customize typography that reflects your brand personality, paired with a scientifically-chosen color system that evokes the right emotions and ensures accessibility."
+          },
+          {
+            "title": "Brand Guidelines & Style Guides",
+            "text": "Consistency is the foundation of strong brands. We deliver comprehensive brand guidelines that document every aspect of your visual identity — logo usage rules, spacing, color codes, typography hierarchy, photography style, and tone of voice."
+          },
+          {
+            "title": "Brand Strategy & Positioning",
+            "text": "Before we design a single pixel, we dive deep into your market, competitors, and audience. We define your brand positioning, messaging framework, and unique value proposition to ensure every visual decision is backed by strategy."
+          },
+          {
+            "title": "Stationery & Brand Collateral",
+            "text": "Business cards, letterheads, email signatures, social media templates, presentation decks — we design every touchpoint to reinforce your brand consistently across all channels and leave a professional impression."
+          }
+        ],
+        "cta": "Ready to build a brand people remember?"
+      },
+      "es": {
+        "title": "Diseño de Marca",
+        "metaTitle": "Diseño Profesional de Marca e Identidad Visual | ELAI Studio",
+        "metaDesc": "Servicios completos de diseño de identidad de marca — logos, tipografía, sistemas de color y guías de marca que hacen tu negocio inolvidable.",
+        "keywords": "diseño de marca, identidad de marca, diseño de logo, identidad visual, guías de marca, estrategia de marca, tipografía, identidad corporativa",
+        "heroSubtitle": "Haz tu marca inolvidable",
+        "intro": "Tu marca es más que un logo — es toda la experiencia que las personas tienen con tu negocio. En ELAI Studio, creamos sistemas completos de identidad de marca que comunican quién eres, qué representas y por qué importas.",
+        "sections": [
+          {
+            "title": "Diseño de Logo e Identidad Visual",
+            "text": "Un gran logo es simple, memorable y atemporal. Creamos logos que funcionan en todos los medios — desde un pequeño favicon hasta una valla publicitaria gigante."
+          },
+          {
+            "title": "Tipografía y Sistemas de Color",
+            "text": "La tipografía y paleta de colores correctas pueden transformar cómo las personas perciben tu marca. Seleccionamos y personalizamos tipografías que reflejan tu personalidad de marca."
+          },
+          {
+            "title": "Guías de Marca y Manuales de Estilo",
+            "text": "La consistencia es la base de las marcas fuertes. Entregamos guías de marca completas que documentan cada aspecto de tu identidad visual."
+          },
+          {
+            "title": "Estrategia y Posicionamiento de Marca",
+            "text": "Antes de diseñar un solo píxel, nos sumergimos en tu mercado, competidores y audiencia. Definimos tu posicionamiento y propuesta de valor única."
+          },
+          {
+            "title": "Papelería y Material de Marca",
+            "text": "Tarjetas de presentación, membretes, firmas de correo, plantillas para redes sociales, presentaciones — diseñamos cada punto de contacto para reforzar tu marca."
+          }
+        ],
+        "cta": "¿Listo para construir una marca que la gente recuerde?"
+      },
+      "ru": {
+        "title": "Дизайн Бренда",
+        "metaTitle": "Профессиональный Дизайн Бренда и Айдентики | ELAI Studio",
+        "metaDesc": "Комплексные услуги по дизайну идентичности бренда — логотипы, типографика, цветовые системы и брендбуки, которые сделают ваш бизнес незабываемым.",
+        "keywords": "дизайн бренда, айдентика, дизайн логотипа, визуальная идентичность, брендбук, стратегия бренда, типографика, корпоративный стиль",
+        "heroSubtitle": "Сделайте ваш бренд незабываемым",
+        "intro": "Ваш бренд — это больше, чем логотип. Это весь опыт взаимодействия людей с вашим бизнесом. В ELAI Studio мы создаём комплексные системы идентичности бренда, которые передают, кто вы, за что стоите и почему это важно.",
+        "sections": [
+          {
+            "title": "Дизайн Логотипа и Визуальная Идентичность",
+            "text": "Великий логотип прост, запоминаем и вечен. Мы создаём логотипы, которые работают в любом формате — от крошечного фавикона до огромного билборда."
+          },
+          {
+            "title": "Типографика и Цветовые Системы",
+            "text": "Правильный шрифт и цветовая палитра могут трансформировать восприятие вашего бренда. Мы подбираем типографику, отражающую характер бренда."
+          },
+          {
+            "title": "Брендбук и Гайдлайны",
+            "text": "Последовательность — основа сильных брендов. Мы предоставляем комплексные гайдлайны, документирующие каждый аспект вашей визуальной идентичности."
+          },
+          {
+            "title": "Стратегия и Позиционирование Бренда",
+            "text": "Прежде чем дизайнить, мы глубоко погружаемся в ваш рынок, конкурентов и аудиторию. Определяем позиционирование и уникальное торговое предложение."
+          },
+          {
+            "title": "Деловая Полиграфия и Материалы Бренда",
+            "text": "Визитки, бланки, подписи email, шаблоны для соцсетей, презентации — мы дизайним каждую точку контакта для укрепления вашего бренда."
+          }
+        ],
+        "cta": "Готовы создать бренд, который запомнят?"
+      }
+    },
+    {
+      "slug": "animation-short-film",
+      "image": "/assets/images/services/animation.jpg",
+      "en": {
+        "title": "Animation & Short Film",
+        "metaTitle": "Professional Animation & Short Film Production | ELAI Studio",
+        "metaDesc": "Captivating motion graphics and short film production services. From concept to final cut — 2D animation, 3D motion graphics, explainer videos, and brand stories.",
+        "keywords": "animation, short film, motion graphics, 2D animation, 3D animation, explainer video, brand video, motion design, video production, storyboard",
+        "heroSubtitle": "Bring your vision to life through motion",
+        "intro": "Motion captures attention like nothing else. At ELAI Studio, we create captivating animations and short films that tell your story in the most engaging way possible. Whether it's a 30-second social media clip or a cinematic brand film, we handle everything from concept to final delivery.",
+        "sections": [
+          {
+            "title": "2D & 3D Motion Graphics",
+            "text": "From sleek logo animations to complex data visualizations, our motion graphics bring static ideas to life. We work with the latest tools including After Effects, Cinema 4D, and Blender to create visuals that captivate and communicate."
+          },
+          {
+            "title": "Explainer Videos",
+            "text": "Complex products deserve simple explanations. Our explainer videos distill your message into clear, engaging narratives that viewers actually remember. We combine compelling scripts with dynamic visuals to drive understanding and action."
+          },
+          {
+            "title": "Brand Story Films",
+            "text": "Every brand has a story worth telling. We produce short films that capture your mission, values, and personality in a way that resonates emotionally with your audience and builds lasting connections."
+          },
+          {
+            "title": "Concept & Storyboard Development",
+            "text": "Great animation starts with great planning. We develop detailed concepts and storyboards before a single frame is animated, ensuring the final product matches your vision perfectly and delivers your message effectively."
+          },
+          {
+            "title": "Sound Design & Music",
+            "text": "Audio is half the experience. We provide professional sound design, music selection or custom scoring, and voice-over integration to create a fully immersive viewing experience that engages all the senses."
+          }
+        ],
+        "cta": "Ready to tell your story through motion?"
+      },
+      "es": {
+        "title": "Animación y Cortometraje",
+        "metaTitle": "Producción Profesional de Animación y Cortometraje | ELAI Studio",
+        "metaDesc": "Servicios de motion graphics y producción de cortometrajes. Desde el concepto hasta el corte final — animación 2D, 3D, videos explicativos e historias de marca.",
+        "keywords": "animación, cortometraje, motion graphics, animación 2D, animación 3D, video explicativo, video de marca, diseño de movimiento",
+        "heroSubtitle": "Da vida a tu visión a través del movimiento",
+        "intro": "El movimiento captura la atención como nada más. En ELAI Studio, creamos animaciones cautivadoras y cortometrajes que cuentan tu historia de la manera más atractiva posible.",
+        "sections": [
+          {
+            "title": "Motion Graphics 2D y 3D",
+            "text": "Desde elegantes animaciones de logo hasta visualizaciones de datos complejas, nuestros motion graphics dan vida a ideas estáticas con las últimas herramientas."
+          },
+          {
+            "title": "Videos Explicativos",
+            "text": "Los productos complejos merecen explicaciones simples. Nuestros videos explicativos destilan tu mensaje en narrativas claras y atractivas que los espectadores realmente recuerdan."
+          },
+          {
+            "title": "Películas de Historia de Marca",
+            "text": "Cada marca tiene una historia que vale la pena contar. Producimos cortometrajes que capturan tu misión, valores y personalidad de una manera que resuena emocionalmente."
+          },
+          {
+            "title": "Desarrollo de Concepto y Storyboard",
+            "text": "La gran animación comienza con una gran planificación. Desarrollamos conceptos detallados y storyboards antes de animar un solo fotograma."
+          },
+          {
+            "title": "Diseño de Sonido y Música",
+            "text": "El audio es la mitad de la experiencia. Proporcionamos diseño de sonido profesional, selección musical y integración de voz en off para una experiencia inmersiva."
+          }
+        ],
+        "cta": "¿Listo para contar tu historia a través del movimiento?"
+      },
+      "ru": {
+        "title": "Анимация и Короткометражный Фильм",
+        "metaTitle": "Профессиональная Анимация и Короткометражное Производство | ELAI Studio",
+        "metaDesc": "Захватывающая моушн-графика и производство короткометражных фильмов. От концепции до финального монтажа — 2D, 3D анимация, эксплейнеры и брендовые истории.",
+        "keywords": "анимация, короткометражный фильм, моушн-графика, 2D анимация, 3D анимация, эксплейнер, видео для бренда, моушн-дизайн",
+        "heroSubtitle": "Воплотите вашу идею через движение",
+        "intro": "Движение захватывает внимание как ничто другое. В ELAI Studio мы создаём увлекательные анимации и короткометражные фильмы, которые рассказывают вашу историю максимально вовлекающе.",
+        "sections": [
+          {
+            "title": "2D и 3D Моушн-Графика",
+            "text": "От элегантных анимаций логотипа до сложных визуализаций данных — наша моушн-графика оживляет статичные идеи с помощью новейших инструментов."
+          },
+          {
+            "title": "Эксплейнер-Видео",
+            "text": "Сложные продукты заслуживают простых объяснений. Наши эксплейнеры превращают ваше сообщение в ясные, увлекательные истории, которые зрители запоминают."
+          },
+          {
+            "title": "Брендовые Фильмы",
+            "text": "У каждого бренда есть история, достойная рассказа. Мы снимаем короткометражки, передающие вашу миссию, ценности и характер так, что это находит эмоциональный отклик."
+          },
+          {
+            "title": "Разработка Концепции и Раскадровки",
+            "text": "Великая анимация начинается с великого планирования. Мы разрабатываем детальные концепции и раскадровки до анимации первого кадра."
+          },
+          {
+            "title": "Саунд-Дизайн и Музыка",
+            "text": "Звук — половина впечатления. Мы обеспечиваем профессиональный саунд-дизайн, подбор музыки и интеграцию голоса для полного погружения."
+          }
+        ],
+        "cta": "Готовы рассказать свою историю через движение?"
+      }
+    },
+    {
+      "slug": "commercial-film",
+      "image": "/assets/images/services/commercial.jpg",
+      "en": {
+        "title": "Commercial Film",
+        "metaTitle": "Professional Commercial Film & Video Production | ELAI Studio",
+        "metaDesc": "High-impact commercial video production services. From script to screen — brand commercials, product videos, corporate films, and promotional content that drives results.",
+        "keywords": "commercial film, video production, brand commercial, product video, corporate video, promotional video, film production, video marketing, advertising film",
+        "heroSubtitle": "From script to screen, we deliver impact",
+        "intro": "A great commercial doesn't just showcase a product — it creates a feeling. At ELAI Studio, we produce high-impact commercial films that tell your brand story, connect with your audience emotionally, and drive measurable results. Professional production from concept through final delivery.",
+        "sections": [
+          {
+            "title": "Brand Commercials",
+            "text": "We craft brand commercials that go beyond product features to tell compelling stories. Our films capture the essence of your brand and create emotional connections that turn viewers into customers and customers into advocates."
+          },
+          {
+            "title": "Product Videos & Demos",
+            "text": "Show, don't tell. Our product videos and demonstrations highlight your offering's key features and benefits in a visually compelling way. We combine close-up product shots with lifestyle footage to show your product in action."
+          },
+          {
+            "title": "Corporate Films",
+            "text": "From company culture videos to investor presentations, our corporate films communicate your organization's story with polish and professionalism. We capture what makes your company unique and present it in a way that builds trust."
+          },
+          {
+            "title": "Full Production Pipeline",
+            "text": "We handle everything: scriptwriting, location scouting, casting, cinematography, lighting, direction, editing, color grading, and post-production. Our end-to-end approach ensures consistent quality and a seamless experience."
+          },
+          {
+            "title": "Multi-Platform Delivery",
+            "text": "One shoot, multiple formats. We deliver your commercial optimized for every platform — TV, YouTube, Instagram, TikTok, LinkedIn, and your website. Each version is tailored to the platform's specifications and audience behavior."
+          }
+        ],
+        "cta": "Ready to make a commercial that converts?"
+      },
+      "es": {
+        "title": "Película Comercial",
+        "metaTitle": "Producción Profesional de Películas Comerciales | ELAI Studio",
+        "metaDesc": "Servicios de producción de video comercial de alto impacto. Del guion a la pantalla — comerciales de marca, videos de producto y contenido promocional.",
+        "keywords": "película comercial, producción de video, comercial de marca, video de producto, video corporativo, video promocional, producción cinematográfica",
+        "heroSubtitle": "Del guion a la pantalla, entregamos impacto",
+        "intro": "Un gran comercial no solo muestra un producto — crea un sentimiento. En ELAI Studio, producimos películas comerciales de alto impacto que cuentan la historia de tu marca y generan resultados medibles.",
+        "sections": [
+          {
+            "title": "Comerciales de Marca",
+            "text": "Creamos comerciales que van más allá de las características del producto para contar historias convincentes que crean conexiones emocionales."
+          },
+          {
+            "title": "Videos de Producto y Demos",
+            "text": "Mostrar, no contar. Nuestros videos de producto destacan las características clave de manera visualmente atractiva, combinando tomas de producto con estilo de vida."
+          },
+          {
+            "title": "Películas Corporativas",
+            "text": "Desde videos de cultura empresarial hasta presentaciones para inversionistas, nuestras películas corporativas comunican la historia de tu organización con profesionalismo."
+          },
+          {
+            "title": "Pipeline de Producción Completo",
+            "text": "Manejamos todo: guion, locaciones, casting, cinematografía, iluminación, dirección, edición, corrección de color y postproducción."
+          },
+          {
+            "title": "Entrega Multi-Plataforma",
+            "text": "Una filmación, múltiples formatos. Entregamos tu comercial optimizado para cada plataforma — TV, YouTube, Instagram, TikTok, LinkedIn y tu sitio web."
+          }
+        ],
+        "cta": "¿Listo para crear un comercial que convierta?"
+      },
+      "ru": {
+        "title": "Рекламный Фильм",
+        "metaTitle": "Профессиональное Производство Рекламных Фильмов | ELAI Studio",
+        "metaDesc": "Высокоэффективное производство рекламных роликов. От сценария до экрана — брендовые ролики, продуктовые видео, корпоративные фильмы и промо-контент.",
+        "keywords": "рекламный фильм, видеопроизводство, рекламный ролик, продуктовое видео, корпоративное видео, промо-видео, кинопроизводство",
+        "heroSubtitle": "От сценария до экрана — мы создаём впечатление",
+        "intro": "Великий рекламный ролик не просто показывает продукт — он создаёт чувство. В ELAI Studio мы производим высокоэффективные рекламные фильмы, которые рассказывают историю бренда и приносят измеримые результаты.",
+        "sections": [
+          {
+            "title": "Брендовые Ролики",
+            "text": "Мы создаём ролики, которые выходят за рамки характеристик продукта, рассказывая убедительные истории и создавая эмоциональные связи."
+          },
+          {
+            "title": "Продуктовые Видео и Демо",
+            "text": "Показывайте, а не рассказывайте. Наши продуктовые видео ярко демонстрируют ключевые особенности, сочетая крупные планы с лайфстайл-съёмкой."
+          },
+          {
+            "title": "Корпоративные Фильмы",
+            "text": "От видео о культуре компании до презентаций для инвесторов — наши корпоративные фильмы передают историю вашей организации профессионально."
+          },
+          {
+            "title": "Полный Цикл Производства",
+            "text": "Мы берём на себя всё: сценарий, локации, кастинг, операторскую работу, освещение, режиссуру, монтаж, цветокоррекцию и пост-продакшн."
+          },
+          {
+            "title": "Мультиплатформенная Доставка",
+            "text": "Одна съёмка — множество форматов. Мы доставляем ваш ролик оптимизированным для каждой платформы — ТВ, YouTube, Instagram, TikTok, LinkedIn и сайта."
+          }
+        ],
+        "cta": "Готовы создать ролик, который конвертирует?"
+      }
+    },
+    {
+      "slug": "design-services",
+      "image": "/assets/images/services/design.jpg",
+      "en": {
+        "title": "All Your Other Design Needs",
+        "metaTitle": "Professional Graphic Design & Creative Services | ELAI Studio",
+        "metaDesc": "Comprehensive design services for every need — social media graphics, presentations, print design, packaging, and more. Professional creative solutions on demand.",
+        "keywords": "graphic design, social media design, presentation design, print design, packaging design, creative services, design agency, visual content, marketing design",
+        "heroSubtitle": "Whatever you need, we design it",
+        "intro": "Not every project fits into a neat category — and that's perfectly fine. At ELAI Studio, we handle all your design needs with the same level of craftsmanship and attention to detail, whether it's a social media campaign, a pitch deck, or product packaging.",
+        "sections": [
+          {
+            "title": "Social Media Design",
+            "text": "Stand out in the scroll. We create thumb-stopping social media graphics, carousel posts, story templates, and campaign visuals that maintain your brand consistency while maximizing engagement across Instagram, LinkedIn, Twitter, and beyond."
+          },
+          {
+            "title": "Presentation Design",
+            "text": "Your ideas deserve better than bullet points. We transform pitch decks, investor presentations, and keynotes into visually compelling stories that hold attention and drive decisions. Clean layouts, data visualization, and strategic storytelling."
+          },
+          {
+            "title": "Print & Editorial Design",
+            "text": "Digital-first doesn't mean print-never. We design brochures, catalogs, magazines, posters, flyers, and other print materials with the same attention to detail as our digital work. CMYK-optimized and print-ready."
+          },
+          {
+            "title": "Packaging Design",
+            "text": "Your packaging is often the first physical touchpoint with your brand. We design packaging that looks stunning on the shelf, communicates your brand values, and creates an unboxing experience worth sharing."
+          },
+          {
+            "title": "Ongoing Design Support",
+            "text": "Need a design partner on retainer? We offer flexible ongoing design support packages for businesses that need consistent, high-quality creative output without the overhead of an in-house design team."
+          }
+        ],
+        "cta": "Have a design project in mind? Let's talk."
+      },
+      "es": {
+        "title": "Todas Tus Otras Necesidades de Diseño",
+        "metaTitle": "Diseño Gráfico Profesional y Servicios Creativos | ELAI Studio",
+        "metaDesc": "Servicios de diseño completos — gráficos para redes sociales, presentaciones, diseño de impresión, empaque y más. Soluciones creativas profesionales bajo demanda.",
+        "keywords": "diseño gráfico, diseño para redes sociales, diseño de presentaciones, diseño de impresión, diseño de empaque, servicios creativos, contenido visual",
+        "heroSubtitle": "Lo que necesites, lo diseñamos",
+        "intro": "No todos los proyectos encajan en una categoría — y eso está perfectamente bien. En ELAI Studio, manejamos todas tus necesidades de diseño con el mismo nivel de artesanía y atención al detalle.",
+        "sections": [
+          {
+            "title": "Diseño para Redes Sociales",
+            "text": "Destaca en el scroll. Creamos gráficos para redes sociales, carruseles, plantillas de stories y visuales de campaña que mantienen la consistencia de tu marca."
+          },
+          {
+            "title": "Diseño de Presentaciones",
+            "text": "Tus ideas merecen más que viñetas. Transformamos pitch decks y presentaciones en historias visualmente convincentes que captan la atención."
+          },
+          {
+            "title": "Diseño de Impresión y Editorial",
+            "text": "Diseñamos folletos, catálogos, revistas, pósters y otros materiales impresos con la misma atención al detalle que nuestro trabajo digital."
+          },
+          {
+            "title": "Diseño de Empaque",
+            "text": "Tu empaque es a menudo el primer punto de contacto físico con tu marca. Diseñamos empaques que se ven impresionantes y crean una experiencia memorable."
+          },
+          {
+            "title": "Soporte de Diseño Continuo",
+            "text": "¿Necesitas un socio de diseño continuo? Ofrecemos paquetes flexibles de soporte para negocios que necesitan producción creativa constante y de alta calidad."
+          }
+        ],
+        "cta": "¿Tienes un proyecto de diseño en mente? Hablemos."
+      },
+      "ru": {
+        "title": "Все Остальные Потребности в Дизайне",
+        "metaTitle": "Профессиональный Графический Дизайн и Креативные Услуги | ELAI Studio",
+        "metaDesc": "Комплексные дизайн-услуги — графика для соцсетей, презентации, полиграфия, упаковка и многое другое. Профессиональные креативные решения по запросу.",
+        "keywords": "графический дизайн, дизайн для соцсетей, дизайн презентаций, полиграфия, дизайн упаковки, креативные услуги, визуальный контент",
+        "heroSubtitle": "Что бы вам ни понадобилось — мы задизайним",
+        "intro": "Не каждый проект вписывается в строгую категорию — и это совершенно нормально. В ELAI Studio мы решаем все ваши дизайн-задачи с тем же уровнем мастерства и вниманием к деталям.",
+        "sections": [
+          {
+            "title": "Дизайн для Соцсетей",
+            "text": "Выделяйтесь в ленте. Мы создаём захватывающую графику для соцсетей, карусели, шаблоны сторис и визуалы кампаний с единым стилем бренда."
+          },
+          {
+            "title": "Дизайн Презентаций",
+            "text": "Ваши идеи заслуживают большего, чем буллеты. Мы превращаем питч-деки и презентации в визуально убедительные истории."
+          },
+          {
+            "title": "Полиграфия и Редакционный Дизайн",
+            "text": "Мы дизайним брошюры, каталоги, журналы, плакаты и другие печатные материалы с тем же вниманием к деталям, что и в цифровой работе."
+          },
+          {
+            "title": "Дизайн Упаковки",
+            "text": "Упаковка — часто первое физическое соприкосновение с вашим брендом. Мы создаём упаковку, которая впечатляет и передаёт ценности бренда."
+          },
+          {
+            "title": "Постоянная Дизайн-Поддержка",
+            "text": "Нужен дизайн-партнёр на постоянной основе? Мы предлагаем гибкие пакеты поддержки для бизнесов, которым нужен стабильный качественный креатив."
+          }
+        ],
+        "cta": "Есть дизайн-проект? Давайте обсудим."
+      }
+    }
+  ]
+}
