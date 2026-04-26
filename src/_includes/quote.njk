@@ -34,6 +34,22 @@
           <p class="text-lg text-white/50">{{ i18n[locale].quote.subtitle }}</p>
         </div>
 
+        <!-- Selected package badge (populated via JS from ?package= param) -->
+        <div id="selected-package" class="hidden mb-8">
+          <div class="border border-accent/30 bg-accent/5 rounded-xl px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center">
+                <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </span>
+              <div>
+                <p class="text-xs text-white/40 uppercase tracking-wider">{{ i18n[locale].quote.selectedPackage }}</p>
+                <p class="text-lg font-display font-semibold text-accent" id="package-name"></p>
+              </div>
+            </div>
+            <input type="hidden" name="package" id="package-input">
+          </div>
+        </div>
+
         <form class="space-y-6">
           <div class="grid md:grid-cols-2 gap-6">
             <div>
@@ -78,5 +94,14 @@
     </footer>
   </div>
 
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const pkg = params.get('package');
+    if (pkg) {
+      document.getElementById('selected-package').classList.remove('hidden');
+      document.getElementById('package-name').textContent = decodeURIComponent(pkg);
+      document.getElementById('package-input').value = decodeURIComponent(pkg);
+    }
+  </script>
 </body>
 </html>

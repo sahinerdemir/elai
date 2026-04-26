@@ -57,6 +57,7 @@
       "title": "Pricing",
       "subtitle": "Transparent packages for every need",
       "getQuote": "Get a Quote",
+      "requestQuote": "Request a Quote",
       "startingFrom": "Starting from",
       "perExtra": "per extra 10 sec",
       "packages": [
@@ -158,7 +159,8 @@
       "company": "Company Name",
       "message": "What do you need?",
       "send": "Request Quote",
-      "back": "Back to Home"
+      "back": "Back to Home",
+      "selectedPackage": "Selected Package"
     },
     "testimonials": {
       "title": "What Clients Say",
@@ -240,6 +242,7 @@
       "title": "Precios",
       "subtitle": "Paquetes transparentes para cada necesidad",
       "getQuote": "Solicitar Cotización",
+      "requestQuote": "Solicitar Cotización",
       "startingFrom": "Desde",
       "perExtra": "por cada 10 seg extra",
       "packages": [
@@ -341,7 +344,8 @@
       "company": "Nombre de la Empresa",
       "message": "¿Qué necesitas?",
       "send": "Solicitar Cotización",
-      "back": "Volver al Inicio"
+      "back": "Volver al Inicio",
+      "selectedPackage": "Paquete Seleccionado"
     },
     "testimonials": {
       "title": "Lo Que Dicen Nuestros Clientes",
@@ -423,6 +427,7 @@
       "title": "Цены",
       "subtitle": "Прозрачные пакеты для любых задач",
       "getQuote": "Запросить Предложение",
+      "requestQuote": "Запросить Предложение",
       "startingFrom": "От",
       "perExtra": "за каждые доп. 10 сек",
       "packages": [
@@ -524,7 +529,8 @@
       "company": "Название Компании",
       "message": "Что вам нужно?",
       "send": "Запросить Предложение",
-      "back": "Вернуться на Главную"
+      "back": "Вернуться на Главную",
+      "selectedPackage": "Выбранный Пакет"
     },
     "testimonials": {
       "title": "Что Говорят Клиенты",
