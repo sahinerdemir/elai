@@ -41,7 +41,7 @@
       <div class="hidden md:flex items-center gap-10">
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#about" class="nav-link">{{ i18n[locale].nav.about }}</a>
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="nav-link">{{ i18n[locale].nav.services }}</a>
-        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#portfolio" class="nav-link">{{ i18n[locale].nav.portfolio }}</a>
+        <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/" class="nav-link">{{ i18n[locale].nav.portfolio }}</a>
         <a href="#pricing" class="nav-link">{{ i18n[locale].nav.pricing }}</a>
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="nav-link">{{ i18n[locale].nav.contact }}</a>
       </div>
@@ -219,22 +219,7 @@
   </div>
 
   <!-- Footer -->
-  <footer class="border-t border-white/10 py-12">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
-        <div class="flex items-center gap-6">
-          <img src="/assets/logo.svg" alt="ELAI" class="h-6 invert opacity-50">
-          <span class="text-sm text-white/30">© 2025 {{ site.name }}. {{ i18n[locale].footer.rights }}</span>
-        </div>
-        <div class="flex items-center gap-8">
-          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.services }}</a>
-          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#portfolio" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.portfolio }}</a>
-          <a href="#pricing" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.pricing }}</a>
-          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.contact }}</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+  {% include "footer.njk" %}
 
   <script>
     // Navbar scroll
