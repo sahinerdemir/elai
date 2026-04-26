@@ -58,6 +58,7 @@
       "subtitle": "Transparent packages for every need",
       "getQuote": "Get a Quote",
       "requestQuote": "Request a Quote",
+      "getStarted": "Get Started",
       "startingFrom": "Starting from",
       "perExtra": "per extra 10 sec",
       "packages": [
@@ -243,6 +244,7 @@
       "subtitle": "Paquetes transparentes para cada necesidad",
       "getQuote": "Solicitar Cotización",
       "requestQuote": "Solicitar Cotización",
+      "getStarted": "Comenzar Ahora",
       "startingFrom": "Desde",
       "perExtra": "por cada 10 seg extra",
       "packages": [
@@ -428,6 +430,7 @@
       "subtitle": "Прозрачные пакеты для любых задач",
       "getQuote": "Запросить Предложение",
       "requestQuote": "Запросить Предложение",
+      "getStarted": "Начать Сейчас",
       "startingFrom": "От",
       "perExtra": "за каждые доп. 10 сек",
       "packages": [

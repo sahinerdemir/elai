@@ -235,7 +235,7 @@
                 {% if pkg.type == 'custom' %}
                 <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}quote/" class="btn-outline text-center justify-center">{{ i18n[locale].pricing.requestQuote }}</a>
                 {% else %}
-                <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}quote/?package={{ pkg.name | urlencode }}" class="btn-primary text-center justify-center">{{ i18n[locale].pricing.requestQuote }}</a>
+                <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}quote/?package={{ pkg.name | urlencode }}" class="btn-primary text-center justify-center">{% if pkg.type == 'fixed' %}{{ i18n[locale].pricing.getStarted }}{% else %}{{ i18n[locale].pricing.requestQuote }}{% endif %}</a>
                 {% endif %}
               </div>
             </div>
