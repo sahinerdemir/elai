@@ -146,11 +146,7 @@
         </div>
         <div class="laptop-screen scrollbar-hide">
           {% if screenshot is string and screenshot.startsWith('/assets/') %}
-          <img src="{{ screenshot }}" alt="{{ proj.title }} — screen {{ loop.index }}" class="w-full" loading="lazy">
-          {% else %}
-          <div class="aspect-[16/10] flex items-center justify-center bg-white/5">
-            <p class="text-white/20 text-sm">Screenshot placeholder {{ loop.index }}</p>
-          </div>
+          <img src="{{ screenshot }}" alt="{{ proj.title }} — screen {{ loop.index }}" class="w-full {{ 'bg-white' if screenshot.endsWith('.png') }}" loading="lazy">
           {% endif %}
         </div>
         <div class="laptop-bottom"></div>
