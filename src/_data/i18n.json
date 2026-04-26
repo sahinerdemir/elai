@@ -1,0 +1,227 @@
+{
+  "en": {
+    "lang": "en",
+    "langName": "English",
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "hero": {
+      "headline": "ELAI is a creative studio crafting digital experiences through design, motion, and storytelling.",
+      "subline": "We design. We develop. We create.",
+      "cta": "See Our Work"
+    },
+    "about": {
+      "title": "About Us",
+      "text": "ELAI Studio is a multidisciplinary creative agency where design meets technology. We believe every brand has a unique story — our job is to tell it in the most compelling way possible. From pixel-perfect websites to cinematic brand films, we blend aesthetics with strategy to create work that resonates. Founded by creatives who understand both art and code, we bridge the gap between what looks beautiful and what actually works. Our process is collaborative, transparent, and obsessively detail-oriented.",
+      "experience": "Years of Experience",
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients"
+    },
+    "services": {
+      "title": "Services",
+      "subtitle": "What we do best",
+      "items": [
+        {
+          "title": "Website Design & Development",
+          "desc": "Custom websites that are visually stunning, blazing fast, and built to convert. From landing pages to complex web applications."
+        },
+        {
+          "title": "Branding Design",
+          "desc": "Complete brand identity systems — logos, typography, color palettes, and brand guidelines that make your business unforgettable."
+        },
+        {
+          "title": "Animation & Short Film",
+          "desc": "Captivating motion graphics and short films that bring your vision to life. From concept to final cut, we handle it all."
+        },
+        {
+          "title": "Commercial Film",
+          "desc": "High-impact commercial videos that tell your brand story and drive results. Professional production from script to screen."
+        },
+        {
+          "title": "All Your Other Design Needs",
+          "desc": "Social media graphics, presentations, print design, packaging — whatever you need, we've got you covered."
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Selected Work",
+      "subtitle": "A glimpse into our recent projects",
+      "viewProject": "View Project",
+      "moreWorks": "More Works"
+    },
+    "testimonials": {
+      "title": "What Clients Say",
+      "items": [
+        "Outstanding design quality",
+        "Best creative team we've worked with",
+        "Exceeded all expectations",
+        "Highly recommended studio"
+      ]
+    },
+    "contact": {
+      "title": "Let's Work Together",
+      "subtitle": "Have a project in mind? Let's create something amazing.",
+      "cta": "Get In Touch",
+      "nameLabel": "Your Name",
+      "emailLabel": "Your Email",
+      "messageLabel": "Tell us about your project",
+      "send": "Send Message"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "es": {
+    "lang": "es",
+    "langName": "Español",
+    "nav": {
+      "about": "Nosotros",
+      "services": "Servicios",
+      "portfolio": "Portafolio",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "headline": "ELAI es un estudio creativo que crea experiencias digitales a través del diseño, el movimiento y la narrativa.",
+      "subline": "Diseñamos. Desarrollamos. Creamos.",
+      "cta": "Ver Nuestro Trabajo"
+    },
+    "about": {
+      "title": "Sobre Nosotros",
+      "text": "ELAI Studio es una agencia creativa multidisciplinaria donde el diseño se encuentra con la tecnología. Creemos que cada marca tiene una historia única — nuestro trabajo es contarla de la manera más convincente posible. Desde sitios web perfectos hasta películas cinematográficas de marca, combinamos estética con estrategia para crear trabajos que resuenan. Fundada por creativos que entienden tanto el arte como el código, cerramos la brecha entre lo que se ve hermoso y lo que realmente funciona. Nuestro proceso es colaborativo, transparente y obsesivamente detallista.",
+      "experience": "Años de Experiencia",
+      "projects": "Proyectos Entregados",
+      "clients": "Clientes Felices"
+    },
+    "services": {
+      "title": "Servicios",
+      "subtitle": "Lo que mejor hacemos",
+      "items": [
+        {
+          "title": "Diseño y Desarrollo Web",
+          "desc": "Sitios web personalizados, visualmente impresionantes, ultrarrápidos y diseñados para convertir. Desde landing pages hasta aplicaciones web complejas."
+        },
+        {
+          "title": "Diseño de Marca",
+          "desc": "Sistemas completos de identidad de marca — logos, tipografía, paletas de colores y guías de marca que hacen que tu negocio sea inolvidable."
+        },
+        {
+          "title": "Animación y Cortometraje",
+          "desc": "Gráficos en movimiento cautivadores y cortometrajes que dan vida a tu visión. Desde el concepto hasta el corte final, nos encargamos de todo."
+        },
+        {
+          "title": "Película Comercial",
+          "desc": "Videos comerciales de alto impacto que cuentan la historia de tu marca y generan resultados. Producción profesional desde el guion hasta la pantalla."
+        },
+        {
+          "title": "Todas Tus Otras Necesidades de Diseño",
+          "desc": "Gráficos para redes sociales, presentaciones, diseño de impresión, empaque — lo que necesites, te tenemos cubierto."
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Trabajos Seleccionados",
+      "subtitle": "Un vistazo a nuestros proyectos recientes",
+      "viewProject": "Ver Proyecto",
+      "moreWorks": "Más Trabajos"
+    },
+    "testimonials": {
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "items": [
+        "Calidad de diseño excepcional",
+        "El mejor equipo creativo con el que hemos trabajado",
+        "Superaron todas las expectativas",
+        "Estudio altamente recomendado"
+      ]
+    },
+    "contact": {
+      "title": "Trabajemos Juntos",
+      "subtitle": "¿Tienes un proyecto en mente? Creemos algo increíble.",
+      "cta": "Contáctanos",
+      "nameLabel": "Tu Nombre",
+      "emailLabel": "Tu Correo",
+      "messageLabel": "Cuéntanos sobre tu proyecto",
+      "send": "Enviar Mensaje"
+    },
+    "footer": {
+      "rights": "Todos los derechos reservados."
+    }
+  },
+  "ru": {
+    "lang": "ru",
+    "langName": "Русский",
+    "nav": {
+      "about": "О нас",
+      "services": "Услуги",
+      "portfolio": "Портфолио",
+      "contact": "Контакт"
+    },
+    "hero": {
+      "headline": "ELAI — креативная студия, создающая цифровые впечатления через дизайн, движение и сторителлинг.",
+      "subline": "Мы проектируем. Мы разрабатываем. Мы создаём.",
+      "cta": "Смотреть Работы"
+    },
+    "about": {
+      "title": "О Нас",
+      "text": "ELAI Studio — мультидисциплинарное креативное агентство, где дизайн встречается с технологиями. Мы верим, что у каждого бренда есть уникальная история — наша задача рассказать её максимально убедительно. От идеальных до пикселя сайтов до кинематографичных брендовых фильмов — мы сочетаем эстетику со стратегией, создавая работы, которые находят отклик. Основанная креативщиками, которые понимают и искусство, и код, мы закрываем разрыв между тем, что выглядит красиво, и тем, что действительно работает. Наш процесс — это сотрудничество, прозрачность и одержимость деталями.",
+      "experience": "Лет Опыта",
+      "projects": "Реализованных Проектов",
+      "clients": "Довольных Клиентов"
+    },
+    "services": {
+      "title": "Услуги",
+      "subtitle": "Что мы делаем лучше всего",
+      "items": [
+        {
+          "title": "Дизайн и Разработка Сайтов",
+          "desc": "Индивидуальные сайты — визуально впечатляющие, молниеносные и созданные для конверсии. От лендингов до сложных веб-приложений."
+        },
+        {
+          "title": "Дизайн Бренда",
+          "desc": "Комплексные системы идентичности бренда — логотипы, типографика, цветовые палитры и брендбуки, которые делают ваш бизнес незабываемым."
+        },
+        {
+          "title": "Анимация и Короткометражный Фильм",
+          "desc": "Захватывающая моушн-графика и короткометражные фильмы, которые воплощают вашу идею в жизнь. От концепции до финального монтажа."
+        },
+        {
+          "title": "Рекламный Фильм",
+          "desc": "Высокоэффективные рекламные ролики, которые рассказывают историю вашего бренда и приносят результат. Профессиональное производство от сценария до экрана."
+        },
+        {
+          "title": "Все Остальные Потребности в Дизайне",
+          "desc": "Графика для соцсетей, презентации, полиграфия, упаковка — что бы вам ни понадобилось, мы справимся."
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Избранные Работы",
+      "subtitle": "Обзор наших недавних проектов",
+      "viewProject": "Смотреть Проект",
+      "moreWorks": "Больше Работ"
+    },
+    "testimonials": {
+      "title": "Что Говорят Клиенты",
+      "items": [
+        "Выдающееся качество дизайна",
+        "Лучшая креативная команда",
+        "Превзошли все ожидания",
+        "Настоятельно рекомендуемая студия"
+      ]
+    },
+    "contact": {
+      "title": "Давайте Работать Вместе",
+      "subtitle": "Есть проект? Давайте создадим что-то удивительное.",
+      "cta": "Связаться",
+      "nameLabel": "Ваше Имя",
+      "emailLabel": "Ваш Email",
+      "messageLabel": "Расскажите о вашем проекте",
+      "send": "Отправить"
+    },
+    "footer": {
+      "rights": "Все права защищены."
+    }
+  }
+}

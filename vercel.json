@@ -1,0 +1,4 @@
+{
+  "buildCommand": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/style.css --minify && npx @11ty/eleventy",
+  "outputDirectory": "dist"
+}
