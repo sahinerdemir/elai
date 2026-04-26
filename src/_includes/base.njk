@@ -201,11 +201,11 @@
 
       <!-- Slider container -->
       <div class="relative">
-        <div class="overflow-hidden" id="pricing-viewport">
+        <div class="overflow-x-hidden overflow-y-visible" id="pricing-viewport">
           <div class="flex transition-transform duration-500 ease-out" id="pricing-track">
             {% for pkg in i18n[locale].pricing.packages %}
-            <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
-              <div class="relative border border-white/10 rounded-2xl p-8 h-full flex flex-col {{ 'border-accent/50 bg-accent/5' if pkg.popular }}">
+            <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3 pt-4">
+              <div class="relative overflow-visible border border-white/10 rounded-2xl p-8 h-full flex flex-col {{ 'border-accent/50 bg-accent/5' if pkg.popular }}">
                 {% if pkg.popular %}
                 <div class="absolute -top-3 right-6 bg-accent text-dark text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider pulse-badge">Popular</div>
                 {% endif %}
@@ -233,9 +233,9 @@
                   {% endfor %}
                 </ul>
                 {% if pkg.type == 'custom' %}
-                <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}quote/" class="btn-outline text-center justify-center">{{ i18n[locale].pricing.requestQuote }}</a>
+                <button class="btn-outline text-center justify-center w-full quote-trigger" data-package="">{{ i18n[locale].pricing.requestQuote }}</button>
                 {% else %}
-                <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}quote/?package={{ pkg.name | urlencode }}" class="btn-primary text-center justify-center">{{ i18n[locale].pricing.getStarted }}</a>
+                <button class="btn-primary text-center justify-center w-full quote-trigger" data-package="{{ pkg.name }}">{{ i18n[locale].pricing.getStarted }}</button>
                 {% endif %}
               </div>
             </div>
@@ -316,6 +316,75 @@
       </div>
     </div>
   </footer>
+
+  <!-- Quote Modal -->
+  <div class="fixed inset-0 z-[200] hidden" id="quote-modal">
+    <div class="absolute inset-0" style="background: rgba(10,10,10,0.55); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);"></div>
+    <div class="relative z-10 h-full overflow-y-auto">
+      <div class="min-h-full flex flex-col px-6 py-10">
+        <!-- Close button -->
+        <div class="max-w-2xl mx-auto w-full flex justify-end mb-8">
+          <button class="text-white/60 hover:text-white w-10 h-10 flex items-center justify-center transition-colors" id="quote-close" aria-label="Close">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <div class="max-w-2xl mx-auto w-full flex-1">
+          <div class="text-center mb-12">
+            <h2 class="section-title mb-4" id="quote-title">{{ i18n[locale].quote.title }}</h2>
+            <p class="text-lg text-white/50" id="quote-subtitle">{{ i18n[locale].quote.subtitle }}</p>
+          </div>
+
+          <!-- Selected package badge -->
+          <div id="quote-package-badge" class="hidden mb-8">
+            <div class="border border-accent/30 bg-accent/5 rounded-xl px-6 py-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
+                <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </span>
+              <div>
+                <p class="text-xs text-white/40 uppercase tracking-wider">{{ i18n[locale].quote.selectedPackage }}</p>
+                <p class="text-lg font-display font-semibold text-accent" id="quote-package-name"></p>
+              </div>
+            </div>
+          </div>
+
+          <form class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-sm text-white/50 mb-2">{{ i18n[locale].quote.firstName }}</label>
+                <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 focus:border-accent focus:outline-none transition-colors" placeholder="{{ i18n[locale].quote.firstName }}">
+              </div>
+              <div>
+                <label class="block text-sm text-white/50 mb-2">{{ i18n[locale].quote.lastName }}</label>
+                <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 focus:border-accent focus:outline-none transition-colors" placeholder="{{ i18n[locale].quote.lastName }}">
+              </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-sm text-white/50 mb-2">{{ i18n[locale].quote.email }}</label>
+                <input type="email" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 focus:border-accent focus:outline-none transition-colors" placeholder="{{ i18n[locale].quote.email }}">
+              </div>
+              <div>
+                <label class="block text-sm text-white/50 mb-2">{{ i18n[locale].quote.phone }}</label>
+                <input type="tel" class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 focus:border-accent focus:outline-none transition-colors" placeholder="{{ i18n[locale].quote.phone }}">
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm text-white/50 mb-2">{{ i18n[locale].quote.company }}</label>
+              <input type="text" class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 focus:border-accent focus:outline-none transition-colors" placeholder="{{ i18n[locale].quote.company }}">
+            </div>
+            <div>
+              <label class="block text-sm text-white/50 mb-2">{{ i18n[locale].quote.message }}</label>
+              <textarea rows="4" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 focus:border-accent focus:outline-none transition-colors resize-none" placeholder="{{ i18n[locale].quote.message }}"></textarea>
+            </div>
+            <div class="text-center pt-4 pb-10">
+              <button type="submit" class="btn-primary text-lg">{{ i18n[locale].quote.send }}</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script>
     // Navbar scroll effect
@@ -419,6 +488,47 @@
 
     document.querySelectorAll('.service-card, .portfolio-card, #about, #contact').forEach(el => {
       observer.observe(el);
+    });
+
+    // Quote modal
+    const quoteModal = document.getElementById('quote-modal');
+    const quoteClose = document.getElementById('quote-close');
+    const quoteTitle = document.getElementById('quote-title');
+    const quoteSubtitle = document.getElementById('quote-subtitle');
+    const quoteBadge = document.getElementById('quote-package-badge');
+    const quotePackageName = document.getElementById('quote-package-name');
+    const defaultTitle = '{{ i18n[locale].quote.title }}';
+    const defaultSubtitle = '{{ i18n[locale].quote.subtitle }}';
+    const packageTitle = '{{ i18n[locale].pricing.getStarted }}';
+    const packageSubtitle = '{{ i18n[locale].quote.subtitlePackage }}';
+
+    function openQuote(packageName) {
+      if (packageName) {
+        quoteTitle.textContent = packageTitle;
+        quoteSubtitle.textContent = packageSubtitle;
+        quoteBadge.classList.remove('hidden');
+        quotePackageName.textContent = packageName;
+      } else {
+        quoteTitle.textContent = defaultTitle;
+        quoteSubtitle.textContent = defaultSubtitle;
+        quoteBadge.classList.add('hidden');
+      }
+      quoteModal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeQuote() {
+      quoteModal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    quoteClose.addEventListener('click', closeQuote);
+    quoteModal.addEventListener('click', (e) => {
+      if (e.target === quoteModal.querySelector('.absolute')) closeQuote();
+    });
+
+    document.querySelectorAll('.quote-trigger').forEach(btn => {
+      btn.addEventListener('click', () => openQuote(btn.dataset.package));
     });
   </script>
 </body>
