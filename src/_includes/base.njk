@@ -162,31 +162,24 @@
         <a href="#" class="btn-outline mt-6 md:mt-0">{{ i18n[locale].portfolio.moreWorks }}</a>
       </div>
       <div class="grid md:grid-cols-2 gap-6">
-        {% set projects = [
-          { "title": "Brand Identity Project", "cat": "Branding", "year": "2025" },
-          { "title": "E-Commerce Platform", "cat": "Web Development", "year": "2025" },
-          { "title": "Motion Reel", "cat": "Animation", "year": "2024" },
-          { "title": "Corporate Website", "cat": "Web Design", "year": "2024" },
-          { "title": "Product Commercial", "cat": "Film", "year": "2025" },
-          { "title": "Startup Landing Page", "cat": "Web Development", "year": "2025" }
-        ] %}
-        {% for project in projects %}
-        <div class="portfolio-card group {{ 'md:col-span-2' if loop.index == 1 }}">
+        {% for project in portfolio.items %}
+        {% set p = project[locale] %}
+        <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/{{ project.slug }}/" class="portfolio-card group {{ 'md:col-span-2' if loop.index == 1 }} no-underline">
           <div class="absolute inset-0 bg-gradient-to-t from-dark via-dark/20 to-transparent z-10"></div>
           <div class="absolute inset-0 bg-white/5 flex items-center justify-center">
-            <span class="text-white/20 text-lg font-medium">{{ project.cat }} — Placeholder Image</span>
+            <span class="text-white/20 text-lg font-medium">{{ p.cat }} — Placeholder Image</span>
           </div>
           <div class="absolute bottom-0 left-0 right-0 p-8 z-20">
             <div class="flex items-center gap-3 mb-3">
-              <span class="text-xs tracking-widest uppercase text-accent">{{ project.cat }}</span>
+              <span class="text-xs tracking-widest uppercase text-accent">{{ p.cat }}</span>
               <span class="text-xs text-white/30">{{ project.year }}</span>
             </div>
-            <h3 class="text-2xl md:text-3xl font-display font-semibold group-hover:text-accent transition-colors">{{ project.title }}</h3>
+            <h3 class="text-2xl md:text-3xl font-display font-semibold group-hover:text-accent transition-colors">{{ p.title }}</h3>
           </div>
           <div class="absolute inset-0 z-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-dark/60">
             <span class="btn-primary">{{ i18n[locale].portfolio.viewProject }}</span>
           </div>
-        </div>
+        </a>
         {% endfor %}
       </div>
     </div>

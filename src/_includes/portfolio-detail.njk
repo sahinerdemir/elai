@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ proj.metaTitle }}</title>
+  <meta name="description" content="{{ proj.metaDesc }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{{ proj.metaTitle }}">
+  <meta property="og:description" content="{{ proj.metaDesc }}">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "{{ proj.title }}",
+    "description": "{{ proj.metaDesc }}",
+    "creator": { "@type": "Organization", "name": "{{ site.name }}" },
+    "dateCreated": "{{ projectData.year }}"
+  }
+  </script>
+</head>
+<body class="bg-dark text-white">
+
+  <!-- Header -->
+  <nav class="fixed z-50 transition-all duration-300" style="top: 32px; left: 32px; right: 32px; border-radius: 9999px; background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.08);" id="navbar">
+    <div class="px-6 py-3 flex items-center justify-between">
+      <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}" class="flex items-center">
+        <img src="/assets/logo.svg" alt="ELAI" class="invert" style="height: 26px;">
+      </a>
+      <div class="hidden md:flex items-center gap-10">
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#about" class="nav-link">{{ i18n[locale].nav.about }}</a>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="nav-link">{{ i18n[locale].nav.services }}</a>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#portfolio" class="nav-link">{{ i18n[locale].nav.portfolio }}</a>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#pricing" class="nav-link">{{ i18n[locale].nav.pricing }}</a>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="nav-link">{{ i18n[locale].nav.contact }}</a>
+      </div>
+      <div class="flex items-center gap-6">
+        <div class="lang-switcher flex gap-3">
+          <a href="/portfolio/{{ projectData.slug }}/" class="{{ 'active' if lang == 'en' }}">EN</a>
+          <a href="/es/portfolio/{{ projectData.slug }}/" class="{{ 'active' if lang == 'es' }}">ES</a>
+          <a href="/ru/portfolio/{{ projectData.slug }}/" class="{{ 'active' if lang == 'ru' }}">RU</a>
+        </div>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="btn-primary text-sm hidden md:inline-flex">{{ i18n[locale].contact.cta }}</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-40 pb-16 md:pt-48 md:pb-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#portfolio" class="inline-flex items-center gap-2 text-sm text-accent mb-8 hover:text-white transition-colors">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        {{ i18n[locale].nav.portfolio }}
+      </a>
+      <div class="flex items-center gap-3 mb-6">
+        <span class="text-xs tracking-widest uppercase text-accent border border-accent/30 px-3 py-1 rounded-full">{{ proj.cat }}</span>
+        <span class="text-xs text-white/30">{{ projectData.year }}</span>
+      </div>
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-6">{{ proj.title }}</h1>
+      <p class="text-xl md:text-2xl text-white/60 font-light max-w-3xl">{{ proj.subtitle }}</p>
+    </div>
+  </section>
+
+  <!-- Project Details Bar -->
+  <section class="border-y border-white/10 py-8">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid grid-cols-2 md:grid-cols-{{ proj.details | length }} gap-8">
+        {% for detail in proj.details %}
+        <div>
+          <p class="text-xs text-white/40 uppercase tracking-wider mb-1">{{ detail.label }}</p>
+          <p class="text-sm font-medium">{{ detail.value }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Overview -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-6">
+      <p class="text-xl md:text-2xl text-white/70 leading-relaxed font-light">{{ proj.overview }}</p>
+    </div>
+  </section>
+
+  {% if projectData.type == 'video' %}
+  <!-- Video Section -->
+  <section class="py-8">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="relative aspect-video rounded-2xl overflow-hidden bg-white/5 border border-white/10">
+        {% if projectData.videoEmbed %}
+        <iframe src="{{ projectData.videoEmbed }}" class="absolute inset-0 w-full h-full" frameborder="0" allowfullscreen></iframe>
+        {% else %}
+        <div class="absolute inset-0 flex flex-col items-center justify-center gap-4">
+          <div class="w-20 h-20 rounded-full border-2 border-accent/50 flex items-center justify-center">
+            <svg class="w-8 h-8 text-accent ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <p class="text-white/30 text-sm">Video placeholder — embed your video here</p>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if projectData.type == 'web' and projectData.screenshots %}
+  <!-- Screenshots Section -->
+  <section class="py-8">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid md:grid-cols-{{ '2' if projectData.screenshots | length <= 2 else '3' }} gap-6">
+        {% for screenshot in projectData.screenshots %}
+        <div class="rounded-2xl overflow-hidden bg-white/5 border border-white/10 {{ 'md:col-span-2' if loop.index == 1 and projectData.screenshots | length == 3 }}">
+          <div class="aspect-[16/10] flex items-center justify-center">
+            <p class="text-white/20 text-sm">Screenshot placeholder {{ loop.index }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if projectData.type == 'design' %}
+  <!-- Design Showcase -->
+  <section class="py-8">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-6">
+        {% for img in projectData.gallery | batch(2) %}
+        {% for item in img %}
+        <div class="rounded-2xl overflow-hidden bg-white/5 border border-white/10 {{ 'md:col-span-2' if loop.index == 1 and loop.first }}">
+          <div class="aspect-[4/3] flex items-center justify-center">
+            <p class="text-white/20 text-sm">Design asset placeholder {{ loop.index }}</p>
+          </div>
+        </div>
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Content Sections -->
+  {% for section in proj.sections %}
+  <section class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-2xl md:text-3xl font-display font-semibold mb-4">{{ section.title }}</h2>
+      <p class="text-lg text-white/60 leading-relaxed">{{ section.text }}</p>
+    </div>
+  </section>
+  {% endfor %}
+
+  <!-- Full-Width Scrolling Gallery -->
+  {% if projectData.gallery and projectData.gallery | length > 0 %}
+  <section class="py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-6 mb-10">
+      <h2 class="text-2xl md:text-3xl font-display font-semibold">Gallery</h2>
+    </div>
+    <div class="overflow-x-auto scrollbar-hide">
+      <div class="flex gap-4 px-6 pb-4" style="width: max-content;">
+        {% for img in projectData.gallery %}
+        <div class="w-[400px] md:w-[500px] flex-shrink-0 rounded-2xl overflow-hidden bg-white/5 border border-white/10">
+          <div class="aspect-[4/3] flex items-center justify-center">
+            <p class="text-white/20 text-sm">Gallery image {{ loop.index }} — placeholder</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="flex items-center gap-6">
+          <img src="/assets/logo.svg" alt="ELAI" class="h-6 invert opacity-50">
+          <span class="text-sm text-white/30">© 2025 {{ site.name }}. {{ i18n[locale].footer.rights }}</span>
+        </div>
+        <div class="flex items-center gap-8">
+          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.services }}</a>
+          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#portfolio" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.portfolio }}</a>
+          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.contact }}</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(10,10,10,0.7)';
+        navbar.style.backdropFilter = 'blur(30px)';
+        navbar.style.borderColor = 'rgba(255,255,255,0.12)';
+      } else {
+        navbar.style.background = 'rgba(255,255,255,0.05)';
+        navbar.style.backdropFilter = 'blur(20px)';
+        navbar.style.borderColor = 'rgba(255,255,255,0.08)';
+      }
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>

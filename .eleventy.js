@@ -14,6 +14,17 @@ module.exports = function(eleventyConfig) {
         const found = data.services.items.find(s => s.slug === data.serviceSlug);
         return found ? found[data.locale] : undefined;
       }
+    },
+    projectData: (data) => {
+      if (data.projectSlug && data.portfolio) {
+        return data.portfolio.items.find(p => p.slug === data.projectSlug);
+      }
+    },
+    proj: (data) => {
+      if (data.projectSlug && data.portfolio && data.locale) {
+        const found = data.portfolio.items.find(p => p.slug === data.projectSlug);
+        return found ? found[data.locale] : undefined;
+      }
     }
   });
 

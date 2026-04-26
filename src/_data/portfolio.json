@@ -1,0 +1,428 @@
+{
+  "items": [
+    {
+      "slug": "brand-identity-project",
+      "type": "design",
+      "year": "2025",
+      "category": "branding",
+      "thumbnail": "/assets/images/portfolio/brand-identity-thumb.jpg",
+      "gallery": [
+        "/assets/images/portfolio/brand-identity-1.jpg",
+        "/assets/images/portfolio/brand-identity-2.jpg",
+        "/assets/images/portfolio/brand-identity-3.jpg",
+        "/assets/images/portfolio/brand-identity-4.jpg",
+        "/assets/images/portfolio/brand-identity-5.jpg"
+      ],
+      "en": {
+        "title": "Brand Identity Project",
+        "metaTitle": "Brand Identity Project — Case Study | ELAI Studio",
+        "metaDesc": "Complete brand identity design including logo, typography, color system, stationery, and brand guidelines for a modern business.",
+        "cat": "Branding",
+        "subtitle": "A complete visual identity from the ground up",
+        "overview": "This project involved creating a full brand identity system for a forward-thinking tech startup. From the logo mark to business cards, every touchpoint was carefully designed to communicate innovation, trust, and modernity.",
+        "details": [
+          { "label": "Client", "value": "Confidential" },
+          { "label": "Timeline", "value": "6 weeks" },
+          { "label": "Deliverables", "value": "Logo, Brand Guidelines, Stationery, Social Media Kit" }
+        ],
+        "sections": [
+          {
+            "title": "The Challenge",
+            "text": "The client needed a brand identity that would position them as a leader in their space while remaining approachable. The existing branding was outdated and lacked consistency across touchpoints."
+          },
+          {
+            "title": "Our Approach",
+            "text": "We started with in-depth discovery sessions to understand the brand's values, target audience, and competitive landscape. From there, we developed multiple concept directions before refining the final identity system."
+          },
+          {
+            "title": "The Result",
+            "text": "A cohesive brand identity that works seamlessly across digital and print. The new brand has received overwhelmingly positive feedback from stakeholders and customers alike."
+          }
+        ]
+      },
+      "es": {
+        "title": "Proyecto de Identidad de Marca",
+        "metaTitle": "Proyecto de Identidad de Marca — Caso de Estudio | ELAI Studio",
+        "metaDesc": "Diseño completo de identidad de marca incluyendo logo, tipografía, sistema de color, papelería y guías de marca.",
+        "cat": "Branding",
+        "subtitle": "Una identidad visual completa desde cero",
+        "overview": "Este proyecto involucró la creación de un sistema completo de identidad de marca para una startup tecnológica innovadora. Desde el logotipo hasta las tarjetas de presentación, cada punto de contacto fue cuidadosamente diseñado.",
+        "details": [
+          { "label": "Cliente", "value": "Confidencial" },
+          { "label": "Duración", "value": "6 semanas" },
+          { "label": "Entregables", "value": "Logo, Guías de Marca, Papelería, Kit de Redes Sociales" }
+        ],
+        "sections": [
+          { "title": "El Desafío", "text": "El cliente necesitaba una identidad de marca que los posicionara como líderes en su espacio, manteniéndose accesibles." },
+          { "title": "Nuestro Enfoque", "text": "Comenzamos con sesiones de descubrimiento para entender los valores de la marca, público objetivo y panorama competitivo." },
+          { "title": "El Resultado", "text": "Una identidad de marca cohesiva que funciona perfectamente en digital e impreso, con retroalimentación abrumadoramente positiva." }
+        ]
+      },
+      "ru": {
+        "title": "Проект Айдентики Бренда",
+        "metaTitle": "Проект Айдентики Бренда — Кейс | ELAI Studio",
+        "metaDesc": "Комплексный дизайн идентичности бренда: логотип, типографика, цветовая система, деловая полиграфия и брендбук.",
+        "cat": "Брендинг",
+        "subtitle": "Полная визуальная идентичность с нуля",
+        "overview": "Проект включал создание полной системы идентичности бренда для инновационного технологического стартапа. От логотипа до визиток — каждая точка контакта тщательно продумана.",
+        "details": [
+          { "label": "Клиент", "value": "Конфиденциально" },
+          { "label": "Сроки", "value": "6 недель" },
+          { "label": "Результаты", "value": "Логотип, Брендбук, Полиграфия, SMM-кит" }
+        ],
+        "sections": [
+          { "title": "Задача", "text": "Клиенту нужна была айдентика, позиционирующая их как лидеров, оставаясь при этом доступными." },
+          { "title": "Наш Подход", "text": "Мы начали с глубокого погружения в ценности бренда, целевую аудиторию и конкурентный ландшафт." },
+          { "title": "Результат", "text": "Целостная айдентика, работающая в цифре и печати, с исключительно позитивной обратной связью." }
+        ]
+      }
+    },
+    {
+      "slug": "ecommerce-platform",
+      "type": "web",
+      "year": "2025",
+      "category": "web",
+      "thumbnail": "/assets/images/portfolio/ecommerce-thumb.jpg",
+      "screenshots": [
+        "/assets/images/portfolio/ecommerce-desktop.jpg",
+        "/assets/images/portfolio/ecommerce-mobile.jpg",
+        "/assets/images/portfolio/ecommerce-tablet.jpg"
+      ],
+      "gallery": [
+        "/assets/images/portfolio/ecommerce-1.jpg",
+        "/assets/images/portfolio/ecommerce-2.jpg",
+        "/assets/images/portfolio/ecommerce-3.jpg",
+        "/assets/images/portfolio/ecommerce-4.jpg"
+      ],
+      "en": {
+        "title": "E-Commerce Platform",
+        "metaTitle": "E-Commerce Platform — Case Study | ELAI Studio",
+        "metaDesc": "Full e-commerce website design and development with custom Shopify theme, product catalog, and conversion-optimized checkout flow.",
+        "cat": "Web Development",
+        "subtitle": "A conversion-optimized online shopping experience",
+        "overview": "We designed and developed a full e-commerce platform on Shopify with a custom theme, optimized product pages, and a seamless checkout experience that boosted conversion rates significantly.",
+        "details": [
+          { "label": "Client", "value": "Confidential" },
+          { "label": "Timeline", "value": "8 weeks" },
+          { "label": "Deliverables", "value": "Shopify Store, Custom Theme, Product Photography Direction" }
+        ],
+        "sections": [
+          { "title": "The Challenge", "text": "The client's existing store had a high bounce rate and cart abandonment. They needed a complete redesign that prioritized user experience and mobile shopping." },
+          { "title": "Our Approach", "text": "We audited the existing store, mapped the user journey, and redesigned every step from landing to checkout. Mobile-first design with a focus on speed and simplicity." },
+          { "title": "The Result", "text": "35% increase in conversion rate, 50% reduction in cart abandonment, and a 4.8/5 customer satisfaction score for the new shopping experience." }
+        ]
+      },
+      "es": {
+        "title": "Plataforma E-Commerce",
+        "metaTitle": "Plataforma E-Commerce — Caso de Estudio | ELAI Studio",
+        "metaDesc": "Diseño y desarrollo completo de tienda en línea con tema Shopify personalizado y flujo de checkout optimizado para conversión.",
+        "cat": "Desarrollo Web",
+        "subtitle": "Una experiencia de compra optimizada para conversión",
+        "overview": "Diseñamos y desarrollamos una plataforma e-commerce completa en Shopify con tema personalizado, páginas de producto optimizadas y una experiencia de checkout fluida.",
+        "details": [
+          { "label": "Cliente", "value": "Confidencial" },
+          { "label": "Duración", "value": "8 semanas" },
+          { "label": "Entregables", "value": "Tienda Shopify, Tema Personalizado, Dirección de Fotografía" }
+        ],
+        "sections": [
+          { "title": "El Desafío", "text": "La tienda existente tenía alta tasa de rebote y abandono de carrito. Necesitaban un rediseño completo priorizando la experiencia móvil." },
+          { "title": "Nuestro Enfoque", "text": "Auditamos la tienda, mapeamos el viaje del usuario y rediseñamos cada paso desde la llegada hasta el checkout." },
+          { "title": "El Resultado", "text": "35% de aumento en conversión, 50% de reducción en abandono de carrito y 4.8/5 en satisfacción del cliente." }
+        ]
+      },
+      "ru": {
+        "title": "Платформа Электронной Коммерции",
+        "metaTitle": "E-Commerce Платформа — Кейс | ELAI Studio",
+        "metaDesc": "Полный дизайн и разработка интернет-магазина с кастомной темой Shopify и оптимизированным чекаутом.",
+        "cat": "Веб-разработка",
+        "subtitle": "Покупательский опыт, оптимизированный для конверсии",
+        "overview": "Мы спроектировали и разработали полноценную e-commerce платформу на Shopify с кастомной темой, оптимизированными страницами товаров и бесшовным чекаутом.",
+        "details": [
+          { "label": "Клиент", "value": "Конфиденциально" },
+          { "label": "Сроки", "value": "8 недель" },
+          { "label": "Результаты", "value": "Shopify-магазин, Кастомная тема, Направление фотосъёмки" }
+        ],
+        "sections": [
+          { "title": "Задача", "text": "Существующий магазин имел высокий показатель отказов и брошенных корзин. Нужен был полный редизайн с фокусом на мобильный опыт." },
+          { "title": "Наш Подход", "text": "Мы провели аудит, картировали путь пользователя и перепроектировали каждый шаг от входа до оплаты." },
+          { "title": "Результат", "text": "Рост конверсии на 35%, снижение брошенных корзин на 50%, оценка удовлетворённости 4.8/5." }
+        ]
+      }
+    },
+    {
+      "slug": "motion-reel",
+      "type": "video",
+      "year": "2024",
+      "category": "animation",
+      "thumbnail": "/assets/images/portfolio/motion-reel-thumb.jpg",
+      "videoEmbed": "",
+      "gallery": [
+        "/assets/images/portfolio/motion-reel-1.jpg",
+        "/assets/images/portfolio/motion-reel-2.jpg",
+        "/assets/images/portfolio/motion-reel-3.jpg"
+      ],
+      "en": {
+        "title": "Motion Reel",
+        "metaTitle": "Motion Reel — Case Study | ELAI Studio",
+        "metaDesc": "Studio motion reel showcasing 2D and 3D animation, motion graphics, and visual storytelling for various brands and campaigns.",
+        "cat": "Animation",
+        "subtitle": "A showcase of motion design excellence",
+        "overview": "Our annual motion reel brings together the best of our animation and motion graphics work. From kinetic typography to 3D product visualizations, this reel demonstrates the breadth and depth of our motion capabilities.",
+        "details": [
+          { "label": "Duration", "value": "90 seconds" },
+          { "label": "Techniques", "value": "2D, 3D, Kinetic Typography, Particle FX" },
+          { "label": "Tools", "value": "After Effects, Cinema 4D, Blender" }
+        ],
+        "sections": [
+          { "title": "The Concept", "text": "We wanted to create a reel that not only showed our technical capabilities but also told a story. Each transition was designed to flow naturally into the next, creating a cohesive viewing experience." },
+          { "title": "Production", "text": "The reel was produced over 4 weeks, with each segment carefully crafted to highlight different motion design techniques while maintaining a unified visual language." },
+          { "title": "Impact", "text": "The reel has been instrumental in attracting new clients and has been featured in several motion design showcases and award ceremonies." }
+        ]
+      },
+      "es": {
+        "title": "Reel de Motion",
+        "metaTitle": "Reel de Motion — Caso de Estudio | ELAI Studio",
+        "metaDesc": "Reel del estudio mostrando animación 2D y 3D, motion graphics y narrativa visual para diversas marcas y campañas.",
+        "cat": "Animación",
+        "subtitle": "Una muestra de excelencia en diseño de movimiento",
+        "overview": "Nuestro reel anual reúne lo mejor de nuestro trabajo de animación y motion graphics, demostrando la amplitud de nuestras capacidades.",
+        "details": [
+          { "label": "Duración", "value": "90 segundos" },
+          { "label": "Técnicas", "value": "2D, 3D, Tipografía Cinética, Partículas FX" },
+          { "label": "Herramientas", "value": "After Effects, Cinema 4D, Blender" }
+        ],
+        "sections": [
+          { "title": "El Concepto", "text": "Queríamos crear un reel que no solo mostrara nuestras capacidades técnicas sino que también contara una historia con transiciones fluidas." },
+          { "title": "Producción", "text": "El reel se produjo en 4 semanas, con cada segmento cuidadosamente diseñado para destacar diferentes técnicas de motion design." },
+          { "title": "Impacto", "text": "El reel ha sido instrumental para atraer nuevos clientes y ha sido destacado en showcases de diseño de movimiento." }
+        ]
+      },
+      "ru": {
+        "title": "Моушн-Рил",
+        "metaTitle": "Моушн-Рил — Кейс | ELAI Studio",
+        "metaDesc": "Студийный моушн-рил: 2D и 3D анимация, моушн-графика и визуальный сторителлинг для различных брендов.",
+        "cat": "Анимация",
+        "subtitle": "Демонстрация мастерства в моушн-дизайне",
+        "overview": "Наш ежегодный моушн-рил объединяет лучшие работы в анимации и моушн-графике, демонстрируя широту наших возможностей.",
+        "details": [
+          { "label": "Длительность", "value": "90 секунд" },
+          { "label": "Техники", "value": "2D, 3D, Кинетическая типографика, Частицы" },
+          { "label": "Инструменты", "value": "After Effects, Cinema 4D, Blender" }
+        ],
+        "sections": [
+          { "title": "Концепция", "text": "Мы хотели создать рил, демонстрирующий не только технические возможности, но и рассказывающий историю с плавными переходами." },
+          { "title": "Производство", "text": "Рил был создан за 4 недели, каждый сегмент тщательно проработан для демонстрации различных техник моушн-дизайна." },
+          { "title": "Влияние", "text": "Рил стал ключевым инструментом привлечения новых клиентов и был отмечен на нескольких моушн-дизайн фестивалях." }
+        ]
+      }
+    },
+    {
+      "slug": "corporate-website",
+      "type": "web",
+      "year": "2024",
+      "category": "web",
+      "thumbnail": "/assets/images/portfolio/corporate-thumb.jpg",
+      "screenshots": [
+        "/assets/images/portfolio/corporate-desktop.jpg",
+        "/assets/images/portfolio/corporate-mobile.jpg"
+      ],
+      "gallery": [
+        "/assets/images/portfolio/corporate-1.jpg",
+        "/assets/images/portfolio/corporate-2.jpg",
+        "/assets/images/portfolio/corporate-3.jpg"
+      ],
+      "en": {
+        "title": "Corporate Website",
+        "metaTitle": "Corporate Website Redesign — Case Study | ELAI Studio",
+        "metaDesc": "Corporate website redesign with modern UI, CMS integration, multi-language support, and SEO optimization for a global consulting firm.",
+        "cat": "Web Design",
+        "subtitle": "A modern digital presence for a global firm",
+        "overview": "We redesigned the corporate website for a global consulting firm, transforming their outdated web presence into a modern, fast, and SEO-optimized platform with CMS integration and multi-language support.",
+        "details": [
+          { "label": "Client", "value": "Confidential" },
+          { "label": "Timeline", "value": "10 weeks" },
+          { "label": "Deliverables", "value": "Website Design, CMS Setup, SEO, 3 Languages" }
+        ],
+        "sections": [
+          { "title": "The Challenge", "text": "The client's website hadn't been updated in years. It wasn't mobile-responsive, loaded slowly, and didn't reflect the firm's premium positioning." },
+          { "title": "Our Approach", "text": "We conducted stakeholder interviews, competitor analysis, and user research before designing a clean, professional interface with intuitive navigation and a powerful CMS backend." },
+          { "title": "The Result", "text": "200% increase in organic traffic within 3 months, 40% lower bounce rate, and the client can now update content independently through the CMS." }
+        ]
+      },
+      "es": {
+        "title": "Sitio Web Corporativo",
+        "metaTitle": "Rediseño de Sitio Corporativo — Caso de Estudio | ELAI Studio",
+        "metaDesc": "Rediseño web corporativo con UI moderna, CMS, soporte multiidioma y optimización SEO para una firma global de consultoría.",
+        "cat": "Diseño Web",
+        "subtitle": "Una presencia digital moderna para una firma global",
+        "overview": "Rediseñamos el sitio web corporativo de una firma global de consultoría, transformando su presencia web en una plataforma moderna, rápida y optimizada para SEO.",
+        "details": [
+          { "label": "Cliente", "value": "Confidencial" },
+          { "label": "Duración", "value": "10 semanas" },
+          { "label": "Entregables", "value": "Diseño Web, CMS, SEO, 3 Idiomas" }
+        ],
+        "sections": [
+          { "title": "El Desafío", "text": "El sitio web no se había actualizado en años. No era responsivo, cargaba lento y no reflejaba el posicionamiento premium de la firma." },
+          { "title": "Nuestro Enfoque", "text": "Realizamos entrevistas, análisis competitivo e investigación de usuarios antes de diseñar una interfaz limpia y profesional." },
+          { "title": "El Resultado", "text": "200% de aumento en tráfico orgánico en 3 meses, 40% menos de rebote, y el cliente ahora actualiza contenido independientemente." }
+        ]
+      },
+      "ru": {
+        "title": "Корпоративный Сайт",
+        "metaTitle": "Редизайн Корпоративного Сайта — Кейс | ELAI Studio",
+        "metaDesc": "Редизайн корпоративного сайта: современный UI, CMS, мультиязычность и SEO-оптимизация для глобальной консалтинговой компании.",
+        "cat": "Веб-дизайн",
+        "subtitle": "Современное цифровое присутствие для глобальной компании",
+        "overview": "Мы перепроектировали корпоративный сайт глобальной консалтинговой компании, превратив устаревшее веб-присутствие в современную, быструю и SEO-оптимизированную платформу.",
+        "details": [
+          { "label": "Клиент", "value": "Конфиденциально" },
+          { "label": "Сроки", "value": "10 недель" },
+          { "label": "Результаты", "value": "Дизайн сайта, CMS, SEO, 3 языка" }
+        ],
+        "sections": [
+          { "title": "Задача", "text": "Сайт клиента не обновлялся годами. Он не был адаптивным, медленно загружался и не отражал премиальное позиционирование." },
+          { "title": "Наш Подход", "text": "Мы провели интервью, анализ конкурентов и исследование пользователей, прежде чем создать чистый профессиональный интерфейс." },
+          { "title": "Результат", "text": "Рост органического трафика на 200% за 3 месяца, снижение отказов на 40%, клиент самостоятельно управляет контентом через CMS." }
+        ]
+      }
+    },
+    {
+      "slug": "product-commercial",
+      "type": "video",
+      "year": "2025",
+      "category": "film",
+      "thumbnail": "/assets/images/portfolio/commercial-thumb.jpg",
+      "videoEmbed": "",
+      "gallery": [
+        "/assets/images/portfolio/commercial-1.jpg",
+        "/assets/images/portfolio/commercial-2.jpg",
+        "/assets/images/portfolio/commercial-3.jpg",
+        "/assets/images/portfolio/commercial-4.jpg"
+      ],
+      "en": {
+        "title": "Product Commercial",
+        "metaTitle": "Product Commercial Film — Case Study | ELAI Studio",
+        "metaDesc": "High-end product commercial video production — from concept and storyboard to cinematic filming, color grading, and multi-platform delivery.",
+        "cat": "Film",
+        "subtitle": "Cinematic storytelling for a premium product",
+        "overview": "We produced a 60-second product commercial that combined cinematic visuals with compelling storytelling. The film was delivered in multiple formats for TV, social media, and digital advertising.",
+        "details": [
+          { "label": "Client", "value": "Confidential" },
+          { "label": "Duration", "value": "60 seconds" },
+          { "label": "Deliverables", "value": "TV Spot, Social Cuts (15s, 30s), Behind-the-Scenes" }
+        ],
+        "sections": [
+          { "title": "The Brief", "text": "Create a premium product commercial that would work across TV and digital platforms, highlighting the product's craftsmanship and the lifestyle it represents." },
+          { "title": "Production", "text": "Two-day shoot with a professional crew, featuring carefully choreographed product shots, lifestyle sequences, and macro details. Full post-production including color grading and sound design." },
+          { "title": "Delivery", "text": "The final film was delivered in 8 different formats optimized for TV, YouTube, Instagram Reels, TikTok, and web. Each cut was tailored to the platform's specifications." }
+        ]
+      },
+      "es": {
+        "title": "Comercial de Producto",
+        "metaTitle": "Comercial de Producto — Caso de Estudio | ELAI Studio",
+        "metaDesc": "Producción de video comercial premium — concepto, storyboard, filmación cinematográfica, color grading y entrega multi-plataforma.",
+        "cat": "Film",
+        "subtitle": "Narrativa cinematográfica para un producto premium",
+        "overview": "Produjimos un comercial de 60 segundos que combina visuales cinematográficos con narrativa convincente, entregado en múltiples formatos para TV y digital.",
+        "details": [
+          { "label": "Cliente", "value": "Confidencial" },
+          { "label": "Duración", "value": "60 segundos" },
+          { "label": "Entregables", "value": "Spot TV, Cortes Sociales (15s, 30s), Behind-the-Scenes" }
+        ],
+        "sections": [
+          { "title": "El Brief", "text": "Crear un comercial premium que funcione en TV y digital, destacando la artesanía del producto y el estilo de vida que representa." },
+          { "title": "Producción", "text": "Dos días de rodaje con equipo profesional, tomas de producto coreografiadas, secuencias de estilo de vida y detalles macro." },
+          { "title": "Entrega", "text": "El film final fue entregado en 8 formatos optimizados para TV, YouTube, Instagram Reels, TikTok y web." }
+        ]
+      },
+      "ru": {
+        "title": "Рекламный Ролик Продукта",
+        "metaTitle": "Рекламный Ролик Продукта — Кейс | ELAI Studio",
+        "metaDesc": "Производство премиального рекламного ролика — от концепции до кинематографичной съёмки, цветокоррекции и мультиплатформенной доставки.",
+        "cat": "Фильм",
+        "subtitle": "Кинематографичный сторителлинг для премиального продукта",
+        "overview": "Мы создали 60-секундный рекламный ролик, сочетающий кинематографичные визуалы с убедительным сторителлингом, в нескольких форматах для ТВ и цифровых платформ.",
+        "details": [
+          { "label": "Клиент", "value": "Конфиденциально" },
+          { "label": "Длительность", "value": "60 секунд" },
+          { "label": "Результаты", "value": "ТВ-ролик, Соц. нарезки (15с, 30с), Бэкстейдж" }
+        ],
+        "sections": [
+          { "title": "Бриф", "text": "Создать премиальный ролик для ТВ и цифровых платформ, подчёркивающий мастерство продукта и образ жизни." },
+          { "title": "Производство", "text": "Двухдневная съёмка с профессиональной командой: хореографированные продуктовые кадры, лайфстайл и макро-детали." },
+          { "title": "Доставка", "text": "Финальный фильм доставлен в 8 форматах для ТВ, YouTube, Instagram Reels, TikTok и веба." }
+        ]
+      }
+    },
+    {
+      "slug": "startup-landing-page",
+      "type": "web",
+      "year": "2025",
+      "category": "web",
+      "thumbnail": "/assets/images/portfolio/startup-thumb.jpg",
+      "screenshots": [
+        "/assets/images/portfolio/startup-desktop.jpg",
+        "/assets/images/portfolio/startup-mobile.jpg"
+      ],
+      "gallery": [
+        "/assets/images/portfolio/startup-1.jpg",
+        "/assets/images/portfolio/startup-2.jpg",
+        "/assets/images/portfolio/startup-3.jpg"
+      ],
+      "en": {
+        "title": "Startup Landing Page",
+        "metaTitle": "Startup Landing Page Design — Case Study | ELAI Studio",
+        "metaDesc": "High-converting startup landing page design with animated interactions, A/B tested CTAs, and blazing-fast performance.",
+        "cat": "Web Development",
+        "subtitle": "A landing page designed to convert",
+        "overview": "We designed a high-converting landing page for a SaaS startup that needed to communicate their value proposition clearly and drive sign-ups. The page features smooth animations, compelling copy, and strategically placed CTAs.",
+        "details": [
+          { "label": "Client", "value": "Confidential" },
+          { "label": "Timeline", "value": "3 weeks" },
+          { "label": "Deliverables", "value": "Landing Page, A/B Variants, Analytics Setup" }
+        ],
+        "sections": [
+          { "title": "The Challenge", "text": "The startup needed a single page that could explain a complex product simply and drive trial sign-ups, all while loading in under 2 seconds." },
+          { "title": "Our Approach", "text": "We focused on clear messaging hierarchy, micro-interactions that guide attention, and a single primary CTA. Every element earned its place on the page." },
+          { "title": "The Result", "text": "12% conversion rate on cold traffic (industry average is 2-5%), sub-1.5 second load time, and 98 PageSpeed score." }
+        ]
+      },
+      "es": {
+        "title": "Landing Page para Startup",
+        "metaTitle": "Diseño de Landing Page para Startup — Caso de Estudio | ELAI Studio",
+        "metaDesc": "Landing page de alta conversión con animaciones, CTAs testeados y rendimiento ultrarrápido para startups SaaS.",
+        "cat": "Desarrollo Web",
+        "subtitle": "Una landing page diseñada para convertir",
+        "overview": "Diseñamos una landing page de alta conversión para una startup SaaS que necesitaba comunicar su propuesta de valor y generar registros.",
+        "details": [
+          { "label": "Cliente", "value": "Confidencial" },
+          { "label": "Duración", "value": "3 semanas" },
+          { "label": "Entregables", "value": "Landing Page, Variantes A/B, Configuración de Analítica" }
+        ],
+        "sections": [
+          { "title": "El Desafío", "text": "La startup necesitaba una página que explicara un producto complejo de forma simple y generara registros de prueba, cargando en menos de 2 segundos." },
+          { "title": "Nuestro Enfoque", "text": "Nos enfocamos en jerarquía de mensajes clara, micro-interacciones que guían la atención y un CTA principal estratégico." },
+          { "title": "El Resultado", "text": "12% de conversión en tráfico frío (promedio de industria 2-5%), carga en menos de 1.5 segundos y 98 en PageSpeed." }
+        ]
+      },
+      "ru": {
+        "title": "Лендинг для Стартапа",
+        "metaTitle": "Дизайн Лендинга для Стартапа — Кейс | ELAI Studio",
+        "metaDesc": "Высококонверсионный лендинг с анимациями, A/B-тестированными CTA и молниеносной загрузкой для SaaS-стартапа.",
+        "cat": "Веб-разработка",
+        "subtitle": "Лендинг, созданный для конверсии",
+        "overview": "Мы спроектировали высококонверсионный лендинг для SaaS-стартапа, который должен был ясно донести ценность продукта и генерировать регистрации.",
+        "details": [
+          { "label": "Клиент", "value": "Конфиденциально" },
+          { "label": "Сроки", "value": "3 недели" },
+          { "label": "Результаты", "value": "Лендинг, A/B-варианты, Настройка аналитики" }
+        ],
+        "sections": [
+          { "title": "Задача", "text": "Стартапу нужна была страница, которая просто объясняет сложный продукт и генерирует пробные регистрации, загружаясь за 2 секунды." },
+          { "title": "Наш Подход", "text": "Мы сфокусировались на чёткой иерархии сообщений, микро-взаимодействиях, направляющих внимание, и одном главном CTA." },
+          { "title": "Результат", "text": "Конверсия 12% на холодном трафике (среднее по индустрии 2-5%), загрузка менее 1.5 сек, PageSpeed 98." }
+        ]
+      }
+    }
+  ]
+}
