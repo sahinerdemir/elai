@@ -30,8 +30,8 @@
     <main class="flex-1 flex items-center py-16">
       <div class="max-w-2xl mx-auto px-6 w-full">
         <div class="text-center mb-12">
-          <h1 class="section-title mb-4">{{ i18n[locale].quote.title }}</h1>
-          <p class="text-lg text-white/50">{{ i18n[locale].quote.subtitle }}</p>
+          <h1 class="section-title mb-4" id="quote-title">{{ i18n[locale].quote.title }}</h1>
+          <p class="text-lg text-white/50" id="quote-subtitle">{{ i18n[locale].quote.subtitle }}</p>
         </div>
 
         <!-- Selected package badge (populated via JS from ?package= param) -->
@@ -101,6 +101,8 @@
       document.getElementById('selected-package').classList.remove('hidden');
       document.getElementById('package-name').textContent = decodeURIComponent(pkg);
       document.getElementById('package-input').value = decodeURIComponent(pkg);
+      document.getElementById('quote-title').textContent = '{{ i18n[locale].pricing.getStarted }}';
+      document.getElementById('quote-subtitle').textContent = '{{ i18n[locale].quote.subtitlePackage }}';
     }
   </script>
 </body>

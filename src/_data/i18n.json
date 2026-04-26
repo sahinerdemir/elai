@@ -153,6 +153,7 @@
     "quote": {
       "title": "Request a Quote",
       "subtitle": "Tell us about your project and we'll get back to you within 24 hours.",
+      "subtitlePackage": "Fill in your details and we'll get you started right away.",
       "firstName": "First Name",
       "lastName": "Last Name",
       "email": "Email",
@@ -339,6 +340,7 @@
     "quote": {
       "title": "Solicitar Cotización",
       "subtitle": "Cuéntanos sobre tu proyecto y te responderemos en 24 horas.",
+      "subtitlePackage": "Completa tus datos y comenzamos de inmediato.",
       "firstName": "Nombre",
       "lastName": "Apellido",
       "email": "Correo Electrónico",
@@ -525,6 +527,7 @@
     "quote": {
       "title": "Запросить Предложение",
       "subtitle": "Расскажите о вашем проекте, и мы ответим в течение 24 часов.",
+      "subtitlePackage": "Заполните данные, и мы сразу приступим к работе.",
       "firstName": "Имя",
       "lastName": "Фамилия",
       "email": "Электронная Почта",
