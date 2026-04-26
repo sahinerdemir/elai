@@ -359,7 +359,9 @@
       "thumbnail": "/assets/images/portfolio/presentation-collection/cover.jpg",
       "showcase": [
         "/assets/images/portfolio/presentation-collection/ss1.jpg",
-        "/assets/images/portfolio/presentation-collection/ss2.jpg",
+        "/assets/images/portfolio/presentation-collection/ss2.jpg"
+      ],
+      "showcaseGrid": [
         "/assets/images/portfolio/presentation-collection/img2.gif",
         "/assets/images/portfolio/presentation-collection/img3.gif"
       ],

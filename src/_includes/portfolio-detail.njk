@@ -110,6 +110,20 @@
   </section>
   {% endif %}
 
+  {% if projectData.showcaseGrid %}
+  <section class="py-4">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid grid-cols-2 gap-4">
+        {% for img in projectData.showcaseGrid %}
+        <div class="rounded-2xl overflow-hidden border border-white/10">
+          <img src="{{ img }}" alt="{{ proj.title }} — {{ loop.index }}" class="w-full h-auto block" loading="lazy">
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if projectData.type == 'video' %}
   <!-- Video Section -->
   <section class="py-8">
