@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <rect width="1200" height="600" fill="#0a0a0a"/>
+  <!-- Diagonal lines -->
+  <line x1="0" y1="600" x2="400" y2="0" stroke="#c8ff00" stroke-width="0.5" opacity="0.15"/>
+  <line x1="200" y1="600" x2="600" y2="0" stroke="#c8ff00" stroke-width="0.5" opacity="0.12"/>
+  <line x1="400" y1="600" x2="800" y2="0" stroke="#c8ff00" stroke-width="0.5" opacity="0.1"/>
+  <line x1="600" y1="600" x2="1000" y2="0" stroke="#c8ff00" stroke-width="0.5" opacity="0.08"/>
+  <line x1="800" y1="600" x2="1200" y2="0" stroke="#c8ff00" stroke-width="0.5" opacity="0.06"/>
+  <!-- Floating rectangles -->
+  <rect x="100" y="80" width="300" height="200" rx="8" stroke="#c8ff00" stroke-width="0.8" opacity="0.12" transform="rotate(-8 250 180)"/>
+  <rect x="700" y="150" width="250" height="180" rx="8" stroke="white" stroke-width="0.5" opacity="0.08" transform="rotate(5 825 240)"/>
+  <rect x="400" y="300" width="350" height="220" rx="8" stroke="#c8ff00" stroke-width="0.6" opacity="0.1" transform="rotate(-3 575 410)"/>
+  <rect x="900" y="350" width="200" height="150" rx="8" stroke="white" stroke-width="0.5" opacity="0.06" transform="rotate(12 1000 425)"/>
+  <!-- Code brackets -->
+  <text x="150" y="400" font-family="monospace" font-size="120" fill="#c8ff00" opacity="0.04">&lt;/&gt;</text>
+  <text x="800" y="200" font-family="monospace" font-size="80" fill="white" opacity="0.03">{...}</text>
+  <!-- Grid dots -->
+  <circle cx="50" cy="50" r="2" fill="#c8ff00" opacity="0.15"/>
+  <circle cx="150" cy="50" r="2" fill="#c8ff00" opacity="0.12"/>
+  <circle cx="250" cy="50" r="2" fill="#c8ff00" opacity="0.1"/>
+  <circle cx="350" cy="50" r="2" fill="#c8ff00" opacity="0.08"/>
+  <circle cx="50" cy="150" r="2" fill="#c8ff00" opacity="0.12"/>
+  <circle cx="150" cy="150" r="2" fill="#c8ff00" opacity="0.1"/>
+  <circle cx="250" cy="150" r="2" fill="#c8ff00" opacity="0.08"/>
+</svg>

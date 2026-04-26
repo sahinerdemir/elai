@@ -2,7 +2,7 @@
   "items": [
     {
       "slug": "web-design-development",
-      "image": "/assets/images/services/web-design.jpg",
+      "image": "/assets/images/services/web-design.svg",
       "en": {
         "title": "Website Design & Development",
         "metaTitle": "Professional Website Design & Development Services | ELAI Studio",
@@ -99,7 +99,7 @@
     },
     {
       "slug": "branding-design",
-      "image": "/assets/images/services/branding.jpg",
+      "image": "/assets/images/services/branding.svg",
       "en": {
         "title": "Branding Design",
         "metaTitle": "Professional Branding & Brand Identity Design | ELAI Studio",
@@ -196,7 +196,7 @@
     },
     {
       "slug": "animation-short-film",
-      "image": "/assets/images/services/animation.jpg",
+      "image": "/assets/images/services/animation.svg",
       "en": {
         "title": "Animation & Short Film",
         "metaTitle": "Professional Animation & Short Film Production | ELAI Studio",
@@ -293,7 +293,7 @@
     },
     {
       "slug": "commercial-film",
-      "image": "/assets/images/services/commercial.jpg",
+      "image": "/assets/images/services/commercial.svg",
       "en": {
         "title": "Commercial Film",
         "metaTitle": "Professional Commercial Film & Video Production | ELAI Studio",
@@ -390,7 +390,7 @@
     },
     {
       "slug": "design-services",
-      "image": "/assets/images/services/design.jpg",
+      "image": "/assets/images/services/design.svg",
       "en": {
         "title": "All Your Other Design Needs",
         "metaTitle": "Professional Graphic Design & Creative Services | ELAI Studio",

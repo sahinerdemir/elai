@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <rect width="1200" height="600" fill="#0a0a0a"/>
+  <!-- Diamond/rhombus grid -->
+  <rect x="500" y="200" width="200" height="200" rx="4" stroke="#c8ff00" stroke-width="0.8" opacity="0.12" transform="rotate(45 600 300)"/>
+  <rect x="530" y="230" width="140" height="140" rx="4" stroke="#c8ff00" stroke-width="0.5" opacity="0.08" transform="rotate(45 600 300)"/>
+  <rect x="560" y="260" width="80" height="80" rx="4" stroke="white" stroke-width="0.5" opacity="0.06" transform="rotate(45 600 300)"/>
+  <!-- Scattered shapes -->
+  <rect x="80" y="80" width="100" height="100" stroke="#c8ff00" stroke-width="0.5" opacity="0.08" transform="rotate(15 130 130)"/>
+  <circle cx="200" cy="450" r="60" stroke="#c8ff00" stroke-width="0.5" opacity="0.08"/>
+  <polygon points="1000,100 1060,160 1000,220 940,160" stroke="white" stroke-width="0.5" opacity="0.06"/>
+  <rect x="900" y="380" width="150" height="100" rx="50" stroke="#c8ff00" stroke-width="0.5" opacity="0.08"/>
+  <!-- Wavy lines -->
+  <path d="M0,500 Q150,450 300,500 T600,500 T900,500 T1200,500" stroke="#c8ff00" stroke-width="0.5" opacity="0.06"/>
+  <path d="M0,520 Q150,470 300,520 T600,520 T900,520 T1200,520" stroke="#c8ff00" stroke-width="0.3" opacity="0.04"/>
+  <!-- Pen tool bezier -->
+  <path d="M350,150 C400,50 500,50 550,150 S700,250 750,150" stroke="#c8ff00" stroke-width="0.8" opacity="0.1"/>
+  <circle cx="350" cy="150" r="4" fill="#c8ff00" opacity="0.12"/>
+  <circle cx="550" cy="150" r="4" fill="#c8ff00" opacity="0.12"/>
+  <circle cx="750" cy="150" r="4" fill="#c8ff00" opacity="0.12"/>
+  <line x1="350" y1="150" x2="400" y2="50" stroke="white" stroke-width="0.3" opacity="0.08"/>
+  <line x1="550" y1="150" x2="500" y2="50" stroke="white" stroke-width="0.3" opacity="0.08"/>
+  <!-- Grid -->
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="white" stroke-width="0.2" opacity="0.03" stroke-dasharray="8 8"/>
+  <line x1="600" y1="0" x2="600" y2="600" stroke="white" stroke-width="0.2" opacity="0.03" stroke-dasharray="8 8"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <rect width="1200" height="600" fill="#0a0a0a"/>
+  <!-- Film strip horizontal lines -->
+  <rect x="0" y="60" width="1200" height="480" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="white" stroke-width="0.3" opacity="0.04"/>
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="white" stroke-width="0.3" opacity="0.04"/>
+  <!-- Sprocket holes -->
+  <rect x="30" y="70" width="20" height="15" rx="2" stroke="white" stroke-width="0.5" opacity="0.06"/>
+  <rect x="80" y="70" width="20" height="15" rx="2" stroke="white" stroke-width="0.5" opacity="0.06"/>
+  <rect x="130" y="70" width="20" height="15" rx="2" stroke="white" stroke-width="0.5" opacity="0.06"/>
+  <rect x="180" y="70" width="20" height="15" rx="2" stroke="white" stroke-width="0.5" opacity="0.06"/>
+  <rect x="230" y="70" width="20" height="15" rx="2" stroke="white" stroke-width="0.5" opacity="0.06"/>
+  <!-- Hexagonal lens shapes -->
+  <polygon points="600,200 660,230 660,290 600,320 540,290 540,230" stroke="#c8ff00" stroke-width="0.8" opacity="0.12"/>
+  <polygon points="600,220 640,240 640,280 600,300 560,280 560,240" stroke="#c8ff00" stroke-width="0.5" opacity="0.08"/>
+  <circle cx="600" cy="260" r="15" stroke="#c8ff00" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="600" cy="260" r="5" fill="#c8ff00" opacity="0.1"/>
+  <!-- Perspective grid -->
+  <line x1="600" y1="260" x2="0" y2="0" stroke="white" stroke-width="0.3" opacity="0.04"/>
+  <line x1="600" y1="260" x2="1200" y2="0" stroke="white" stroke-width="0.3" opacity="0.04"/>
+  <line x1="600" y1="260" x2="0" y2="600" stroke="white" stroke-width="0.3" opacity="0.04"/>
+  <line x1="600" y1="260" x2="1200" y2="600" stroke="white" stroke-width="0.3" opacity="0.04"/>
+  <!-- Frame markers -->
+  <path d="M50,150 L80,150 L80,180" stroke="#c8ff00" stroke-width="0.8" opacity="0.1"/>
+  <path d="M1150,150 L1120,150 L1120,180" stroke="#c8ff00" stroke-width="0.8" opacity="0.1"/>
+  <path d="M50,450 L80,450 L80,420" stroke="#c8ff00" stroke-width="0.8" opacity="0.1"/>
+  <path d="M1150,450 L1120,450 L1120,420" stroke="#c8ff00" stroke-width="0.8" opacity="0.1"/>
+</svg>
