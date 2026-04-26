@@ -357,11 +357,9 @@
       "year": "2025",
       "category": "branding",
       "thumbnail": "/assets/images/portfolio/presentation-collection/cover.jpg",
-      "screenshots": [
+      "showcase": [
         "/assets/images/portfolio/presentation-collection/ss1.jpg",
-        "/assets/images/portfolio/presentation-collection/ss2.jpg"
-      ],
-      "gallery": [
+        "/assets/images/portfolio/presentation-collection/ss2.jpg",
         "/assets/images/portfolio/presentation-collection/img2.gif",
         "/assets/images/portfolio/presentation-collection/img3.gif"
       ],
