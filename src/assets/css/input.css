@@ -41,12 +41,15 @@
   .lang-switcher a.active {
     @apply text-accent;
   }
-  .marquee {
-    animation: marquee 20s linear infinite;
+  .marquee-track {
+    animation: marquee 30s linear infinite;
+  }
+  .marquee-track.marquee-slow {
+    animation-duration: 40s;
   }
   @keyframes marquee {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    100% { transform: translateX(-33.3333%); }
   }
   .fade-in {
     animation: fadeIn 1s ease-out forwards;

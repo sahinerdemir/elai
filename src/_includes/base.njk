@@ -69,9 +69,15 @@
 
   <!-- Marquee -->
   <div class="py-6 border-y border-white/10 overflow-hidden">
-    <div class="flex whitespace-nowrap marquee">
-      {% for i in range(0, 8) %}
-      <span class="text-5xl md:text-7xl font-display font-bold text-white/5 mx-8">ELAI STUDIO</span>
+    <div class="marquee-track flex whitespace-nowrap">
+      {% for i in range(0, 3) %}
+      <span class="marquee-segment flex whitespace-nowrap">
+        {% set words = ["ELAI STUDIO", "TECHNOLOGY", "AI", "DESIGN", "CREATIVITY", "DEVELOPMENT", "SOLUTION", "STRATEGY"] %}
+        {% for word in words %}
+        <span class="text-5xl md:text-7xl font-display font-bold text-white/5 mx-6">{{ word }}</span>
+        <span class="text-5xl md:text-7xl font-display font-bold text-accent/10 mx-6">✦</span>
+        {% endfor %}
+      </span>
       {% endfor %}
     </div>
   </div>
@@ -170,12 +176,13 @@
 
   <!-- Testimonials Marquee -->
   <div class="py-16 border-y border-white/10 overflow-hidden">
-    <div class="flex whitespace-nowrap marquee">
-      {% for item in i18n[locale].testimonials.items %}
-      <span class="text-3xl md:text-5xl font-display font-bold text-white/10 mx-8">★ {{ item }}</span>
-      {% endfor %}
-      {% for item in i18n[locale].testimonials.items %}
-      <span class="text-3xl md:text-5xl font-display font-bold text-white/10 mx-8">★ {{ item }}</span>
+    <div class="marquee-track marquee-slow flex whitespace-nowrap">
+      {% for i in range(0, 3) %}
+      <span class="marquee-segment flex whitespace-nowrap">
+        {% for item in i18n[locale].testimonials.items %}
+        <span class="text-3xl md:text-5xl font-display font-bold text-white/10 mx-8">★ {{ item }}</span>
+        {% endfor %}
+      </span>
       {% endfor %}
     </div>
   </div>
