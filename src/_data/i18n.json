@@ -51,7 +51,14 @@
       "title": "Selected Work",
       "subtitle": "A glimpse into our recent projects",
       "viewProject": "View Project",
-      "moreWorks": "More Works"
+      "moreWorks": "More Works",
+      "pageTitle": "Our Portfolio",
+      "pageDesc": "Explore our latest projects across web design, branding, animation, and film production.",
+      "filterAll": "All",
+      "filterWeb": "Web",
+      "filterBranding": "Branding",
+      "filterAnimation": "Animation",
+      "filterFilm": "Film"
     },
     "pricing": {
       "title": "Pricing",
@@ -238,7 +245,14 @@
       "title": "Trabajos Seleccionados",
       "subtitle": "Un vistazo a nuestros proyectos recientes",
       "viewProject": "Ver Proyecto",
-      "moreWorks": "Más Trabajos"
+      "moreWorks": "Más Trabajos",
+      "pageTitle": "Nuestro Portafolio",
+      "pageDesc": "Explora nuestros últimos proyectos en diseño web, branding, animación y producción de películas.",
+      "filterAll": "Todos",
+      "filterWeb": "Web",
+      "filterBranding": "Branding",
+      "filterAnimation": "Animación",
+      "filterFilm": "Film"
     },
     "pricing": {
       "title": "Precios",
@@ -425,7 +439,14 @@
       "title": "Избранные Работы",
       "subtitle": "Обзор наших недавних проектов",
       "viewProject": "Смотреть Проект",
-      "moreWorks": "Больше Работ"
+      "moreWorks": "Больше Работ",
+      "pageTitle": "Наше Портфолио",
+      "pageDesc": "Исследуйте наши последние проекты в веб-дизайне, брендинге, анимации и кинопроизводстве.",
+      "filterAll": "Все",
+      "filterWeb": "Веб",
+      "filterBranding": "Брендинг",
+      "filterAnimation": "Анимация",
+      "filterFilm": "Фильм"
     },
     "pricing": {
       "title": "Цены",

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ i18n[locale].portfolio.pageTitle }} — {{ site.name }}</title>
+  <meta name="description" content="{{ i18n[locale].portfolio.pageDesc }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{{ i18n[locale].portfolio.pageTitle }} — {{ site.name }}">
+  <meta property="og:description" content="{{ i18n[locale].portfolio.pageDesc }}">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="bg-dark text-white">
+
+  <!-- Header -->
+  <nav class="fixed z-50 transition-all duration-300" style="top: 32px; left: 32px; right: 32px; border-radius: 9999px; background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.08);" id="navbar">
+    <div class="px-6 py-3 flex items-center justify-between">
+      <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}" class="flex items-center">
+        <img src="/assets/logo.svg" alt="ELAI" class="invert" style="height: 26px;">
+      </a>
+      <div class="hidden md:flex items-center gap-10">
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#about" class="nav-link">{{ i18n[locale].nav.about }}</a>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="nav-link">{{ i18n[locale].nav.services }}</a>
+        <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/" class="nav-link text-white">{{ i18n[locale].nav.portfolio }}</a>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#pricing" class="nav-link">{{ i18n[locale].nav.pricing }}</a>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="nav-link">{{ i18n[locale].nav.contact }}</a>
+      </div>
+      <div class="flex items-center gap-6">
+        <div class="lang-switcher flex gap-3">
+          <a href="/portfolio/" class="{{ 'active' if lang == 'en' }}">EN</a>
+          <a href="/es/portfolio/" class="{{ 'active' if lang == 'es' }}">ES</a>
+          <a href="/ru/portfolio/" class="{{ 'active' if lang == 'ru' }}">RU</a>
+        </div>
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="btn-primary text-sm hidden md:inline-flex">{{ i18n[locale].contact.cta }}</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-40 pb-12 md:pt-48 md:pb-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <p class="text-accent font-medium tracking-widest uppercase text-sm mb-4">{{ i18n[locale].portfolio.subtitle }}</p>
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-6">{{ i18n[locale].portfolio.pageTitle }}</h1>
+      <p class="text-xl text-white/50 max-w-2xl">{{ i18n[locale].portfolio.pageDesc }}</p>
+    </div>
+  </section>
+
+  <!-- Filter -->
+  <section class="py-8 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-wrap gap-3" id="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">{{ i18n[locale].portfolio.filterAll }}</button>
+        <button class="filter-btn" data-filter="web">{{ i18n[locale].portfolio.filterWeb }}</button>
+        <button class="filter-btn" data-filter="branding">{{ i18n[locale].portfolio.filterBranding }}</button>
+        <button class="filter-btn" data-filter="animation">{{ i18n[locale].portfolio.filterAnimation }}</button>
+        <button class="filter-btn" data-filter="film">{{ i18n[locale].portfolio.filterFilm }}</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="portfolio-grid">
+        {% for project in portfolio.items %}
+        {% set p = project[locale] %}
+        <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/{{ project.slug }}/" class="portfolio-item group no-underline block" data-category="{{ project.category }}">
+          <div class="relative overflow-hidden rounded-2xl bg-white/5 cursor-pointer">
+            <div class="aspect-[4/3] flex items-center justify-center">
+              <span class="text-white/20 text-sm font-medium">{{ p.cat }} — Placeholder</span>
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-dark via-transparent to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-6">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="text-xs tracking-widest uppercase text-accent">{{ p.cat }}</span>
+                <span class="text-xs text-white/30">{{ project.year }}</span>
+              </div>
+              <h3 class="text-xl font-display font-semibold group-hover:text-accent transition-colors">{{ p.title }}</h3>
+            </div>
+            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-dark/60">
+              <span class="btn-primary text-sm">{{ i18n[locale].portfolio.viewProject }}</span>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="flex items-center gap-6">
+          <img src="/assets/logo.svg" alt="ELAI" class="h-6 invert opacity-50">
+          <span class="text-sm text-white/30">© 2025 {{ site.name }}. {{ i18n[locale].footer.rights }}</span>
+        </div>
+        <div class="flex items-center gap-8">
+          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.services }}</a>
+          <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.portfolio }}</a>
+          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#pricing" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.pricing }}</a>
+          <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.contact }}</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(10,10,10,0.7)';
+        navbar.style.backdropFilter = 'blur(30px)';
+        navbar.style.borderColor = 'rgba(255,255,255,0.12)';
+      } else {
+        navbar.style.background = 'rgba(255,255,255,0.05)';
+        navbar.style.backdropFilter = 'blur(20px)';
+        navbar.style.borderColor = 'rgba(255,255,255,0.08)';
+      }
+    });
+
+    // Portfolio filter
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const items = document.querySelectorAll('.portfolio-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        items.forEach(item => {
+          if (filter === 'all' || item.dataset.category === filter) {
+            item.style.display = '';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

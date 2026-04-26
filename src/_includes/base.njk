@@ -159,7 +159,7 @@
           <p class="text-accent font-medium tracking-widest uppercase text-sm mb-4">{{ i18n[locale].portfolio.subtitle }}</p>
           <h2 class="section-title">{{ i18n[locale].portfolio.title }}</h2>
         </div>
-        <a href="#" class="btn-outline mt-6 md:mt-0">{{ i18n[locale].portfolio.moreWorks }}</a>
+        <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/" class="btn-outline mt-6 md:mt-0">{{ i18n[locale].portfolio.moreWorks }}</a>
       </div>
       <div class="grid md:grid-cols-2 gap-6">
         {% for project in portfolio.items %}
