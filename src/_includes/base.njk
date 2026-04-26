@@ -41,7 +41,7 @@
   </nav>
 
   <!-- Fullscreen Mobile Menu -->
-  <div class="fixed inset-0 z-[100] hidden md:hidden" id="mobile-menu">
+  <div class="fixed inset-0 z-[100] overlay md:hidden" id="mobile-menu">
     <div class="absolute inset-0" style="background: rgba(10,10,10,0.55); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);"></div>
     <div class="relative z-10 flex flex-col h-full px-8 py-10">
       <div class="flex items-center justify-between mb-16">
@@ -318,7 +318,7 @@
   </footer>
 
   <!-- Quote Modal -->
-  <div class="fixed inset-0 z-[200] hidden" id="quote-modal">
+  <div class="fixed inset-0 z-[200] overlay" id="quote-modal">
     <div class="absolute inset-0" style="background: rgba(10,10,10,0.55); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);"></div>
     <div class="relative z-10 h-full overflow-y-auto">
       <div class="min-h-full flex flex-col px-6 py-10">
@@ -406,11 +406,11 @@
     const menuClose = document.getElementById('menu-close');
     const mobileMenu = document.getElementById('mobile-menu');
     function openMenu() {
-      mobileMenu.classList.remove('hidden');
+      mobileMenu.classList.add('is-open');
       document.body.style.overflow = 'hidden';
     }
     function closeMenu() {
-      mobileMenu.classList.add('hidden');
+      mobileMenu.classList.remove('is-open');
       document.body.style.overflow = '';
     }
     menuToggle.addEventListener('click', openMenu);
@@ -513,12 +513,12 @@
         quoteSubtitle.textContent = defaultSubtitle;
         quoteBadge.classList.add('hidden');
       }
-      quoteModal.classList.remove('hidden');
+      quoteModal.classList.add('is-open');
       document.body.style.overflow = 'hidden';
     }
 
     function closeQuote() {
-      quoteModal.classList.add('hidden');
+      quoteModal.classList.remove('is-open');
       document.body.style.overflow = '';
     }
 
