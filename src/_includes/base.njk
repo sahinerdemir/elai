@@ -38,17 +38,36 @@
         </button>
       </div>
     </div>
-    <!-- Mobile menu -->
-    <div class="hidden md:hidden bg-dark/95 backdrop-blur-xl border-t border-white/10" id="mobile-menu">
-      <div class="px-6 py-8 flex flex-col gap-6">
-        <a href="#about" class="nav-link text-lg">{{ i18n[locale].nav.about }}</a>
-        <a href="#services" class="nav-link text-lg">{{ i18n[locale].nav.services }}</a>
-        <a href="#portfolio" class="nav-link text-lg">{{ i18n[locale].nav.portfolio }}</a>
-        <a href="#pricing" class="nav-link text-lg">{{ i18n[locale].nav.pricing }}</a>
-        <a href="#contact" class="nav-link text-lg">{{ i18n[locale].nav.contact }}</a>
+  </nav>
+
+  <!-- Fullscreen Mobile Menu -->
+  <div class="fixed inset-0 z-[100] hidden md:hidden" id="mobile-menu">
+    <div class="absolute inset-0" style="background: rgba(10,10,10,0.85); backdrop-filter: blur(40px); -webkit-backdrop-filter: blur(40px);"></div>
+    <div class="relative z-10 flex flex-col h-full px-8 py-10">
+      <div class="flex items-center justify-between mb-16">
+        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}" class="flex items-center">
+          <img src="/assets/logo.svg" alt="ELAI" class="invert" style="height: 26px;">
+        </a>
+        <button class="text-white w-10 h-10 flex items-center justify-center" id="menu-close" aria-label="Close">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <nav class="flex flex-col gap-8 flex-1">
+        <a href="#about" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.about }}</a>
+        <a href="#services" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.services }}</a>
+        <a href="#portfolio" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.portfolio }}</a>
+        <a href="#pricing" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.pricing }}</a>
+        <a href="#contact" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.contact }}</a>
+      </nav>
+      <div class="pt-8 border-t border-white/10">
+        <div class="lang-switcher flex gap-4">
+          <a href="/" class="text-sm {{ 'active' if lang == 'en' }}">EN</a>
+          <a href="/es/" class="text-sm {{ 'active' if lang == 'es' }}">ES</a>
+          <a href="/ru/" class="text-sm {{ 'active' if lang == 'ru' }}">RU</a>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
 
   <!-- Hero Section with Video Background -->
   <section class="relative h-screen flex items-center justify-center overflow-hidden">
@@ -317,14 +336,22 @@
       }
     });
 
-    // Mobile menu toggle
+    // Fullscreen mobile menu
     const menuToggle = document.getElementById('menu-toggle');
+    const menuClose = document.getElementById('menu-close');
     const mobileMenu = document.getElementById('mobile-menu');
-    menuToggle.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-    });
-    mobileMenu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    function openMenu() {
+      mobileMenu.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeMenu() {
+      mobileMenu.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+    menuToggle.addEventListener('click', openMenu);
+    menuClose.addEventListener('click', closeMenu);
+    mobileMenu.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', closeMenu);
     });
 
     // Pricing slider
