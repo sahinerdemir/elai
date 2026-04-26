@@ -6,10 +6,11 @@
       "about": "About",
       "services": "Services",
       "portfolio": "Portfolio",
+      "pricing": "Pricing",
       "contact": "Contact"
     },
     "hero": {
-      "headline": "ELAI is a creative studio crafting digital experiences through design, motion, and storytelling.",
+      "headline": "A Creative Studio Crafting Digital Experiences",
       "subline": "We design. We develop. We create.",
       "cta": "See Our Work"
     },
@@ -52,6 +53,113 @@
       "viewProject": "View Project",
       "moreWorks": "More Works"
     },
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Transparent packages for every need",
+      "getQuote": "Get a Quote",
+      "startingFrom": "Starting from",
+      "perExtra": "per extra 10 sec",
+      "packages": [
+        {
+          "name": "Basic",
+          "price": "$500",
+          "type": "fixed",
+          "desc": "Perfect for small businesses and personal brands getting started online.",
+          "features": [
+            "One-page website or 3–5 page multi-page website",
+            "Fully static & blazing fast",
+            "Responsive design (mobile, tablet, desktop)",
+            "Contact form forwarded to your email",
+            "SEO-ready structure",
+            "1 round of revisions"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$1,000",
+          "type": "fixed",
+          "popular": true,
+          "desc": "For growing businesses that need full control over their content.",
+          "features": [
+            "5–10 page multi-page website",
+            "CMS admin panel — edit content yourself",
+            "Custom forms & blog functionality",
+            "Up to 2 languages supported",
+            "Responsive design & SEO optimization",
+            "2 rounds of revisions"
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "price": "$1,500",
+          "type": "fixed",
+          "desc": "Enterprise-grade websites for brands that demand the best.",
+          "features": [
+            "10–30 page multi-page website",
+            "CMS admin panel with advanced controls",
+            "Custom forms & blog functionality",
+            "Up to 5 languages supported",
+            "Advanced SEO & performance optimization",
+            "3 rounds of revisions"
+          ]
+        },
+        {
+          "name": "eCommerce",
+          "price": "$1,500",
+          "type": "starting",
+          "desc": "Launch your online store with Shopify — the world's leading eCommerce platform.",
+          "features": [
+            "Shopify store setup & custom theme",
+            "Product catalog & inventory management",
+            "Payment gateway integration",
+            "Responsive & conversion-optimized",
+            "SEO & analytics setup",
+            "Training session included"
+          ]
+        },
+        {
+          "name": "Animation & Film",
+          "price": "$1,000",
+          "type": "starting",
+          "priceNote": "+$200 per extra 10 sec",
+          "desc": "Professional motion content starting from 30 seconds. Perfect for brand stories and promos.",
+          "features": [
+            "30-second animation or short film",
+            "Concept & storyboard development",
+            "Professional motion graphics",
+            "Background music & sound design",
+            "4K delivery",
+            "+$200 for each additional 10 seconds"
+          ]
+        },
+        {
+          "name": "Custom",
+          "price": "?",
+          "type": "custom",
+          "desc": "Have something unique in mind? Let's discuss your vision and craft a tailored solution.",
+          "features": [
+            "Social media design packages",
+            "Print & packaging design",
+            "Presentation design",
+            "Brand strategy consulting",
+            "Ongoing design retainers",
+            "Whatever you need — we'll make it happen"
+          ]
+        }
+      ]
+    },
+    "quote": {
+      "title": "Request a Quote",
+      "subtitle": "Tell us about your project and we'll get back to you within 24 hours.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company Name",
+      "message": "What do you need?",
+      "send": "Request Quote",
+      "back": "Back to Home"
+    },
     "testimonials": {
       "title": "What Clients Say",
       "items": [
@@ -81,10 +189,11 @@
       "about": "Nosotros",
       "services": "Servicios",
       "portfolio": "Portafolio",
+      "pricing": "Precios",
       "contact": "Contacto"
     },
     "hero": {
-      "headline": "ELAI es un estudio creativo que crea experiencias digitales a través del diseño, el movimiento y la narrativa.",
+      "headline": "Un Estudio Creativo que Crea Experiencias Digitales",
       "subline": "Diseñamos. Desarrollamos. Creamos.",
       "cta": "Ver Nuestro Trabajo"
     },
@@ -127,6 +236,113 @@
       "viewProject": "Ver Proyecto",
       "moreWorks": "Más Trabajos"
     },
+    "pricing": {
+      "title": "Precios",
+      "subtitle": "Paquetes transparentes para cada necesidad",
+      "getQuote": "Solicitar Cotización",
+      "startingFrom": "Desde",
+      "perExtra": "por cada 10 seg extra",
+      "packages": [
+        {
+          "name": "Básico",
+          "price": "$500",
+          "type": "fixed",
+          "desc": "Perfecto para pequeñas empresas y marcas personales que comienzan en línea.",
+          "features": [
+            "Sitio web de una página o sitio de 3–5 páginas",
+            "Totalmente estático y ultrarrápido",
+            "Diseño responsivo (móvil, tablet, escritorio)",
+            "Formulario de contacto reenviado a tu correo",
+            "Estructura optimizada para SEO",
+            "1 ronda de revisiones"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$1,000",
+          "type": "fixed",
+          "popular": true,
+          "desc": "Para negocios en crecimiento que necesitan control total sobre su contenido.",
+          "features": [
+            "Sitio web de 5–10 páginas",
+            "Panel de administración CMS — edita tu contenido",
+            "Formularios personalizados y funcionalidad de blog",
+            "Hasta 2 idiomas soportados",
+            "Diseño responsivo y optimización SEO",
+            "2 rondas de revisiones"
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "price": "$1,500",
+          "type": "fixed",
+          "desc": "Sitios web de nivel empresarial para marcas que exigen lo mejor.",
+          "features": [
+            "Sitio web de 10–30 páginas",
+            "Panel de administración CMS con controles avanzados",
+            "Formularios personalizados y funcionalidad de blog",
+            "Hasta 5 idiomas soportados",
+            "SEO avanzado y optimización de rendimiento",
+            "3 rondas de revisiones"
+          ]
+        },
+        {
+          "name": "eCommerce",
+          "price": "$1,500",
+          "type": "starting",
+          "desc": "Lanza tu tienda en línea con Shopify — la plataforma de eCommerce líder en el mundo.",
+          "features": [
+            "Configuración de tienda Shopify y tema personalizado",
+            "Catálogo de productos y gestión de inventario",
+            "Integración de pasarela de pago",
+            "Responsivo y optimizado para conversión",
+            "Configuración de SEO y analítica",
+            "Sesión de capacitación incluida"
+          ]
+        },
+        {
+          "name": "Animación y Película",
+          "price": "$1,000",
+          "type": "starting",
+          "priceNote": "+$200 por cada 10 seg extra",
+          "desc": "Contenido de movimiento profesional desde 30 segundos. Perfecto para historias de marca y promociones.",
+          "features": [
+            "Animación o cortometraje de 30 segundos",
+            "Desarrollo de concepto y storyboard",
+            "Gráficos de movimiento profesionales",
+            "Música de fondo y diseño de sonido",
+            "Entrega en 4K",
+            "+$200 por cada 10 segundos adicionales"
+          ]
+        },
+        {
+          "name": "Personalizado",
+          "price": "?",
+          "type": "custom",
+          "desc": "¿Tienes algo único en mente? Hablemos de tu visión y creemos una solución a medida.",
+          "features": [
+            "Paquetes de diseño para redes sociales",
+            "Diseño de impresión y empaque",
+            "Diseño de presentaciones",
+            "Consultoría de estrategia de marca",
+            "Retainers de diseño continuo",
+            "Lo que necesites — lo haremos realidad"
+          ]
+        }
+      ]
+    },
+    "quote": {
+      "title": "Solicitar Cotización",
+      "subtitle": "Cuéntanos sobre tu proyecto y te responderemos en 24 horas.",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "company": "Nombre de la Empresa",
+      "message": "¿Qué necesitas?",
+      "send": "Solicitar Cotización",
+      "back": "Volver al Inicio"
+    },
     "testimonials": {
       "title": "Lo Que Dicen Nuestros Clientes",
       "items": [
@@ -156,10 +372,11 @@
       "about": "О нас",
       "services": "Услуги",
       "portfolio": "Портфолио",
+      "pricing": "Цены",
       "contact": "Контакт"
     },
     "hero": {
-      "headline": "ELAI — креативная студия, создающая цифровые впечатления через дизайн, движение и сторителлинг.",
+      "headline": "Креативная Студия, Создающая Цифровые Впечатления",
       "subline": "Мы проектируем. Мы разрабатываем. Мы создаём.",
       "cta": "Смотреть Работы"
     },
@@ -201,6 +418,113 @@
       "subtitle": "Обзор наших недавних проектов",
       "viewProject": "Смотреть Проект",
       "moreWorks": "Больше Работ"
+    },
+    "pricing": {
+      "title": "Цены",
+      "subtitle": "Прозрачные пакеты для любых задач",
+      "getQuote": "Запросить Предложение",
+      "startingFrom": "От",
+      "perExtra": "за каждые доп. 10 сек",
+      "packages": [
+        {
+          "name": "Базовый",
+          "price": "$500",
+          "type": "fixed",
+          "desc": "Идеально для малого бизнеса и персональных брендов, начинающих свой путь онлайн.",
+          "features": [
+            "Одностраничный сайт или сайт из 3–5 страниц",
+            "Полностью статический и молниеносный",
+            "Адаптивный дизайн (мобильный, планшет, десктоп)",
+            "Контактная форма с пересылкой на вашу почту",
+            "SEO-оптимизированная структура",
+            "1 раунд правок"
+          ]
+        },
+        {
+          "name": "Про",
+          "price": "$1,000",
+          "type": "fixed",
+          "popular": true,
+          "desc": "Для растущего бизнеса, которому нужен полный контроль над контентом.",
+          "features": [
+            "Многостраничный сайт из 5–10 страниц",
+            "Админ-панель CMS — редактируйте контент сами",
+            "Пользовательские формы и блог",
+            "Поддержка до 2 языков",
+            "Адаптивный дизайн и SEO-оптимизация",
+            "2 раунда правок"
+          ]
+        },
+        {
+          "name": "Ультимейт",
+          "price": "$1,500",
+          "type": "fixed",
+          "desc": "Сайты корпоративного уровня для брендов, которые требуют лучшего.",
+          "features": [
+            "Многостраничный сайт из 10–30 страниц",
+            "Админ-панель CMS с расширенными возможностями",
+            "Пользовательские формы и блог",
+            "Поддержка до 5 языков",
+            "Продвинутая SEO и оптимизация производительности",
+            "3 раунда правок"
+          ]
+        },
+        {
+          "name": "Интернет-магазин",
+          "price": "$1,500",
+          "type": "starting",
+          "desc": "Запустите свой интернет-магазин на Shopify — ведущей мировой платформе электронной коммерции.",
+          "features": [
+            "Настройка магазина Shopify и кастомная тема",
+            "Каталог товаров и управление складом",
+            "Интеграция платёжного шлюза",
+            "Адаптивный дизайн для конверсии",
+            "Настройка SEO и аналитики",
+            "Обучающая сессия включена"
+          ]
+        },
+        {
+          "name": "Анимация и Фильм",
+          "price": "$1,000",
+          "type": "starting",
+          "priceNote": "+$200 за каждые доп. 10 сек",
+          "desc": "Профессиональный моушн-контент от 30 секунд. Идеально для брендовых историй и промо.",
+          "features": [
+            "30-секундная анимация или короткометражка",
+            "Разработка концепции и раскадровки",
+            "Профессиональная моушн-графика",
+            "Фоновая музыка и саунд-дизайн",
+            "Доставка в 4K",
+            "+$200 за каждые дополнительные 10 секунд"
+          ]
+        },
+        {
+          "name": "Индивидуальный",
+          "price": "?",
+          "type": "custom",
+          "desc": "Есть уникальная идея? Давайте обсудим ваше видение и создадим индивидуальное решение.",
+          "features": [
+            "Пакеты дизайна для соцсетей",
+            "Дизайн полиграфии и упаковки",
+            "Дизайн презентаций",
+            "Консалтинг по стратегии бренда",
+            "Постоянное дизайн-обслуживание",
+            "Что бы вам ни понадобилось — мы реализуем"
+          ]
+        }
+      ]
+    },
+    "quote": {
+      "title": "Запросить Предложение",
+      "subtitle": "Расскажите о вашем проекте, и мы ответим в течение 24 часов.",
+      "firstName": "Имя",
+      "lastName": "Фамилия",
+      "email": "Электронная Почта",
+      "phone": "Телефон",
+      "company": "Название Компании",
+      "message": "Что вам нужно?",
+      "send": "Запросить Предложение",
+      "back": "Вернуться на Главную"
     },
     "testimonials": {
       "title": "Что Говорят Клиенты",

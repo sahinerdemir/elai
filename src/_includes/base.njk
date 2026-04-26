@@ -8,21 +8,22 @@
   <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="bg-dark text-white overflow-x-hidden">
 
   <!-- Navigation -->
-  <nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" id="navbar">
-    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+  <nav class="fixed z-50 transition-all duration-300" style="top: 32px; left: 32px; right: 32px; border-radius: 9999px; background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.08);" id="navbar">
+    <div class="px-6 py-3 flex items-center justify-between">
       <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}" class="flex items-center">
-        <img src="/assets/logo.svg" alt="ELAI" class="h-8 invert">
+        <img src="/assets/logo.svg" alt="ELAI" class="invert" style="height: 26px;">
       </a>
       <div class="hidden md:flex items-center gap-10">
         <a href="#about" class="nav-link">{{ i18n[locale].nav.about }}</a>
         <a href="#services" class="nav-link">{{ i18n[locale].nav.services }}</a>
         <a href="#portfolio" class="nav-link">{{ i18n[locale].nav.portfolio }}</a>
+        <a href="#pricing" class="nav-link">{{ i18n[locale].nav.pricing }}</a>
         <a href="#contact" class="nav-link">{{ i18n[locale].nav.contact }}</a>
       </div>
       <div class="flex items-center gap-6">
@@ -43,6 +44,7 @@
         <a href="#about" class="nav-link text-lg">{{ i18n[locale].nav.about }}</a>
         <a href="#services" class="nav-link text-lg">{{ i18n[locale].nav.services }}</a>
         <a href="#portfolio" class="nav-link text-lg">{{ i18n[locale].nav.portfolio }}</a>
+        <a href="#pricing" class="nav-link text-lg">{{ i18n[locale].nav.pricing }}</a>
         <a href="#contact" class="nav-link text-lg">{{ i18n[locale].nav.contact }}</a>
       </div>
     </div>
@@ -71,11 +73,11 @@
   <div class="py-6 border-y border-white/10 overflow-hidden">
     <div class="marquee-track flex whitespace-nowrap">
       {% for i in range(0, 3) %}
-      <span class="marquee-segment flex whitespace-nowrap">
+      <span class="marquee-segment flex whitespace-nowrap items-center">
         {% set words = ["ELAI STUDIO", "TECHNOLOGY", "AI", "DESIGN", "CREATIVITY", "DEVELOPMENT", "SOLUTION", "STRATEGY"] %}
         {% for word in words %}
-        <span class="text-5xl md:text-7xl font-display font-bold text-white/5 mx-6">{{ word }}</span>
-        <span class="text-5xl md:text-7xl font-display font-bold text-accent/10 mx-6">✦</span>
+        <span class="text-5xl md:text-7xl font-display font-light text-white/5 mx-6">{{ word }}</span>
+        <span class="text-3xl md:text-4xl text-white/10 mx-6" style="-webkit-text-stroke: 1px rgba(255,255,255,0.15); color: transparent;">&#10022;</span>
         {% endfor %}
       </span>
       {% endfor %}
@@ -93,7 +95,7 @@
         </div>
         <div class="grid grid-cols-3 gap-6">
           <div class="text-center">
-            <div class="text-5xl font-display font-bold text-accent mb-2">5+</div>
+            <div class="text-5xl font-display font-bold text-accent mb-2">20+</div>
             <p class="text-sm text-white/50">{{ i18n[locale].about.experience }}</p>
           </div>
           <div class="text-center">
@@ -174,13 +176,79 @@
     </div>
   </section>
 
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-24 md:py-36 bg-white/[0.02]">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-accent font-medium tracking-widest uppercase text-sm mb-4">{{ i18n[locale].pricing.subtitle }}</p>
+        <h2 class="section-title">{{ i18n[locale].pricing.title }}</h2>
+      </div>
+
+      <!-- Slider container -->
+      <div class="relative">
+        <div class="overflow-hidden" id="pricing-viewport">
+          <div class="flex transition-transform duration-500 ease-out" id="pricing-track">
+            {% for pkg in i18n[locale].pricing.packages %}
+            <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+              <div class="relative border border-white/10 rounded-2xl p-8 h-full flex flex-col {{ 'border-accent/50 bg-accent/5' if pkg.popular }}">
+                {% if pkg.popular %}
+                <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-dark text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider">Popular</div>
+                {% endif %}
+                <h3 class="text-2xl font-display font-semibold mb-2">{{ pkg.name }}</h3>
+                <div class="flex items-baseline gap-1 mb-4">
+                  {% if pkg.type == 'custom' %}
+                  <span class="text-4xl font-display font-bold text-accent">—</span>
+                  {% elif pkg.type == 'starting' %}
+                  <span class="text-sm text-white/50">{{ i18n[locale].pricing.startingFrom }}</span>
+                  <span class="text-4xl font-display font-bold text-accent">{{ pkg.price }}</span>
+                  {% else %}
+                  <span class="text-4xl font-display font-bold text-accent">{{ pkg.price }}</span>
+                  {% endif %}
+                </div>
+                {% if pkg.priceNote %}
+                <p class="text-sm text-accent/70 -mt-2 mb-4">{{ pkg.priceNote }}</p>
+                {% endif %}
+                <p class="text-white/50 text-sm mb-6 leading-relaxed">{{ pkg.desc }}</p>
+                <ul class="space-y-3 mb-8 flex-1">
+                  {% for feature in pkg.features %}
+                  <li class="flex items-start gap-3 text-sm text-white/70">
+                    <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    {{ feature }}
+                  </li>
+                  {% endfor %}
+                </ul>
+                {% if pkg.type == 'custom' %}
+                <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}quote/" class="btn-outline text-center justify-center">{{ i18n[locale].pricing.getQuote }}</a>
+                {% else %}
+                <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}quote/" class="btn-primary text-center justify-center">{{ i18n[locale].pricing.getQuote }}</a>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <!-- Slider arrows -->
+        <button id="pricing-prev" class="absolute top-1/2 -translate-y-1/2 -left-4 md:-left-6 w-12 h-12 rounded-full border border-white/20 bg-dark/80 backdrop-blur flex items-center justify-center hover:border-accent transition-colors z-10">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <button id="pricing-next" class="absolute top-1/2 -translate-y-1/2 -right-4 md:-right-6 w-12 h-12 rounded-full border border-white/20 bg-dark/80 backdrop-blur flex items-center justify-center hover:border-accent transition-colors z-10">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </button>
+
+        <!-- Dots -->
+        <div class="flex justify-center gap-2 mt-8" id="pricing-dots"></div>
+      </div>
+    </div>
+  </section>
+
   <!-- Testimonials Marquee -->
   <div class="py-16 border-y border-white/10 overflow-hidden">
     <div class="marquee-track marquee-slow flex whitespace-nowrap">
       {% for i in range(0, 3) %}
       <span class="marquee-segment flex whitespace-nowrap">
         {% for item in i18n[locale].testimonials.items %}
-        <span class="text-3xl md:text-5xl font-display font-bold text-white/10 mx-8">★ {{ item }}</span>
+        <span class="text-3xl md:text-5xl font-display font-light text-white/10 mx-8">★ {{ item }}</span>
         {% endfor %}
       </span>
       {% endfor %}
@@ -227,6 +295,7 @@
           <a href="#about" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.about }}</a>
           <a href="#services" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.services }}</a>
           <a href="#portfolio" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.portfolio }}</a>
+          <a href="#pricing" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.pricing }}</a>
           <a href="#contact" class="text-sm text-white/40 hover:text-white transition-colors">{{ i18n[locale].nav.contact }}</a>
         </div>
       </div>
@@ -238,15 +307,13 @@
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
       if (window.scrollY > 50) {
-        navbar.style.backgroundColor = 'rgba(10,10,10,0.9)';
-        navbar.style.backdropFilter = 'blur(24px)';
-        navbar.style.paddingTop = '0.5rem';
-        navbar.style.paddingBottom = '0.5rem';
+        navbar.style.background = 'rgba(10,10,10,0.7)';
+        navbar.style.backdropFilter = 'blur(30px)';
+        navbar.style.borderColor = 'rgba(255,255,255,0.12)';
       } else {
-        navbar.style.backgroundColor = '';
-        navbar.style.backdropFilter = '';
-        navbar.style.paddingTop = '';
-        navbar.style.paddingBottom = '';
+        navbar.style.background = 'rgba(255,255,255,0.05)';
+        navbar.style.backdropFilter = 'blur(20px)';
+        navbar.style.borderColor = 'rgba(255,255,255,0.08)';
       }
     });
 
@@ -256,11 +323,66 @@
     menuToggle.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
     });
-
-    // Close mobile menu on link click
     mobileMenu.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
     });
+
+    // Pricing slider
+    (function() {
+      const track = document.getElementById('pricing-track');
+      const viewport = document.getElementById('pricing-viewport');
+      const prevBtn = document.getElementById('pricing-prev');
+      const nextBtn = document.getElementById('pricing-next');
+      const dotsContainer = document.getElementById('pricing-dots');
+      if (!track) return;
+
+      let current = 0;
+
+      function getVisible() {
+        const w = window.innerWidth;
+        if (w >= 1024) return 3;
+        if (w >= 768) return 2;
+        return 1;
+      }
+
+      function getMaxSlide() {
+        return Math.max(0, track.children.length - getVisible());
+      }
+
+      function updateSlider() {
+        const cardWidth = 100 / getVisible();
+        track.style.transform = 'translateX(-' + (current * cardWidth) + '%)';
+        updateDots();
+      }
+
+      function updateDots() {
+        const max = getMaxSlide();
+        dotsContainer.innerHTML = '';
+        for (let i = 0; i <= max; i++) {
+          const dot = document.createElement('button');
+          dot.className = 'w-2 h-2 rounded-full transition-colors ' + (i === current ? 'bg-accent' : 'bg-white/20');
+          dot.addEventListener('click', () => { current = i; updateSlider(); });
+          dotsContainer.appendChild(dot);
+        }
+      }
+
+      prevBtn.addEventListener('click', () => {
+        current = Math.max(0, current - 1);
+        updateSlider();
+      });
+
+      nextBtn.addEventListener('click', () => {
+        current = Math.min(getMaxSlide(), current + 1);
+        updateSlider();
+      });
+
+      window.addEventListener('resize', () => {
+        current = Math.min(current, getMaxSlide());
+        updateSlider();
+      });
+
+      updateSlider();
+    })();
 
     // Scroll animations
     const observer = new IntersectionObserver((entries) => {
