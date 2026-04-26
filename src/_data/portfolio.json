@@ -81,6 +81,102 @@
       }
     },
     {
+      "slug": "vellaro-doors",
+      "type": "web",
+      "year": "2024",
+      "category": "web",
+      "thumbnail": "/assets/images/portfolio/vellaro/cover.jpg",
+      "screenshots": [
+        "/assets/images/portfolio/vellaro/ss1.jpg",
+        "/assets/images/portfolio/vellaro/ss2.jpg",
+        "/assets/images/portfolio/vellaro/ss3.jpg"
+      ],
+      "gallery": [
+        "/assets/images/portfolio/vellaro/img1.jpg",
+        "/assets/images/portfolio/vellaro/img2.jpg",
+        "/assets/images/portfolio/vellaro/img3.jpg",
+        "/assets/images/portfolio/vellaro/img4.jpg"
+      ],
+      "en": {
+        "title": "Vellaro Doors",
+        "metaTitle": "Vellaro Doors — Website Design Case Study | ELAI Studio",
+        "metaDesc": "Corporate website design for Vellaro Doors, a premium door manufacturer. Elegant design, multi-language support, and SEO-optimized architecture.",
+        "cat": "Web Design",
+        "subtitle": "Where elegance opens — a premium digital presence",
+        "overview": "Vellaro Doors is a premium door manufacturer that needed a website as refined as their products. We designed an elegant, multi-language corporate site that showcases their craftsmanship while driving qualified leads through strategically placed calls-to-action.",
+        "details": [
+          { "label": "Client", "value": "Vellaro Doors" },
+          { "label": "Timeline", "value": "5 weeks" },
+          { "label": "Techniques", "value": "Responsive Design, SEO Architecture, Multi-Language, Contact Form Integration" }
+        ],
+        "screenshotTexts": [
+          "The homepage opens with a cinematic hero section that immediately communicates luxury and craftsmanship. Bold typography paired with high-quality imagery creates a premium first impression that sets the tone for the entire brand experience.",
+          "The product catalog features an intuitive filtering system that allows visitors to explore doors by style, material, and finish. Each product page is designed with large visuals and detailed specifications to replicate the in-showroom experience.",
+          "The contact section combines a clean inquiry form with location information and a direct WhatsApp integration, making it effortless for potential clients to reach out through their preferred channel."
+        ],
+        "sections": [
+          {
+            "title": "The Challenge",
+            "text": "Vellaro Doors needed a digital presence that matched the quality of their premium products. The existing website lacked visual impact and failed to convey the brand's positioning as a luxury door manufacturer."
+          },
+          {
+            "title": "Design Approach",
+            "text": "We chose a dark, elegant color palette with gold accents that mirrors the sophistication of the brand. Large-scale photography, generous white space, and refined typography create a browsing experience that feels more like a luxury magazine than a typical corporate site."
+          },
+          {
+            "title": "The Result",
+            "text": "A visually stunning website that has become a key sales tool for Vellaro Doors, driving a significant increase in qualified inquiries and reinforcing their position as a premium brand in the market."
+          }
+        ]
+      },
+      "es": {
+        "title": "Vellaro Doors",
+        "metaTitle": "Vellaro Doors — Caso de Estudio de Diseño Web | ELAI Studio",
+        "metaDesc": "Diseño web corporativo para Vellaro Doors, fabricante de puertas premium. Diseño elegante, soporte multiidioma y arquitectura SEO.",
+        "cat": "Diseño Web",
+        "subtitle": "Donde la elegancia se abre — una presencia digital premium",
+        "overview": "Vellaro Doors es un fabricante de puertas premium que necesitaba un sitio web tan refinado como sus productos. Diseñamos un sitio corporativo elegante y multiidioma que muestra su artesanía.",
+        "details": [
+          { "label": "Cliente", "value": "Vellaro Doors" },
+          { "label": "Duración", "value": "5 semanas" },
+          { "label": "Técnicas", "value": "Diseño Responsivo, Arquitectura SEO, Multi-idioma, Integración de Formulario" }
+        ],
+        "screenshotTexts": [
+          "La página de inicio se abre con un hero cinematográfico que comunica lujo y artesanía de inmediato. Tipografía audaz combinada con imágenes de alta calidad crea una primera impresión premium.",
+          "El catálogo de productos presenta un sistema de filtrado intuitivo que permite explorar puertas por estilo, material y acabado. Cada página de producto está diseñada con visuales grandes y especificaciones detalladas.",
+          "La sección de contacto combina un formulario limpio con información de ubicación e integración directa de WhatsApp, facilitando que los clientes potenciales se comuniquen por su canal preferido."
+        ],
+        "sections": [
+          { "title": "El Desafío", "text": "Vellaro Doors necesitaba una presencia digital que igualara la calidad de sus productos premium. El sitio web existente carecía de impacto visual." },
+          { "title": "Enfoque de Diseño", "text": "Elegimos una paleta de colores oscura y elegante con acentos dorados que refleja la sofisticación de la marca. Fotografía a gran escala y tipografía refinada." },
+          { "title": "El Resultado", "text": "Un sitio web visualmente impresionante que se ha convertido en una herramienta clave de ventas, impulsando un aumento significativo en consultas cualificadas." }
+        ]
+      },
+      "ru": {
+        "title": "Vellaro Doors",
+        "metaTitle": "Vellaro Doors — Кейс Дизайна Сайта | ELAI Studio",
+        "metaDesc": "Корпоративный дизайн сайта для Vellaro Doors, производителя премиальных дверей. Элегантный дизайн, мультиязычность и SEO-архитектура.",
+        "cat": "Веб-дизайн",
+        "subtitle": "Где элегантность открывается — премиальное цифровое присутствие",
+        "overview": "Vellaro Doors — производитель премиальных дверей, которому нужен был сайт столь же утончённый, как их продукция. Мы создали элегантный мультиязычный корпоративный сайт.",
+        "details": [
+          { "label": "Клиент", "value": "Vellaro Doors" },
+          { "label": "Сроки", "value": "5 недель" },
+          { "label": "Техники", "value": "Адаптивный дизайн, SEO-архитектура, Мультиязычность, Интеграция формы" }
+        ],
+        "screenshotTexts": [
+          "Главная страница открывается кинематографичным хиро-разделом, мгновенно передающим роскошь и мастерство. Смелая типографика и качественные фото создают премиальное первое впечатление.",
+          "Каталог продукции с интуитивной фильтрацией позволяет изучать двери по стилю, материалу и отделке. Каждая страница продукта с крупными визуалами и подробными характеристиками.",
+          "Раздел контактов сочетает чистую форму запроса с информацией о локации и интеграцией WhatsApp, упрощая связь для потенциальных клиентов."
+        ],
+        "sections": [
+          { "title": "Задача", "text": "Vellaro Doors нуждались в цифровом присутствии, соответствующем качеству их премиальной продукции. Существующий сайт не производил визуального впечатления." },
+          { "title": "Дизайн-Подход", "text": "Мы выбрали тёмную элегантную палитру с золотыми акцентами, отражающую утончённость бренда. Крупная фотография и изысканная типографика." },
+          { "title": "Результат", "text": "Визуально потрясающий сайт, ставший ключевым инструментом продаж и значительно увеличивший количество качественных запросов." }
+        ]
+      }
+    },
+    {
       "slug": "brand-identity-project",
       "type": "design",
       "year": "2025",

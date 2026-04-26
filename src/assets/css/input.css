@@ -64,6 +64,38 @@
   .filter-btn.active {
     @apply bg-accent text-dark border-accent font-semibold;
   }
+  .laptop-mockup {
+    @apply rounded-xl overflow-hidden border border-white/10;
+    background: #1a1a1a;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+  }
+  .laptop-top-bar {
+    @apply px-4 py-2.5 border-b border-white/5 flex items-center;
+    background: #1e1e1e;
+  }
+  .laptop-dots {
+    @apply flex gap-1.5;
+  }
+  .laptop-dots span {
+    @apply w-2.5 h-2.5 rounded-full;
+  }
+  .laptop-dots span:nth-child(1) { background: #ff5f57; }
+  .laptop-dots span:nth-child(2) { background: #febc2e; }
+  .laptop-dots span:nth-child(3) { background: #28c840; }
+  .laptop-screen {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .laptop-screen img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .laptop-bottom {
+    @apply h-3 border-t border-white/5;
+    background: #1e1e1e;
+  }
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
