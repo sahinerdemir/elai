@@ -165,24 +165,6 @@
   {% endfor %}
   {% endif %}
 
-  {% if projectData.type == 'design' %}
-  <!-- Design Showcase -->
-  <section class="py-8">
-    <div class="max-w-5xl mx-auto px-6">
-      <div class="grid md:grid-cols-2 gap-6">
-        {% for img in projectData.gallery | batch(2) %}
-        {% for item in img %}
-        <div class="rounded-2xl overflow-hidden bg-white/5 border border-white/10 {{ 'md:col-span-2' if loop.index == 1 and loop.first }}">
-          <div class="aspect-[4/3] flex items-center justify-center">
-            <p class="text-white/20 text-sm">Design asset placeholder {{ loop.index }}</p>
-          </div>
-        </div>
-        {% endfor %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
 
   <!-- Content Sections -->
   {% for section in proj.sections %}
