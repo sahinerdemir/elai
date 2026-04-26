@@ -19,14 +19,15 @@
       "en": {
         "title": "The Echoes of Rust",
         "metaTitle": "The Echoes of Rust — Short Film | ELAI Studio",
-        "metaDesc": "A cyberpunk short film set in a post-apocalyptic world where the future forgot us, but the ruins remembered. Concept art, animation, and full production by ELAI Studio.",
-        "cat": "Short Film",
+        "metaDesc": "A cinematic game trailer for a cyberpunk mobile and desktop game set in a post-apocalyptic world. AI-generated imagery, After Effects compositing, and ElevenLabs voice over.",
+        "cat": "Game Trailer",
         "subtitle": "When the future forgot us, the ruins remembered",
-        "overview": "The Echoes of Rust is a visually stunning cyberpunk short film that explores a post-apocalyptic world where technology and decay coexist. Set in a forgotten city overrun by rust and neon, the film follows two survivors navigating the remnants of a civilization that once reached for the stars.",
+        "overview": "The Echoes of Rust is a cinematic trailer for a mobile and desktop cyberpunk game set in a post-apocalyptic world where technology and decay coexist. Created using AI-generated imagery, composited in Adobe After Effects, with voice over and sound design powered by ElevenLabs.",
         "details": [
-          { "label": "Category", "value": "Short Film / Animation" },
-          { "label": "Year", "value": "2024" },
-          { "label": "Deliverables", "value": "Concept Art, Animation, Sound Design, Poster" }
+          { "label": "Category", "value": "Game Trailer / Promo" },
+          { "label": "Duration", "value": "60 seconds" },
+          { "label": "Techniques", "value": "AI-Generated Imagery, Digital Compositing, Cinematic Color Grading, Motion Design" },
+          { "label": "Tools", "value": "Imagery by AI, Adobe After Effects, Sounds & Voice Over by ElevenLabs" }
         ],
         "sections": [
           {
@@ -46,14 +47,15 @@
       "es": {
         "title": "The Echoes of Rust",
         "metaTitle": "The Echoes of Rust — Cortometraje | ELAI Studio",
-        "metaDesc": "Un cortometraje cyberpunk en un mundo post-apocalíptico donde el futuro nos olvidó, pero las ruinas recordaron. Arte conceptual, animación y producción completa.",
-        "cat": "Cortometraje",
+        "metaDesc": "Tráiler cinematográfico para un juego cyberpunk móvil y de escritorio. Imágenes generadas por IA, composición en After Effects y voz por ElevenLabs.",
+        "cat": "Tráiler de Juego",
         "subtitle": "Cuando el futuro nos olvidó, las ruinas recordaron",
-        "overview": "The Echoes of Rust es un impresionante cortometraje cyberpunk que explora un mundo post-apocalíptico donde la tecnología y la decadencia coexisten. Ambientado en una ciudad olvidada invadida por el óxido y el neón.",
+        "overview": "The Echoes of Rust es un tráiler cinematográfico para un juego cyberpunk de móvil y escritorio ambientado en un mundo post-apocalíptico. Creado con imágenes generadas por IA, composición en Adobe After Effects y voz y sonido por ElevenLabs.",
         "details": [
-          { "label": "Categoría", "value": "Cortometraje / Animación" },
-          { "label": "Año", "value": "2024" },
-          { "label": "Entregables", "value": "Arte Conceptual, Animación, Diseño de Sonido, Póster" }
+          { "label": "Categoría", "value": "Tráiler de Juego / Promo" },
+          { "label": "Duración", "value": "60 segundos" },
+          { "label": "Técnicas", "value": "Imágenes Generadas por IA, Composición Digital, Color Grading Cinematográfico, Motion Design" },
+          { "label": "Herramientas", "value": "Imagery by AI, Adobe After Effects, Sounds & Voice Over by ElevenLabs" }
         ],
         "sections": [
           { "title": "La Visión", "text": "Nos propusimos crear un mundo que se siente tanto ajeno como familiar — un futuro construido sobre los huesos de nuestro presente. Cada fotograma fue diseñado para contar una historia de resiliencia y la belleza inquietante de la decadencia." },
@@ -64,14 +66,15 @@
       "ru": {
         "title": "The Echoes of Rust",
         "metaTitle": "The Echoes of Rust — Короткометражный Фильм | ELAI Studio",
-        "metaDesc": "Киберпанк-короткометражка в постапокалиптическом мире, где будущее забыло нас, но руины помнили. Концепт-арт, анимация и полное производство.",
-        "cat": "Короткометражка",
+        "metaDesc": "Кинематографичный трейлер киберпанк-игры для мобильных и десктопа. ИИ-изображения, композитинг в After Effects, озвучка ElevenLabs.",
+        "cat": "Трейлер Игры",
         "subtitle": "Когда будущее забыло нас, руины помнили",
-        "overview": "The Echoes of Rust — визуально потрясающий киберпанк-короткометражный фильм, исследующий постапокалиптический мир, где технологии и разрушение сосуществуют. Действие разворачивается в забытом городе, захваченном ржавчиной и неоном.",
+        "overview": "The Echoes of Rust — кинематографичный трейлер киберпанк-игры для мобильных и десктопа в постапокалиптическом мире. Создан с помощью ИИ-генерации изображений, композитинга в Adobe After Effects, озвучки и саунд-дизайна от ElevenLabs.",
         "details": [
-          { "label": "Категория", "value": "Короткометражка / Анимация" },
-          { "label": "Год", "value": "2024" },
-          { "label": "Результаты", "value": "Концепт-арт, Анимация, Саунд-дизайн, Постер" }
+          { "label": "Категория", "value": "Трейлер Игры / Промо" },
+          { "label": "Длительность", "value": "60 секунд" },
+          { "label": "Техники", "value": "ИИ-генерация изображений, Цифровой композитинг, Кинематографичная цветокоррекция, Моушн-дизайн" },
+          { "label": "Инструменты", "value": "Imagery by AI, Adobe After Effects, Sounds & Voice Over by ElevenLabs" }
         ],
         "sections": [
           { "title": "Видение", "text": "Мы стремились создать мир, который ощущается одновременно чужим и знакомым — будущее, построенное на костях нашего настоящего. Каждый кадр был создан, чтобы рассказать историю стойкости и завораживающей красоты разрушения." },
