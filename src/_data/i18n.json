@@ -187,7 +187,8 @@
       "nameLabel": "Your Name",
       "emailLabel": "Your Email",
       "messageLabel": "Tell us about your project",
-      "send": "Send Message"
+      "send": "Send Message",
+      "sending": "Sending..."
     },
     "footer": {
       "rights": "All rights reserved."
@@ -381,7 +382,8 @@
       "nameLabel": "Tu Nombre",
       "emailLabel": "Tu Correo",
       "messageLabel": "Cuéntanos sobre tu proyecto",
-      "send": "Enviar Mensaje"
+      "send": "Enviar Mensaje",
+      "sending": "Enviando..."
     },
     "footer": {
       "rights": "Todos los derechos reservados."
@@ -575,7 +577,8 @@
       "nameLabel": "Ваше Имя",
       "emailLabel": "Ваш Email",
       "messageLabel": "Расскажите о вашем проекте",
-      "send": "Отправить"
+      "send": "Отправить",
+      "sending": "Отправка..."
     },
     "footer": {
       "rights": "Все права защищены."
