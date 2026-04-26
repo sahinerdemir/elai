@@ -257,6 +257,267 @@
       }
     },
     {
+      "slug": "branding-collection",
+      "type": "design",
+      "year": "2025",
+      "category": "branding",
+      "thumbnail": "/assets/images/portfolio/branding-collection/cover.jpg",
+      "screenshots": [
+        "/assets/images/portfolio/branding-collection/ss1.png",
+        "/assets/images/portfolio/branding-collection/ss2.jpg"
+      ],
+      "gallery": [
+        "/assets/images/portfolio/branding-collection/img1.jpg",
+        "/assets/images/portfolio/branding-collection/img2.jpg",
+        "/assets/images/portfolio/branding-collection/img3.jpg",
+        "/assets/images/portfolio/branding-collection/img4.jpg",
+        "/assets/images/portfolio/branding-collection/img5.jpg",
+        "/assets/images/portfolio/branding-collection/img6.jpg",
+        "/assets/images/portfolio/branding-collection/img7.jpg"
+      ],
+      "en": {
+        "title": "Branding Collection",
+        "metaTitle": "Branding Design Collection — Selected Works | ELAI Studio",
+        "metaDesc": "A curated collection of brand identity projects — logo design, visual systems, and brand guidelines crafted for diverse industries and businesses.",
+        "cat": "Branding",
+        "subtitle": "A curated selection of our brand identity work",
+        "overview": "This collection showcases a range of branding projects we've completed for clients across different industries. From initial logo sketches to finalized brand systems, each project demonstrates our approach to creating memorable, versatile, and strategically sound visual identities.",
+        "details": [
+          { "label": "Category", "value": "Brand Identity Collection" },
+          { "label": "Period", "value": "2024 – 2025" },
+          { "label": "Techniques", "value": "Logo Design, Typography Systems, Visual Identity, Brand Guidelines" }
+        ],
+        "screenshotTexts": [
+          "Our logo design process begins with extensive exploration — dozens of hand-drawn concepts refined through geometric precision and typographic balance until each mark achieves the perfect blend of simplicity and distinction.",
+          "From logo marks to full brand systems, we deliver cohesive identities that work across every touchpoint — digital, print, signage, and beyond."
+        ],
+        "sections": [
+          {
+            "title": "Our Branding Philosophy",
+            "text": "We believe a great brand is built on clarity, not complexity. Every identity we create starts with understanding the core essence of the business — what makes it unique, who it serves, and where it's headed. The visual system that emerges is always a reflection of that strategic foundation."
+          },
+          {
+            "title": "From Sketch to System",
+            "text": "Our process moves from hand-drawn explorations through digital refinement to comprehensive brand guidelines. We don't just design logos — we build complete visual languages that include typography, color systems, iconography, and application rules that ensure consistency at every scale."
+          },
+          {
+            "title": "Versatility by Design",
+            "text": "Every brand mark we create is tested across scenarios — from a 16px favicon to a billboard, from dark backgrounds to light, from print to screen. The result is an identity that performs flawlessly regardless of context."
+          }
+        ]
+      },
+      "es": {
+        "title": "Colección de Branding",
+        "metaTitle": "Colección de Diseño de Marca — Trabajos Seleccionados | ELAI Studio",
+        "metaDesc": "Una colección curada de proyectos de identidad de marca — diseño de logo, sistemas visuales y guías de marca para diversas industrias.",
+        "cat": "Branding",
+        "subtitle": "Una selección curada de nuestro trabajo de identidad de marca",
+        "overview": "Esta colección muestra una variedad de proyectos de branding que hemos completado para clientes de diferentes industrias. Desde bocetos iniciales hasta sistemas de marca finalizados.",
+        "details": [
+          { "label": "Categoría", "value": "Colección de Identidad de Marca" },
+          { "label": "Período", "value": "2024 – 2025" },
+          { "label": "Técnicas", "value": "Diseño de Logo, Sistemas Tipográficos, Identidad Visual, Guías de Marca" }
+        ],
+        "screenshotTexts": [
+          "Nuestro proceso de diseño de logo comienza con una exploración extensiva — docenas de conceptos dibujados a mano, refinados con precisión geométrica y equilibrio tipográfico.",
+          "Desde logotipos hasta sistemas de marca completos, entregamos identidades cohesivas que funcionan en cada punto de contacto."
+        ],
+        "sections": [
+          { "title": "Nuestra Filosofía de Branding", "text": "Creemos que una gran marca se construye sobre claridad, no complejidad. Cada identidad comienza con la comprensión de la esencia del negocio." },
+          { "title": "Del Boceto al Sistema", "text": "Nuestro proceso va desde exploraciones a mano hasta guías de marca completas. No solo diseñamos logos — construimos lenguajes visuales completos." },
+          { "title": "Versatilidad por Diseño", "text": "Cada marca que creamos se prueba en múltiples escenarios — desde un favicon de 16px hasta una valla publicitaria, de fondos oscuros a claros." }
+        ]
+      },
+      "ru": {
+        "title": "Коллекция Брендинга",
+        "metaTitle": "Коллекция Дизайна Брендов — Избранные Работы | ELAI Studio",
+        "metaDesc": "Курированная коллекция проектов идентичности бренда — дизайн логотипов, визуальные системы и брендбуки для различных индустрий.",
+        "cat": "Брендинг",
+        "subtitle": "Курированная подборка наших работ по айдентике",
+        "overview": "Эта коллекция демонстрирует разнообразие проектов брендинга, выполненных для клиентов из разных отраслей. От начальных скетчей до финализированных бренд-систем.",
+        "details": [
+          { "label": "Категория", "value": "Коллекция Айдентики" },
+          { "label": "Период", "value": "2024 – 2025" },
+          { "label": "Техники", "value": "Дизайн логотипов, Типографические системы, Визуальная идентичность, Брендбуки" }
+        ],
+        "screenshotTexts": [
+          "Процесс дизайна логотипа начинается с обширного исследования — десятки концепций от руки, доведённых до геометрической точности и типографического баланса.",
+          "От логотипов до полных бренд-систем — мы создаём целостные идентичности, работающие в каждой точке контакта."
+        ],
+        "sections": [
+          { "title": "Наша Философия Брендинга", "text": "Мы верим, что великий бренд строится на ясности, а не сложности. Каждая идентичность начинается с понимания сути бизнеса." },
+          { "title": "От Скетча к Системе", "text": "Наш процесс идёт от ручных эскизов через цифровую доработку до комплексных брендбуков. Мы создаём не просто логотипы — мы строим визуальные языки." },
+          { "title": "Универсальность по Замыслу", "text": "Каждый бренд-знак тестируется в множестве сценариев — от фавикона 16px до билборда, от тёмного фона до светлого." }
+        ]
+      }
+    },
+    {
+      "slug": "presentation-collection",
+      "type": "design",
+      "year": "2025",
+      "category": "branding",
+      "thumbnail": "/assets/images/portfolio/presentation-collection/cover.jpg",
+      "screenshots": [
+        "/assets/images/portfolio/presentation-collection/ss1.jpg",
+        "/assets/images/portfolio/presentation-collection/ss2.jpg"
+      ],
+      "gallery": [
+        "/assets/images/portfolio/presentation-collection/img2.gif",
+        "/assets/images/portfolio/presentation-collection/img3.gif"
+      ],
+      "en": {
+        "title": "Presentation Design Collection",
+        "metaTitle": "Presentation Design Collection — Selected Works | ELAI Studio",
+        "metaDesc": "Professional presentation designs — pitch decks, investor presentations, and data-driven slides that transform ideas into visual stories.",
+        "cat": "Presentation Design",
+        "subtitle": "Turning complex data into compelling visual stories",
+        "overview": "A collection of presentation designs created for startups, enterprises, and agencies. From investor pitch decks to internal strategy presentations, each project transforms complex information into clear, engaging, and visually polished slide decks that command attention and drive decisions.",
+        "details": [
+          { "label": "Category", "value": "Presentation Design Collection" },
+          { "label": "Period", "value": "2024 – 2025" },
+          { "label": "Techniques", "value": "Data Visualization, Slide Design, Infographics, Motion Slides" }
+        ],
+        "screenshotTexts": [
+          "Clean layouts with strategic use of whitespace, data visualization, and brand-consistent styling turn even the most data-heavy slides into digestible, professional presentations.",
+          "Whether it's a board meeting or a startup pitch, we design every slide to tell a story — not just display information."
+        ],
+        "sections": [
+          {
+            "title": "Beyond Bullet Points",
+            "text": "Great presentations don't read like documents — they flow like stories. We structure every deck with a clear narrative arc, strategic reveals, and visual pacing that keeps audiences engaged from the first slide to the final call-to-action."
+          },
+          {
+            "title": "Data That Speaks",
+            "text": "Numbers alone don't persuade — context does. We transform raw data into custom charts, infographics, and visual comparisons that make insights immediately clear and actionable. Every data point earns its place on the slide."
+          },
+          {
+            "title": "Animated & Interactive",
+            "text": "For high-stakes presentations, we add subtle animations and motion transitions that guide the viewer's eye and create a polished, cinematic feel. The result is a presentation that feels like an experience, not a slideshow."
+          }
+        ]
+      },
+      "es": {
+        "title": "Colección de Diseño de Presentaciones",
+        "metaTitle": "Colección de Diseño de Presentaciones — Trabajos Seleccionados | ELAI Studio",
+        "metaDesc": "Diseños de presentaciones profesionales — pitch decks, presentaciones para inversionistas y diapositivas basadas en datos.",
+        "cat": "Diseño de Presentación",
+        "subtitle": "Transformando datos complejos en historias visuales convincentes",
+        "overview": "Una colección de diseños de presentaciones creados para startups, empresas y agencias. Cada proyecto transforma información compleja en decks claros, atractivos y visualmente pulidos.",
+        "details": [
+          { "label": "Categoría", "value": "Colección de Diseño de Presentaciones" },
+          { "label": "Período", "value": "2024 – 2025" },
+          { "label": "Técnicas", "value": "Visualización de Datos, Diseño de Slides, Infografías, Slides Animados" }
+        ],
+        "screenshotTexts": [
+          "Layouts limpios con uso estratégico de espacio, visualización de datos y estilo consistente con la marca convierten diapositivas complejas en presentaciones profesionales.",
+          "Ya sea una reunión de directorio o un pitch de startup, diseñamos cada diapositiva para contar una historia."
+        ],
+        "sections": [
+          { "title": "Más Allá de las Viñetas", "text": "Las grandes presentaciones fluyen como historias. Estructuramos cada deck con un arco narrativo claro y ritmo visual que mantiene la atención." },
+          { "title": "Datos Que Hablan", "text": "Los números solos no persuaden — el contexto sí. Transformamos datos en gráficos personalizados e infografías que hacen los insights inmediatamente claros." },
+          { "title": "Animado e Interactivo", "text": "Para presentaciones de alto impacto, añadimos animaciones sutiles y transiciones que crean una sensación cinematográfica y pulida." }
+        ]
+      },
+      "ru": {
+        "title": "Коллекция Дизайна Презентаций",
+        "metaTitle": "Коллекция Дизайна Презентаций — Избранные Работы | ELAI Studio",
+        "metaDesc": "Профессиональный дизайн презентаций — питч-деки, инвесторские презентации и слайды с визуализацией данных.",
+        "cat": "Дизайн Презентаций",
+        "subtitle": "Превращаем сложные данные в убедительные визуальные истории",
+        "overview": "Коллекция дизайнов презентаций для стартапов, корпораций и агентств. Каждый проект превращает сложную информацию в понятные, вовлекающие и визуально отполированные слайд-деки.",
+        "details": [
+          { "label": "Категория", "value": "Коллекция Дизайна Презентаций" },
+          { "label": "Период", "value": "2024 – 2025" },
+          { "label": "Техники", "value": "Визуализация данных, Дизайн слайдов, Инфографика, Анимированные слайды" }
+        ],
+        "screenshotTexts": [
+          "Чистые макеты со стратегическим использованием пространства, визуализацией данных и бренд-консистентным стилем превращают даже самые насыщенные слайды в профессиональные презентации.",
+          "Будь то совет директоров или питч стартапа — каждый слайд рассказывает историю, а не просто отображает информацию."
+        ],
+        "sections": [
+          { "title": "За Пределами Буллетов", "text": "Великие презентации текут как истории. Мы структурируем каждый дек с чётким нарративным арком и визуальным ритмом, удерживающим внимание." },
+          { "title": "Данные, Которые Говорят", "text": "Числа сами по себе не убеждают — контекст убеждает. Мы превращаем данные в кастомные графики и инфографики." },
+          { "title": "Анимация и Интерактивность", "text": "Для высокоставочных презентаций добавляем тонкие анимации и переходы, создающие кинематографичное, отполированное ощущение." }
+        ]
+      }
+    },
+    {
+      "slug": "custom-design-collection",
+      "type": "design",
+      "year": "2025",
+      "category": "branding",
+      "thumbnail": "/assets/images/portfolio/custom-design-collection/cover.jpg",
+      "gallery": [
+        "/assets/images/portfolio/custom-design-collection/img1.jpg",
+        "/assets/images/portfolio/custom-design-collection/img2.jpg",
+        "/assets/images/portfolio/custom-design-collection/img3.jpg",
+        "/assets/images/portfolio/custom-design-collection/img4.jpg"
+      ],
+      "en": {
+        "title": "Custom Design Collection",
+        "metaTitle": "Custom Design Collection — Selected Works | ELAI Studio",
+        "metaDesc": "A diverse collection of custom design projects — infographics, marketing materials, social media assets, and creative strategy work.",
+        "cat": "Custom Design",
+        "subtitle": "Creative solutions for every design challenge",
+        "overview": "Not every project fits into a single category — and that's where our custom design work shines. This collection brings together diverse projects spanning infographics, marketing collateral, visual strategy sessions, and creative problem-solving for clients who need something unique.",
+        "details": [
+          { "label": "Category", "value": "Custom Design Collection" },
+          { "label": "Period", "value": "2024 – 2025" },
+          { "label": "Techniques", "value": "Infographics, Marketing Design, Visual Strategy, Creative Direction" }
+        ],
+        "sections": [
+          {
+            "title": "Design Without Boundaries",
+            "text": "Some of our best work doesn't fit neatly into categories. These projects span marketing materials, data visualizations, workshop facilitation graphics, and creative strategy — united by our commitment to clarity, aesthetics, and purposeful design."
+          },
+          {
+            "title": "Strategy Meets Craft",
+            "text": "Every piece in this collection started with a strategic question: what does this need to communicate, to whom, and in what context? The design is always in service of the message, never decoration for its own sake."
+          },
+          {
+            "title": "Collaborative Process",
+            "text": "Custom projects thrive on collaboration. We work closely with our clients through workshops, feedback loops, and iterative refinement to ensure the final deliverable exceeds expectations and solves the right problem."
+          }
+        ]
+      },
+      "es": {
+        "title": "Colección de Diseño Personalizado",
+        "metaTitle": "Colección de Diseño Personalizado — Trabajos Seleccionados | ELAI Studio",
+        "metaDesc": "Una colección diversa de proyectos de diseño personalizado — infografías, materiales de marketing, assets para redes sociales y estrategia creativa.",
+        "cat": "Diseño Personalizado",
+        "subtitle": "Soluciones creativas para cada desafío de diseño",
+        "overview": "No todos los proyectos encajan en una sola categoría — y ahí es donde brilla nuestro trabajo de diseño personalizado. Esta colección reúne proyectos diversos que abarcan infografías, material de marketing y estrategia visual.",
+        "details": [
+          { "label": "Categoría", "value": "Colección de Diseño Personalizado" },
+          { "label": "Período", "value": "2024 – 2025" },
+          { "label": "Técnicas", "value": "Infografías, Diseño de Marketing, Estrategia Visual, Dirección Creativa" }
+        ],
+        "sections": [
+          { "title": "Diseño Sin Límites", "text": "Algunos de nuestros mejores trabajos no encajan en categorías. Estos proyectos abarcan materiales de marketing, visualizaciones de datos y estrategia creativa." },
+          { "title": "Estrategia y Oficio", "text": "Cada pieza comenzó con una pregunta estratégica: ¿qué necesita comunicar, a quién y en qué contexto? El diseño siempre está al servicio del mensaje." },
+          { "title": "Proceso Colaborativo", "text": "Los proyectos personalizados prosperan con la colaboración. Trabajamos estrechamente con nuestros clientes a través de talleres y refinamiento iterativo." }
+        ]
+      },
+      "ru": {
+        "title": "Коллекция Кастомного Дизайна",
+        "metaTitle": "Коллекция Кастомного Дизайна — Избранные Работы | ELAI Studio",
+        "metaDesc": "Разнообразная коллекция кастомных дизайн-проектов — инфографика, маркетинговые материалы, контент для соцсетей и креативная стратегия.",
+        "cat": "Кастомный Дизайн",
+        "subtitle": "Креативные решения для любых дизайн-задач",
+        "overview": "Не каждый проект вписывается в одну категорию — и именно здесь сияет наш кастомный дизайн. Коллекция объединяет разноплановые проекты: инфографика, маркетинговые материалы, визуальная стратегия.",
+        "details": [
+          { "label": "Категория", "value": "Коллекция Кастомного Дизайна" },
+          { "label": "Период", "value": "2024 – 2025" },
+          { "label": "Техники", "value": "Инфографика, Маркетинговый дизайн, Визуальная стратегия, Креативное руководство" }
+        ],
+        "sections": [
+          { "title": "Дизайн Без Границ", "text": "Некоторые наши лучшие работы не вписываются в категории. Эти проекты охватывают маркетинговые материалы, визуализации данных и креативную стратегию." },
+          { "title": "Стратегия и Мастерство", "text": "Каждая работа начиналась со стратегического вопроса: что нужно донести, кому и в каком контексте? Дизайн всегда служит сообщению." },
+          { "title": "Совместный Процесс", "text": "Кастомные проекты процветают в сотрудничестве. Мы тесно работаем с клиентами через воркшопы, обратную связь и итеративную доработку." }
+        ]
+      }
+    },
+    {
       "slug": "brand-identity-project",
       "type": "design",
       "year": "2025",
