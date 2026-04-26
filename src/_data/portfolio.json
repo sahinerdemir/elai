@@ -26,8 +26,7 @@
         "details": [
           { "label": "Category", "value": "Game Trailer / Promo" },
           { "label": "Duration", "value": "60 seconds" },
-          { "label": "Techniques", "value": "AI-Generated Imagery, Digital Compositing, Cinematic Color Grading, Motion Design" },
-          { "label": "Tools", "value": "Imagery by AI, Adobe After Effects, Sounds & Voice Over by ElevenLabs" }
+          { "label": "Techniques", "value": "AI-Generated Imagery, Digital Compositing, Cinematic Color Grading, Motion Design" }
         ],
         "sections": [
           {
@@ -54,8 +53,7 @@
         "details": [
           { "label": "Categoría", "value": "Tráiler de Juego / Promo" },
           { "label": "Duración", "value": "60 segundos" },
-          { "label": "Técnicas", "value": "Imágenes Generadas por IA, Composición Digital, Color Grading Cinematográfico, Motion Design" },
-          { "label": "Herramientas", "value": "Imagery by AI, Adobe After Effects, Sounds & Voice Over by ElevenLabs" }
+          { "label": "Técnicas", "value": "Imágenes Generadas por IA, Composición Digital, Color Grading Cinematográfico, Motion Design" }
         ],
         "sections": [
           { "title": "La Visión", "text": "Nos propusimos crear un mundo que se siente tanto ajeno como familiar — un futuro construido sobre los huesos de nuestro presente. Cada fotograma fue diseñado para contar una historia de resiliencia y la belleza inquietante de la decadencia." },
@@ -73,8 +71,7 @@
         "details": [
           { "label": "Категория", "value": "Трейлер Игры / Промо" },
           { "label": "Длительность", "value": "60 секунд" },
-          { "label": "Техники", "value": "ИИ-генерация изображений, Цифровой композитинг, Кинематографичная цветокоррекция, Моушн-дизайн" },
-          { "label": "Инструменты", "value": "Imagery by AI, Adobe After Effects, Sounds & Voice Over by ElevenLabs" }
+          { "label": "Техники", "value": "ИИ-генерация изображений, Цифровой композитинг, Кинематографичная цветокоррекция, Моушн-дизайн" }
         ],
         "sections": [
           { "title": "Видение", "text": "Мы стремились создать мир, который ощущается одновременно чужим и знакомым — будущее, построенное на костях нашего настоящего. Каждый кадр был создан, чтобы рассказать историю стойкости и завораживающей красоты разрушения." },
