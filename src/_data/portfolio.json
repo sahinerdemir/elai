@@ -81,6 +81,85 @@
       }
     },
     {
+      "slug": "purr-fect-paws",
+      "type": "video",
+      "year": "2025",
+      "category": "film",
+      "thumbnail": "/assets/images/portfolio/purr-fect-paws/cover.jpg",
+      "video": "/assets/images/portfolio/purr-fect-paws/video.mp4",
+      "gallery": [
+        "/assets/images/portfolio/purr-fect-paws/img1.jpg",
+        "/assets/images/portfolio/purr-fect-paws/img2.jpg",
+        "/assets/images/portfolio/purr-fect-paws/img3.jpg",
+        "/assets/images/portfolio/purr-fect-paws/img4.jpg",
+        "/assets/images/portfolio/purr-fect-paws/img5.jpg",
+        "/assets/images/portfolio/purr-fect-paws/img6.jpg"
+      ],
+      "en": {
+        "title": "Purr-fect Paws",
+        "metaTitle": "Purr-fect Paws — Product Commercial | ELAI Studio",
+        "metaDesc": "Animated product commercial for Purr-fect Paws pet food brand. 3D animated characters, cinematic storytelling, and vibrant visuals crafted with AI and After Effects.",
+        "cat": "Commercial Film",
+        "subtitle": "A heartwarming animated commercial for pet lovers",
+        "overview": "Purr-fect Paws is an animated product commercial for a premium pet food brand. Featuring adorable 3D-style characters — a curious kitten and a playful puppy — the film brings the brand to life through charming storytelling and vibrant, Pixar-inspired visuals.",
+        "details": [
+          { "label": "Category", "value": "Product Commercial / Animation" },
+          { "label": "Duration", "value": "60 seconds" },
+          { "label": "Techniques", "value": "AI-Generated 3D Characters, Cinematic Compositing, Color Grading, Motion Design" }
+        ],
+        "sections": [
+          {
+            "title": "The Concept",
+            "text": "We wanted to create a commercial that captures the pure joy pets bring into our lives. The idea was simple: two adorable characters discovering their favorite food on a charming city street. No complex narrative needed — just pure, irresistible cuteness that makes viewers smile and remember the brand."
+          },
+          {
+            "title": "Character Design & Animation",
+            "text": "The characters were designed with exaggerated features — big expressive eyes, fluffy textures, and playful body language — to maximize emotional appeal. Every frame was carefully crafted using AI imagery tools and refined in After Effects to achieve a polished, cinematic look."
+          },
+          {
+            "title": "Impact",
+            "text": "The commercial achieved exceptional engagement across social media platforms, with the characters becoming instantly recognizable brand ambassadors. The warm, approachable visual style helped position Purr-fect Paws as a premium yet lovable pet food brand."
+          }
+        ]
+      },
+      "es": {
+        "title": "Purr-fect Paws",
+        "metaTitle": "Purr-fect Paws — Comercial de Producto | ELAI Studio",
+        "metaDesc": "Comercial animado para la marca de alimento para mascotas Purr-fect Paws. Personajes 3D animados, narrativa cinematográfica y visuales vibrantes.",
+        "cat": "Película Comercial",
+        "subtitle": "Un comercial animado entrañable para amantes de las mascotas",
+        "overview": "Purr-fect Paws es un comercial animado para una marca premium de alimento para mascotas. Con adorables personajes estilo 3D — un gatito curioso y un cachorro juguetón — el film da vida a la marca con visuales vibrantes inspirados en Pixar.",
+        "details": [
+          { "label": "Categoría", "value": "Comercial de Producto / Animación" },
+          { "label": "Duración", "value": "60 segundos" },
+          { "label": "Técnicas", "value": "Personajes 3D por IA, Composición Cinematográfica, Color Grading, Motion Design" }
+        ],
+        "sections": [
+          { "title": "El Concepto", "text": "Queríamos crear un comercial que capture la alegría pura que las mascotas traen a nuestras vidas. Dos personajes adorables descubriendo su comida favorita en una encantadora calle de la ciudad." },
+          { "title": "Diseño de Personajes y Animación", "text": "Los personajes fueron diseñados con rasgos exagerados — ojos grandes expresivos, texturas esponjosas y lenguaje corporal juguetón — para maximizar el atractivo emocional." },
+          { "title": "Impacto", "text": "El comercial logró un engagement excepcional en redes sociales, con los personajes convirtiéndose en embajadores de marca instantáneamente reconocibles." }
+        ]
+      },
+      "ru": {
+        "title": "Purr-fect Paws",
+        "metaTitle": "Purr-fect Paws — Рекламный Ролик Продукта | ELAI Studio",
+        "metaDesc": "Анимированный рекламный ролик для бренда корма для питомцев Purr-fect Paws. 3D-персонажи, кинематографичный сторителлинг и яркие визуалы.",
+        "cat": "Рекламный Ролик",
+        "subtitle": "Трогательный анимированный ролик для любителей питомцев",
+        "overview": "Purr-fect Paws — анимированный рекламный ролик для премиального бренда корма для питомцев. С очаровательными 3D-персонажами — любопытным котёнком и игривым щенком — ролик оживляет бренд через яркие визуалы в стиле Pixar.",
+        "details": [
+          { "label": "Категория", "value": "Рекламный ролик / Анимация" },
+          { "label": "Длительность", "value": "60 секунд" },
+          { "label": "Техники", "value": "ИИ-генерация 3D-персонажей, Кинематографичный композитинг, Цветокоррекция, Моушн-дизайн" }
+        ],
+        "sections": [
+          { "title": "Концепция", "text": "Мы хотели создать ролик, передающий чистую радость, которую питомцы приносят в нашу жизнь. Два очаровательных персонажа находят свою любимую еду на уютной городской улочке." },
+          { "title": "Дизайн Персонажей и Анимация", "text": "Персонажи созданы с утрированными чертами — большие выразительные глаза, пушистые текстуры и игривый язык тела — для максимального эмоционального воздействия." },
+          { "title": "Влияние", "text": "Ролик достиг исключительной вовлечённости в соцсетях, а персонажи мгновенно стали узнаваемыми амбассадорами бренда." }
+        ]
+      }
+    },
+    {
       "slug": "vellaro-doors",
       "type": "web",
       "year": "2024",
