@@ -1,6 +1,86 @@
 {
   "items": [
     {
+      "slug": "echoes-of-rust",
+      "type": "video",
+      "year": "2024",
+      "category": "film",
+      "thumbnail": "/assets/images/portfolio/echoes-of-rust/cover.jpg",
+      "video": "/assets/images/portfolio/echoes-of-rust/video.mp4",
+      "poster": "/assets/images/portfolio/echoes-of-rust/poster.jpg",
+      "gallery": [
+        "/assets/images/portfolio/echoes-of-rust/img1.jpg",
+        "/assets/images/portfolio/echoes-of-rust/img2.jpg",
+        "/assets/images/portfolio/echoes-of-rust/img3.jpg",
+        "/assets/images/portfolio/echoes-of-rust/img4.jpg",
+        "/assets/images/portfolio/echoes-of-rust/img5.jpg",
+        "/assets/images/portfolio/echoes-of-rust/img6.jpg"
+      ],
+      "en": {
+        "title": "The Echoes of Rust",
+        "metaTitle": "The Echoes of Rust — Short Film | ELAI Studio",
+        "metaDesc": "A cyberpunk short film set in a post-apocalyptic world where the future forgot us, but the ruins remembered. Concept art, animation, and full production by ELAI Studio.",
+        "cat": "Short Film",
+        "subtitle": "When the future forgot us, the ruins remembered",
+        "overview": "The Echoes of Rust is a visually stunning cyberpunk short film that explores a post-apocalyptic world where technology and decay coexist. Set in a forgotten city overrun by rust and neon, the film follows two survivors navigating the remnants of a civilization that once reached for the stars.",
+        "details": [
+          { "label": "Category", "value": "Short Film / Animation" },
+          { "label": "Year", "value": "2024" },
+          { "label": "Deliverables", "value": "Concept Art, Animation, Sound Design, Poster" }
+        ],
+        "sections": [
+          {
+            "title": "The Vision",
+            "text": "We set out to create a world that feels both alien and familiar — a future built on the bones of our present. Every frame was crafted to tell a story of resilience, loss, and the haunting beauty of decay. The neon-lit ruins became characters themselves."
+          },
+          {
+            "title": "Production Process",
+            "text": "The project combined digital matte painting, 3D environment design, and cinematic compositing techniques. From initial concept sketches to the final color grade, every detail was obsessively refined to achieve photorealistic quality."
+          },
+          {
+            "title": "Sound & Atmosphere",
+            "text": "The soundtrack blends ambient electronic textures with industrial sounds — the hum of dying machines, the crackle of neon signs, distant echoes of a world that once was. Sound design was integral to building the film's immersive atmosphere."
+          }
+        ]
+      },
+      "es": {
+        "title": "The Echoes of Rust",
+        "metaTitle": "The Echoes of Rust — Cortometraje | ELAI Studio",
+        "metaDesc": "Un cortometraje cyberpunk en un mundo post-apocalíptico donde el futuro nos olvidó, pero las ruinas recordaron. Arte conceptual, animación y producción completa.",
+        "cat": "Cortometraje",
+        "subtitle": "Cuando el futuro nos olvidó, las ruinas recordaron",
+        "overview": "The Echoes of Rust es un impresionante cortometraje cyberpunk que explora un mundo post-apocalíptico donde la tecnología y la decadencia coexisten. Ambientado en una ciudad olvidada invadida por el óxido y el neón.",
+        "details": [
+          { "label": "Categoría", "value": "Cortometraje / Animación" },
+          { "label": "Año", "value": "2024" },
+          { "label": "Entregables", "value": "Arte Conceptual, Animación, Diseño de Sonido, Póster" }
+        ],
+        "sections": [
+          { "title": "La Visión", "text": "Nos propusimos crear un mundo que se siente tanto ajeno como familiar — un futuro construido sobre los huesos de nuestro presente. Cada fotograma fue diseñado para contar una historia de resiliencia y la belleza inquietante de la decadencia." },
+          { "title": "Proceso de Producción", "text": "El proyecto combinó pintura mate digital, diseño de entornos 3D y técnicas de composición cinematográfica. Cada detalle fue obsesivamente refinado para lograr calidad fotorrealista." },
+          { "title": "Sonido y Atmósfera", "text": "La banda sonora mezcla texturas electrónicas ambientales con sonidos industriales — el zumbido de máquinas moribundas, el crepitar de letreros de neón, ecos distantes de un mundo que alguna vez fue." }
+        ]
+      },
+      "ru": {
+        "title": "The Echoes of Rust",
+        "metaTitle": "The Echoes of Rust — Короткометражный Фильм | ELAI Studio",
+        "metaDesc": "Киберпанк-короткометражка в постапокалиптическом мире, где будущее забыло нас, но руины помнили. Концепт-арт, анимация и полное производство.",
+        "cat": "Короткометражка",
+        "subtitle": "Когда будущее забыло нас, руины помнили",
+        "overview": "The Echoes of Rust — визуально потрясающий киберпанк-короткометражный фильм, исследующий постапокалиптический мир, где технологии и разрушение сосуществуют. Действие разворачивается в забытом городе, захваченном ржавчиной и неоном.",
+        "details": [
+          { "label": "Категория", "value": "Короткометражка / Анимация" },
+          { "label": "Год", "value": "2024" },
+          { "label": "Результаты", "value": "Концепт-арт, Анимация, Саунд-дизайн, Постер" }
+        ],
+        "sections": [
+          { "title": "Видение", "text": "Мы стремились создать мир, который ощущается одновременно чужим и знакомым — будущее, построенное на костях нашего настоящего. Каждый кадр был создан, чтобы рассказать историю стойкости и завораживающей красоты разрушения." },
+          { "title": "Процесс Производства", "text": "Проект объединил цифровую мэтт-пейнтинг, 3D-дизайн окружений и кинематографические техники композитинга. Каждая деталь доведена до фотореалистичного качества." },
+          { "title": "Звук и Атмосфера", "text": "Саундтрек смешивает амбиентные электронные текстуры с индустриальными звуками — гул умирающих машин, треск неоновых вывесок, далёкие эхо мира, который когда-то был." }
+        ]
+      }
+    },
+    {
       "slug": "brand-identity-project",
       "type": "design",
       "year": "2025",

@@ -93,7 +93,11 @@
   <section class="py-8">
     <div class="max-w-5xl mx-auto px-6">
       <div class="relative aspect-video rounded-2xl overflow-hidden bg-white/5 border border-white/10">
-        {% if projectData.videoEmbed %}
+        {% if projectData.video %}
+        <video controls playsinline class="absolute inset-0 w-full h-full object-cover" poster="{{ projectData.thumbnail }}">
+          <source src="{{ projectData.video }}" type="video/mp4">
+        </video>
+        {% elif projectData.videoEmbed %}
         <iframe src="{{ projectData.videoEmbed }}" class="absolute inset-0 w-full h-full" frameborder="0" allowfullscreen></iframe>
         {% else %}
         <div class="absolute inset-0 flex flex-col items-center justify-center gap-4">
@@ -103,6 +107,17 @@
           <p class="text-white/30 text-sm">Video placeholder — embed your video here</p>
         </div>
         {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if projectData.poster %}
+  <!-- Poster -->
+  <section class="py-8">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="rounded-2xl overflow-hidden border border-white/10">
+        <img src="{{ projectData.poster }}" alt="{{ proj.title }} poster" class="w-full h-auto" loading="lazy">
       </div>
     </div>
   </section>
@@ -172,9 +187,13 @@
       <div class="flex gap-6 px-6 transition-transform duration-500 ease-out" id="gallery-track">
         {% for img in projectData.gallery %}
         <div class="w-[80vw] md:w-[60vw] lg:w-[50vw] flex-shrink-0 rounded-2xl overflow-hidden bg-white/5 border border-white/10">
+          {% if img is string and img.startsWith('/assets/') %}
+          <img src="{{ img }}" alt="{{ proj.title }} — {{ loop.index }}" class="w-full h-auto" loading="lazy">
+          {% else %}
           <div class="aspect-[16/10] flex items-center justify-center">
             <p class="text-white/20 text-sm">Gallery image {{ loop.index }} — placeholder</p>
           </div>
+          {% endif %}
         </div>
         {% endfor %}
       </div>

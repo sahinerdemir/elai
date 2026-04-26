@@ -167,7 +167,11 @@
         <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/{{ project.slug }}/" class="portfolio-card group {{ 'md:col-span-2' if loop.index == 1 }} no-underline">
           <div class="absolute inset-0 bg-gradient-to-t from-dark via-dark/20 to-transparent z-10"></div>
           <div class="absolute inset-0 bg-white/5 flex items-center justify-center">
+            {% if project.thumbnail %}
+            <img src="{{ project.thumbnail }}" alt="{{ p.title }}" class="w-full h-full object-cover" loading="lazy">
+            {% else %}
             <span class="text-white/20 text-lg font-medium">{{ p.cat }} — Placeholder Image</span>
+            {% endif %}
           </div>
           <div class="absolute bottom-0 left-0 right-0 p-8 z-20">
             <div class="flex items-center gap-3 mb-3">

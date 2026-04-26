@@ -71,7 +71,11 @@
         <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/{{ project.slug }}/" class="portfolio-item group no-underline block" data-category="{{ project.category }}">
           <div class="relative overflow-hidden rounded-2xl bg-white/5 cursor-pointer">
             <div class="aspect-[4/3] flex items-center justify-center">
+              {% if project.thumbnail %}
+              <img src="{{ project.thumbnail }}" alt="{{ p.title }}" class="w-full h-full object-cover" loading="lazy">
+              {% else %}
               <span class="text-white/20 text-sm font-medium">{{ p.cat }} — Placeholder</span>
+              {% endif %}
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-dark via-transparent to-transparent"></div>
             <div class="absolute bottom-0 left-0 right-0 p-6">
