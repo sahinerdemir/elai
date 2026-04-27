@@ -96,7 +96,7 @@
   <!-- Portfolio Grid -->
   <section class="py-16 md:py-24">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="portfolio-grid">
+      <div class="grid md:grid-cols-2 gap-6" id="portfolio-grid">
         {% for project in portfolio.items %}
         {% set p = project[locale] %}
         <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/{{ project.slug }}/" class="portfolio-item group no-underline block" data-category="{{ project.category }}">
