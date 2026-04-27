@@ -257,6 +257,85 @@
       }
     },
     {
+      "slug": "elmia",
+      "type": "web",
+      "year": "2025",
+      "category": "web",
+      "url": "https://elmia.us",
+      "thumbnail": "/assets/images/portfolio/elmia/cover.jpg",
+      "gallery": [
+        "/assets/images/portfolio/elmia/img1.png",
+        "/assets/images/portfolio/elmia/img2.png",
+        "/assets/images/portfolio/elmia/img3.png",
+        "/assets/images/portfolio/elmia/img4.png",
+        "/assets/images/portfolio/elmia/img5.png",
+        "/assets/images/portfolio/elmia/img6.png"
+      ],
+      "en": {
+        "title": "ELMIA | Elegant Miami Adventures",
+        "metaTitle": "ELMIA — Luxury Travel & Business Services Website | ELAI Studio",
+        "metaDesc": "Website design for ELMIA (Elegant Miami Adventures LLC), a luxury travel and business services company offering yacht charters, jet rentals, company formation, and more.",
+        "cat": "Web Design",
+        "subtitle": "A premium digital gateway for luxury travel and business services",
+        "overview": "ELMIA (Elegant Miami Adventures LLC) is a Miami-based luxury travel and business services company with over 20 years of experience. We designed a premium, multi-service website that elegantly presents their dual offering — from yacht charters and private jet rentals to company formation and logistics solutions — all wrapped in a sophisticated visual language that reflects their high-end clientele.",
+        "details": [
+          { "label": "Client", "value": "Elegant Miami Adventures LLC" },
+          { "label": "Timeline", "value": "6 weeks" },
+          { "label": "Techniques", "value": "Responsive Design, Multi-Service Architecture, WhatsApp Integration, SEO" }
+        ],
+        "sections": [
+          {
+            "title": "The Challenge",
+            "text": "ELMIA operates across two very different verticals — luxury travel and business services. The challenge was creating a unified digital experience that serves both audiences without diluting the premium feel of either. The site needed to be intuitive for high-net-worth travelers and serious business clients alike."
+          },
+          {
+            "title": "Design Approach",
+            "text": "We used a clean, sophisticated layout with generous white space and premium photography to convey luxury. The navigation was structured around the two service pillars, making it effortless for visitors to find exactly what they need. WhatsApp integration provides instant access to the team, matching the personalized service ELMIA is known for."
+          },
+          {
+            "title": "The Result",
+            "text": "A polished website that successfully bridges luxury travel and corporate services under one brand. The clear service architecture and prominent CTAs have streamlined the inquiry process, while the premium visual language reinforces ELMIA's positioning as a trusted partner for discerning clients."
+          }
+        ]
+      },
+      "es": {
+        "title": "ELMIA | Elegant Miami Adventures",
+        "metaTitle": "ELMIA — Sitio Web de Viajes de Lujo y Servicios Empresariales | ELAI Studio",
+        "metaDesc": "Diseño web para ELMIA (Elegant Miami Adventures LLC), empresa de viajes de lujo y servicios empresariales con yates, jets privados, formación de empresas y más.",
+        "cat": "Diseño Web",
+        "subtitle": "Un portal digital premium para viajes de lujo y servicios empresariales",
+        "overview": "ELMIA (Elegant Miami Adventures LLC) es una empresa de viajes de lujo y servicios empresariales con sede en Miami y más de 20 años de experiencia. Diseñamos un sitio web premium que presenta elegantemente su doble oferta — desde charters de yates y jets privados hasta formación de empresas y logística.",
+        "details": [
+          { "label": "Cliente", "value": "Elegant Miami Adventures LLC" },
+          { "label": "Duración", "value": "6 semanas" },
+          { "label": "Técnicas", "value": "Diseño Responsivo, Arquitectura Multi-Servicio, Integración WhatsApp, SEO" }
+        ],
+        "sections": [
+          { "title": "El Desafío", "text": "ELMIA opera en dos verticales muy diferentes — viajes de lujo y servicios empresariales. El desafío fue crear una experiencia digital unificada que sirva a ambas audiencias sin diluir la sensación premium." },
+          { "title": "Enfoque de Diseño", "text": "Usamos un layout limpio y sofisticado con espacio generoso y fotografía premium. La navegación se estructuró alrededor de los dos pilares de servicio con integración de WhatsApp para acceso instantáneo." },
+          { "title": "El Resultado", "text": "Un sitio web pulido que conecta exitosamente viajes de lujo y servicios corporativos bajo una marca, optimizando el proceso de consulta y reforzando el posicionamiento premium de ELMIA." }
+        ]
+      },
+      "ru": {
+        "title": "ELMIA | Elegant Miami Adventures",
+        "metaTitle": "ELMIA — Сайт Люксовых Путешествий и Бизнес-Услуг | ELAI Studio",
+        "metaDesc": "Дизайн сайта для ELMIA (Elegant Miami Adventures LLC), компании люксовых путешествий и бизнес-услуг: яхты, джеты, регистрация компаний и логистика.",
+        "cat": "Веб-дизайн",
+        "subtitle": "Премиальный цифровой портал для люксовых путешествий и бизнес-услуг",
+        "overview": "ELMIA (Elegant Miami Adventures LLC) — компания люксовых путешествий и бизнес-услуг с более чем 20-летним опытом, базирующаяся в Майами. Мы создали премиальный мультисервисный сайт, элегантно представляющий двойное предложение — от чартеров яхт и частных джетов до регистрации компаний и логистики.",
+        "details": [
+          { "label": "Клиент", "value": "Elegant Miami Adventures LLC" },
+          { "label": "Сроки", "value": "6 недель" },
+          { "label": "Техники", "value": "Адаптивный дизайн, Мульти-сервисная архитектура, WhatsApp интеграция, SEO" }
+        ],
+        "sections": [
+          { "title": "Задача", "text": "ELMIA работает в двух разных вертикалях — люксовые путешествия и бизнес-услуги. Нужно было создать единый цифровой опыт для обеих аудиторий без размытия премиального ощущения." },
+          { "title": "Дизайн-Подход", "text": "Мы использовали чистый, утончённый макет с щедрым пространством и премиальной фотографией. Навигация структурирована вокруг двух сервисных столпов с интеграцией WhatsApp." },
+          { "title": "Результат", "text": "Отполированный сайт, успешно объединяющий люксовые путешествия и корпоративные услуги под одним брендом, оптимизируя процесс запросов и укрепляя премиальное позиционирование ELMIA." }
+        ]
+      }
+    },
+    {
       "slug": "vettellc",
       "type": "web",
       "year": "2025",
