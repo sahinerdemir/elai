@@ -257,6 +257,94 @@
       }
     },
     {
+      "slug": "vettellc",
+      "type": "web",
+      "year": "2025",
+      "category": "web",
+      "url": "https://vettellc.com",
+      "thumbnail": "/assets/images/portfolio/vettellc/cover.avif",
+      "screenshots": [
+        "/assets/images/portfolio/vettellc/ss1.jpg"
+      ],
+      "gallery": [
+        "/assets/images/portfolio/vettellc/img1.png",
+        "/assets/images/portfolio/vettellc/img2.png",
+        "/assets/images/portfolio/vettellc/img3.png"
+      ],
+      "en": {
+        "title": "Vettel LLC",
+        "metaTitle": "Vettel LLC — Premium Auto Brokerage Website | ELAI Studio",
+        "metaDesc": "Website design and development for Vettel LLC, a premium auto brokerage company. Dark luxury aesthetic, vehicle gallery, and lead generation forms.",
+        "cat": "Web Design",
+        "subtitle": "A premium digital showroom for luxury auto brokerage",
+        "overview": "Vettel LLC is a premium auto brokerage company that needed a website reflecting the caliber of vehicles they deal with. We designed a dark, sophisticated site with a powerful gallery showcase, streamlined inquiry forms, and a layout that communicates trust and exclusivity from the first scroll.",
+        "details": [
+          { "label": "Client", "value": "Vettel LLC" },
+          { "label": "Timeline", "value": "4 weeks" },
+          { "label": "Techniques", "value": "Responsive Design, Dark UI, Vehicle Gallery, Lead Generation Forms" }
+        ],
+        "screenshotTexts": [
+          "The full-page design combines a cinematic hero with bold typography, a vehicle gallery grid, and a clean contact section — all wrapped in a dark luxury aesthetic that reflects the premium positioning of the brand."
+        ],
+        "sections": [
+          {
+            "title": "The Challenge",
+            "text": "Vettel LLC needed a digital presence that matched the premium quality of their vehicle inventory. The site had to convey trust, exclusivity, and professionalism while making it easy for potential buyers to browse inventory and get in touch."
+          },
+          {
+            "title": "Design Direction",
+            "text": "We chose a deep navy and dark color palette with red accents that evoke automotive luxury. Large vehicle photography, clean typography, and generous spacing create a browsing experience that feels like walking through an exclusive showroom."
+          },
+          {
+            "title": "The Result",
+            "text": "A polished, conversion-focused website that serves as the company's primary lead generation tool. The streamlined inquiry process and professional presentation have significantly increased qualified inquiries from serious buyers."
+          }
+        ]
+      },
+      "es": {
+        "title": "Vettel LLC",
+        "metaTitle": "Vettel LLC — Sitio Web de Corretaje Automotriz Premium | ELAI Studio",
+        "metaDesc": "Diseño y desarrollo web para Vettel LLC, empresa de corretaje automotriz premium. Estética de lujo oscura, galería de vehículos y formularios de contacto.",
+        "cat": "Diseño Web",
+        "subtitle": "Un showroom digital premium para corretaje automotriz de lujo",
+        "overview": "Vettel LLC es una empresa de corretaje automotriz premium que necesitaba un sitio web que reflejara el calibre de los vehículos que manejan. Diseñamos un sitio sofisticado y oscuro con una galería poderosa y formularios de consulta optimizados.",
+        "details": [
+          { "label": "Cliente", "value": "Vettel LLC" },
+          { "label": "Duración", "value": "4 semanas" },
+          { "label": "Técnicas", "value": "Diseño Responsivo, UI Oscura, Galería de Vehículos, Formularios de Leads" }
+        ],
+        "screenshotTexts": [
+          "El diseño de página completa combina un hero cinematográfico con tipografía audaz, una galería de vehículos y una sección de contacto limpia — todo envuelto en una estética de lujo oscura."
+        ],
+        "sections": [
+          { "title": "El Desafío", "text": "Vettel LLC necesitaba una presencia digital que igualara la calidad premium de su inventario. El sitio debía transmitir confianza, exclusividad y profesionalismo." },
+          { "title": "Dirección de Diseño", "text": "Elegimos una paleta de colores navy oscuro con acentos rojos que evocan lujo automotriz. Fotografía vehicular grande y tipografía limpia." },
+          { "title": "El Resultado", "text": "Un sitio web pulido y enfocado en conversión que sirve como herramienta principal de generación de leads, aumentando significativamente las consultas cualificadas." }
+        ]
+      },
+      "ru": {
+        "title": "Vettel LLC",
+        "metaTitle": "Vettel LLC — Сайт Премиального Автоброкера | ELAI Studio",
+        "metaDesc": "Дизайн и разработка сайта для Vettel LLC, компании премиального автоброкерства. Тёмная люксовая эстетика, галерея автомобилей и формы захвата лидов.",
+        "cat": "Веб-дизайн",
+        "subtitle": "Премиальный цифровой шоурум для автоброкерства класса люкс",
+        "overview": "Vettel LLC — компания премиального автоброкерства, которой нужен был сайт, отражающий уровень автомобилей. Мы создали утончённый тёмный сайт с мощной галереей и оптимизированными формами запросов.",
+        "details": [
+          { "label": "Клиент", "value": "Vettel LLC" },
+          { "label": "Сроки", "value": "4 недели" },
+          { "label": "Техники", "value": "Адаптивный дизайн, Тёмный UI, Галерея авто, Формы лидогенерации" }
+        ],
+        "screenshotTexts": [
+          "Полностраничный дизайн сочетает кинематографичный хиро с крупной типографикой, галерею автомобилей и чистую контактную секцию — всё в тёмной люксовой эстетике бренда."
+        ],
+        "sections": [
+          { "title": "Задача", "text": "Vettel LLC нуждались в цифровом присутствии, соответствующем премиальному качеству их инвентаря." },
+          { "title": "Дизайн-Направление", "text": "Мы выбрали глубокую тёмно-синюю палитру с красными акцентами, вызывающими ассоциации с автомобильным люксом." },
+          { "title": "Результат", "text": "Отполированный сайт, ориентированный на конверсию, ставший главным инструментом лидогенерации." }
+        ]
+      }
+    },
+    {
       "slug": "branding-collection",
       "type": "design",
       "year": "2025",
