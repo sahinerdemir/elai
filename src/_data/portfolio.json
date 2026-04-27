@@ -257,6 +257,85 @@
       }
     },
     {
+      "slug": "oleka",
+      "type": "web",
+      "year": "2025",
+      "category": "web",
+      "url": "https://oleka.rocks",
+      "thumbnail": "/assets/images/portfolio/oleka/cover.jpg",
+      "gallery": [
+        "/assets/images/portfolio/oleka/img1.jpg",
+        "/assets/images/portfolio/oleka/img2.jpg",
+        "/assets/images/portfolio/oleka/img3.jpg",
+        "/assets/images/portfolio/oleka/img4.jpg",
+        "/assets/images/portfolio/oleka/img5.jpg",
+        "/assets/images/portfolio/oleka/img6.jpg"
+      ],
+      "en": {
+        "title": "Oleka Capital",
+        "metaTitle": "Oleka Capital — Venture Capital Website | ELAI Studio",
+        "metaDesc": "Website design for Oleka Capital, a growth-stage venture capital firm with offices in Istanbul, London, and Luxembourg. Clean, institutional design with portfolio showcase.",
+        "cat": "Web Design",
+        "subtitle": "A clean, institutional digital presence for a growth-stage VC firm",
+        "overview": "Oleka Capital is a venture capital firm specializing in growth-stage investments, with offices across Istanbul, London, and Luxembourg. We designed a minimalist, institutional website that communicates credibility and sophistication — featuring their investment thesis, portfolio companies, team profiles, and a transparent value-creation framework.",
+        "details": [
+          { "label": "Client", "value": "Oleka Capital" },
+          { "label": "Timeline", "value": "5 weeks" },
+          { "label": "Techniques", "value": "Minimalist UI, Custom Illustrations, Multi-Section Architecture, Responsive Design" }
+        ],
+        "sections": [
+          {
+            "title": "The Challenge",
+            "text": "Oleka Capital needed a website that would establish institutional credibility with founders, co-investors, and LPs alike. The design had to feel serious and trustworthy without being cold — reflecting the firm's hands-on, partnership-driven approach to venture capital."
+          },
+          {
+            "title": "Design Approach",
+            "text": "We chose a monochromatic palette with clean typography and generous whitespace to convey professionalism. Custom illustrated icons representing their office cities add warmth and personality. The information architecture was designed to guide different audiences — founders seeking capital, LPs evaluating the fund, and portfolio companies — to the right content quickly."
+          },
+          {
+            "title": "The Result",
+            "text": "A polished, institutional website that effectively communicates Oleka Capital's investment philosophy, track record, and team expertise. The clear structure and professional presentation have strengthened the firm's brand positioning in the competitive VC landscape."
+          }
+        ]
+      },
+      "es": {
+        "title": "Oleka Capital",
+        "metaTitle": "Oleka Capital — Sitio Web de Capital de Riesgo | ELAI Studio",
+        "metaDesc": "Diseño web para Oleka Capital, firma de capital de riesgo en etapa de crecimiento con oficinas en Estambul, Londres y Luxemburgo.",
+        "cat": "Diseño Web",
+        "subtitle": "Una presencia digital limpia e institucional para una firma de VC",
+        "overview": "Oleka Capital es una firma de capital de riesgo especializada en inversiones en etapa de crecimiento, con oficinas en Estambul, Londres y Luxemburgo. Diseñamos un sitio web minimalista e institucional que comunica credibilidad y sofisticación.",
+        "details": [
+          { "label": "Cliente", "value": "Oleka Capital" },
+          { "label": "Duración", "value": "5 semanas" },
+          { "label": "Técnicas", "value": "UI Minimalista, Ilustraciones Personalizadas, Arquitectura Multi-Sección, Diseño Responsivo" }
+        ],
+        "sections": [
+          { "title": "El Desafío", "text": "Oleka Capital necesitaba un sitio que estableciera credibilidad institucional con fundadores, co-inversionistas y LPs. El diseño debía sentirse serio y confiable sin ser frío." },
+          { "title": "Enfoque de Diseño", "text": "Elegimos una paleta monocromática con tipografía limpia y espacio generoso. Iconos ilustrados personalizados representando sus ciudades de oficina añaden calidez y personalidad." },
+          { "title": "El Resultado", "text": "Un sitio web institucional pulido que comunica efectivamente la filosofía de inversión, trayectoria y experiencia del equipo de Oleka Capital." }
+        ]
+      },
+      "ru": {
+        "title": "Oleka Capital",
+        "metaTitle": "Oleka Capital — Сайт Венчурного Фонда | ELAI Studio",
+        "metaDesc": "Дизайн сайта для Oleka Capital, венчурного фонда стадии роста с офисами в Стамбуле, Лондоне и Люксембурге.",
+        "cat": "Веб-дизайн",
+        "subtitle": "Чистое институциональное цифровое присутствие для венчурного фонда",
+        "overview": "Oleka Capital — венчурный фонд, специализирующийся на инвестициях стадии роста, с офисами в Стамбуле, Лондоне и Люксембурге. Мы создали минималистичный институциональный сайт, передающий надёжность и утончённость.",
+        "details": [
+          { "label": "Клиент", "value": "Oleka Capital" },
+          { "label": "Сроки", "value": "5 недель" },
+          { "label": "Техники", "value": "Минималистичный UI, Кастомные иллюстрации, Мульти-секционная архитектура, Адаптивный дизайн" }
+        ],
+        "sections": [
+          { "title": "Задача", "text": "Oleka Capital нуждались в сайте, устанавливающем институциональную репутацию среди фаундеров, со-инвесторов и LP. Дизайн должен был выглядеть серьёзно и надёжно, но не холодно." },
+          { "title": "Дизайн-Подход", "text": "Мы выбрали монохромную палитру с чистой типографикой и щедрым пространством. Кастомные иллюстрированные иконки городов добавляют теплоту и индивидуальность." },
+          { "title": "Результат", "text": "Отполированный институциональный сайт, эффективно передающий инвестиционную философию, трек-рекорд и экспертизу команды Oleka Capital." }
+        ]
+      }
+    },
+    {
       "slug": "elmia",
       "type": "web",
       "year": "2025",
