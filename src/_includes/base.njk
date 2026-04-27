@@ -164,7 +164,7 @@
       <div class="grid md:grid-cols-2 gap-6">
         {% for project in portfolio.items %}
         {% set p = project[locale] %}
-        <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/{{ project.slug }}/" class="portfolio-card group {{ 'md:col-span-2' if loop.index == 1 }} no-underline">
+        <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/{{ project.slug }}/" class="portfolio-card group no-underline">
           <div class="absolute inset-0 bg-gradient-to-t from-dark via-dark/20 to-transparent z-10"></div>
           <div class="absolute inset-0 bg-white/5 flex items-center justify-center">
             {% if project.thumbnail %}
