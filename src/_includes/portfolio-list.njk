@@ -26,7 +26,7 @@
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#about" class="nav-link">{{ i18n[locale].nav.about }}</a>
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="nav-link">{{ i18n[locale].nav.services }}</a>
         <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/" class="nav-link text-white">{{ i18n[locale].nav.portfolio }}</a>
-        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#pricing" class="nav-link">{{ i18n[locale].nav.pricing }}</a>
+        {# <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#pricing" class="nav-link">{{ i18n[locale].nav.pricing }}</a> #}
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="nav-link">{{ i18n[locale].nav.contact }}</a>
       </div>
       <div class="flex items-center gap-6">
@@ -58,7 +58,7 @@
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#about" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.about }}</a>
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.services }}</a>
         <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.portfolio }}</a>
-        <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#pricing" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.pricing }}</a>
+        {# <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#pricing" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.pricing }}</a> #}
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.contact }}</a>
       </nav>
       <div class="pt-8 border-t border-white/10">

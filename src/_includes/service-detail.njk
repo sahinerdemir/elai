@@ -42,7 +42,7 @@
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#about" class="nav-link">{{ i18n[locale].nav.about }}</a>
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="nav-link">{{ i18n[locale].nav.services }}</a>
         <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/" class="nav-link">{{ i18n[locale].nav.portfolio }}</a>
-        <a href="#pricing" class="nav-link">{{ i18n[locale].nav.pricing }}</a>
+        {# <a href="#pricing" class="nav-link">{{ i18n[locale].nav.pricing }}</a> #}
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="nav-link">{{ i18n[locale].nav.contact }}</a>
       </div>
       <div class="flex items-center gap-6">
@@ -74,7 +74,7 @@
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#about" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.about }}</a>
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#services" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.services }}</a>
         <a href="{{ '/' if locale == 'en' else '/' + locale + '/' }}portfolio/" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.portfolio }}</a>
-        <a href="#pricing" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.pricing }}</a>
+        {# <a href="#pricing" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.pricing }}</a> #}
         <a href="{{ '/' if lang == 'en' else '/' + lang + '/' }}#contact" class="text-4xl font-display font-light text-white/80 hover:text-accent transition-colors">{{ i18n[locale].nav.contact }}</a>
       </nav>
       <div class="pt-8 border-t border-white/10">
@@ -125,6 +125,7 @@
   </section>
   {% endfor %}
 
+  {#
   <!-- Pricing Section -->
   <section id="pricing" class="py-24 md:py-36 bg-white/[0.02]">
     <div class="max-w-7xl mx-auto px-6">
@@ -184,6 +185,7 @@
       </div>
     </div>
   </section>
+  #}
 
   <!-- Quote Modal -->
   <div class="fixed inset-0 z-[200] hidden" id="quote-modal">
