@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="g4bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e16"/>
+      <stop offset="100%" stop-color="#141a27"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g4bg)"/>
+
+  <!-- Design System / Tokens showcase -->
+  <g transform="translate(150, 150)">
+    <rect width="900" height="440" rx="20" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="40" y="55" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#ffffff">Design Tokens &amp; Component System</text>
+    <text x="40" y="82" font-family="'Inter', sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">Color foundations, micro-interactions, and typography hierarchy</text>
+
+    <!-- Color chips -->
+    <g transform="translate(40, 120)">
+      <rect x="0" y="0" width="120" height="90" rx="12" fill="#c8ff00"/>
+      <text x="12" y="70" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#0a0a0a">#c8ff00</text>
+      <text x="12" y="82" font-family="'Inter', sans-serif" font-size="10" fill="#0a0a0a" opacity="0.7">Accent Lime</text>
+
+      <rect x="140" y="0" width="120" height="90" rx="12" fill="#0a0a0a" stroke="rgba(255,255,255,0.2)"/>
+      <text x="152" y="70" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#ffffff">#0a0a0a</text>
+      <text x="152" y="82" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" opacity="0.6">Deep Dark</text>
+
+      <rect x="280" y="0" width="120" height="90" rx="12" fill="#141a26"/>
+      <text x="292" y="70" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#ffffff">#141a26</text>
+      <text x="292" y="82" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" opacity="0.6">Card Surface</text>
+
+      <rect x="420" y="0" width="120" height="90" rx="12" fill="#00f0ff"/>
+      <text x="432" y="70" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#0a0a0a">#00f0ff</text>
+      <text x="432" y="82" font-family="'Inter', sans-serif" font-size="10" fill="#0a0a0a" opacity="0.7">Cyan Cyber</text>
+
+      <rect x="560" y="0" width="120" height="90" rx="12" fill="#22c55e"/>
+      <text x="572" y="70" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#ffffff">#22c55e</text>
+      <text x="572" y="82" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" opacity="0.7">Success Green</text>
+
+      <rect x="700" y="0" width="120" height="90" rx="12" fill="#ef4444"/>
+      <text x="712" y="70" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#ffffff">#ef4444</text>
+      <text x="712" y="82" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" opacity="0.7">Alert Red</text>
+    </g>
+
+    <!-- Typography sample -->
+    <g transform="translate(40, 260)">
+      <text x="0" y="30" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700" fill="#ffffff">Space Grotesk Bold 32px</text>
+      <text x="0" y="70" font-family="'Inter', sans-serif" font-size="18" fill="rgba(255,255,255,0.7)">Inter Regular 18px — Designed for optimal legibility across high-density financial interfaces.</text>
+      <text x="0" y="110" font-family="monospace" font-size="14" fill="#c8ff00" letter-spacing="2">MONOSPACE NUMERALS: 0123456789 (TABULAR FIGURES)</text>
+    </g>
+  </g>
+
+  <text x="600" y="690" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">Fintech Design System Architecture</text>
+  <text x="600" y="725" font-family="'Inter', sans-serif" font-size="16" fill="rgba(255,255,255,0.5)" text-anchor="middle">Gallery Placeholder 04 · UI Component Tokens</text>
+</svg>

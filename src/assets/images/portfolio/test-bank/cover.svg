@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#121824"/>
+      <stop offset="100%" stop-color="#070a10"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8ff00"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bgGrad)"/>
+
+  <!-- Grid Pattern -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="900"/>
+    <line x1="200" y1="0" x2="200" y2="900"/>
+    <line x1="300" y1="0" x2="300" y2="900"/>
+    <line x1="400" y1="0" x2="400" y2="900"/>
+    <line x1="500" y1="0" x2="500" y2="900"/>
+    <line x1="600" y1="0" x2="600" y2="900"/>
+    <line x1="700" y1="0" x2="700" y2="900"/>
+    <line x1="800" y1="0" x2="800" y2="900"/>
+    <line x1="900" y1="0" x2="900" y2="900"/>
+    <line x1="1000" y1="0" x2="1000" y2="900"/>
+    <line x1="1100" y1="0" x2="1100" y2="900"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="0" y1="700" x2="1200" y2="700"/>
+    <line x1="0" y1="800" x2="1200" y2="800"/>
+  </g>
+
+  <!-- Glowing Orb Background -->
+  <circle cx="600" cy="450" r="300" fill="#c8ff00" opacity="0.06" filter="blur(80px)"/>
+  <circle cx="850" cy="300" r="220" fill="#00f0ff" opacity="0.05" filter="blur(70px)"/>
+
+  <!-- Card Mockup Container -->
+  <g transform="translate(250, 160)">
+    <!-- Credit Card Shape 1 -->
+    <rect x="150" y="40" width="460" height="270" rx="24" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <rect x="180" y="70" width="60" height="44" rx="8" fill="#c8ff00" opacity="0.8"/>
+    <text x="560" y="100" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="20" fill="#ffffff" text-anchor="end" opacity="0.8">TEST BANK</text>
+    <text x="180" y="210" font-family="monospace" font-size="22" fill="#ffffff" letter-spacing="4" opacity="0.7">••••  ••••  ••••  4829</text>
+    <text x="180" y="260" font-family="'Inter', sans-serif" font-size="14" fill="#ffffff" opacity="0.5">VALID THRU: 12/29</text>
+    <text x="360" y="260" font-family="'Inter', sans-serif" font-size="14" fill="#ffffff" opacity="0.8" font-weight="600">LOREM IPSUM</text>
+
+    <!-- Credit Card Shape 2 (Overlapping) -->
+    <rect x="50" y="140" width="460" height="270" rx="24" fill="#151d2a" stroke="#c8ff00" stroke-width="1.5" stroke-opacity="0.4"/>
+    <rect x="80" y="170" width="60" height="44" rx="8" fill="url(#accentGrad)"/>
+    <circle cx="450" cy="190" r="16" fill="#c8ff00" opacity="0.8"/>
+    <circle cx="474" cy="190" r="16" fill="#00f0ff" opacity="0.8"/>
+    <text x="80" y="310" font-family="monospace" font-size="22" fill="#ffffff" letter-spacing="4">5412  7530  9821  6045</text>
+    <text x="80" y="360" font-family="'Inter', sans-serif" font-size="14" fill="#c8ff00" font-weight="600">TEST BANK PLATINUM</text>
+    <text x="420" y="360" font-family="'Space Grotesk', sans-serif" font-size="18" fill="#ffffff" font-weight="700">ELAI</text>
+  </g>
+
+  <!-- Typography / Info Overlay -->
+  <g transform="translate(100, 680)">
+    <rect x="0" y="0" width="130" height="32" rx="16" fill="rgba(200, 255, 0, 0.15)" stroke="#c8ff00" stroke-opacity="0.3"/>
+    <text x="65" y="21" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#c8ff00" text-anchor="middle" letter-spacing="2">FINTECH UI</text>
+    <text x="0" y="85" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="700" fill="#ffffff">Test Bank</text>
+    <text x="0" y="125" font-family="'Inter', sans-serif" font-size="18" fill="rgba(255,255,255,0.6)">Next-Gen Digital Banking Experience — Placeholder Asset</text>
+  </g>
+
+  <!-- Watermark badge -->
+  <rect x="990" y="810" width="140" height="36" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="1060" y="833" font-family="'Inter', sans-serif" font-size="12" fill="#ffffff" opacity="0.4" text-anchor="middle">PLACEHOLDER</text>
+</svg>

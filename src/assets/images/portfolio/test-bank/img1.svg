@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="g1bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d"/>
+      <stop offset="100%" stop-color="#080a0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g1bg)"/>
+  <circle cx="600" cy="400" r="280" fill="#c8ff00" opacity="0.04" filter="blur(60px)"/>
+
+  <!-- Phone Mockup 1 -->
+  <g transform="translate(360, 100)">
+    <rect width="220" height="460" rx="36" fill="#141a26" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+    <rect x="70" y="16" width="80" height="18" rx="9" fill="#000000"/>
+    <circle cx="110" cy="90" r="24" fill="#c8ff00"/>
+    <text x="110" y="145" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">$48,290.00</text>
+    <rect x="25" y="180" width="170" height="50" rx="12" fill="rgba(255,255,255,0.05)"/>
+    <rect x="25" y="245" width="170" height="50" rx="12" fill="rgba(255,255,255,0.05)"/>
+    <rect x="25" y="310" width="170" height="50" rx="12" fill="rgba(255,255,255,0.05)"/>
+    <rect x="25" y="380" width="170" height="40" rx="20" fill="#c8ff00"/>
+    <text x="110" y="405" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#0a0a0a" text-anchor="middle">Quick Send</text>
+  </g>
+
+  <!-- Phone Mockup 2 -->
+  <g transform="translate(620, 140)">
+    <rect width="220" height="460" rx="36" fill="#182030" stroke="#c8ff00" stroke-width="1.5" stroke-opacity="0.3"/>
+    <rect x="70" y="16" width="80" height="18" rx="9" fill="#000000"/>
+    <text x="110" y="80" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#c8ff00" text-anchor="middle">Virtual Card</text>
+    <rect x="25" y="105" width="170" height="100" rx="12" fill="#0e131d" stroke="rgba(255,255,255,0.1)"/>
+    <text x="40" y="160" font-family="monospace" font-size="11" fill="#ffffff">•••• 7741</text>
+    <rect x="25" y="225" width="170" height="60" rx="12" fill="rgba(255,255,255,0.04)"/>
+    <rect x="25" y="300" width="170" height="60" rx="12" fill="rgba(255,255,255,0.04)"/>
+  </g>
+
+  <!-- Caption -->
+  <text x="600" y="690" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">Test Bank — Mobile Native Experience</text>
+  <text x="600" y="725" font-family="'Inter', sans-serif" font-size="16" fill="rgba(255,255,255,0.5)" text-anchor="middle">Gallery Placeholder 01 · iOS &amp; Android Design Systems</text>
+</svg>

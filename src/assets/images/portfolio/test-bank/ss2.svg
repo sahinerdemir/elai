@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <defs>
+    <linearGradient id="ss2bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="100%" stop-color="#111622"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Screen Background -->
+  <rect width="1440" height="900" fill="url(#ss2bg)"/>
+
+  <!-- Top App Navigation -->
+  <rect width="1440" height="70" fill="#0d111a" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <circle cx="50" cy="35" r="16" fill="#c8ff00"/>
+  <text x="50" y="41" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="16" fill="#0a0a0a" text-anchor="middle">T</text>
+  <text x="80" y="42" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="20" fill="#ffffff">Test Bank</text>
+  
+  <g transform="translate(300, 42)" font-family="'Inter', sans-serif" font-size="14">
+    <text x="0" y="0" fill="rgba(255,255,255,0.5)">Dashboard</text>
+    <text x="120" y="0" fill="rgba(255,255,255,0.5)">Accounts</text>
+    <text x="240" y="0" fill="#c8ff00" font-weight="600">Transfers</text>
+    <text x="360" y="0" fill="rgba(255,255,255,0.5)">Analytics</text>
+    <text x="480" y="0" fill="rgba(255,255,255,0.5)">Settings</text>
+  </g>
+
+  <rect x="1260" y="20" width="140" height="36" rx="18" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+  <circle cx="1280" cy="38" r="10" fill="#c8ff00"/>
+  <text x="1300" y="43" font-family="'Inter', sans-serif" font-size="13" fill="#ffffff">Lorem I.</text>
+
+  <!-- Transfer Center UI -->
+  <g transform="translate(60, 110)">
+    <text x="0" y="30" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700" fill="#ffffff">Global Payments &amp; FX Exchange</text>
+    <text x="0" y="60" font-family="'Inter', sans-serif" font-size="15" fill="rgba(255,255,255,0.5)">Instant cross-border settlement with live currency routing.</text>
+
+    <!-- Multi-currency Balance cards -->
+    <g transform="translate(0, 90)">
+      <rect width="280" height="110" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="24" y="34" font-family="'Inter', sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">USD VAULT</text>
+      <text x="24" y="74" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#ffffff">$142,850.00</text>
+
+      <rect x="304" width="280" height="110" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="328" y="34" font-family="'Inter', sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">EUR ACCOUNT</text>
+      <text x="328" y="74" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#ffffff">€94,210.80</text>
+
+      <rect x="608" width="280" height="110" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="632" y="34" font-family="'Inter', sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">GBP ACCOUNT</text>
+      <text x="632" y="74" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700" fill="#ffffff">£47,859.70</text>
+    </g>
+
+    <!-- Transfer Form Mockup -->
+    <g transform="translate(0, 230)">
+      <rect width="888" height="480" rx="20" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="40" y="48" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="600" fill="#ffffff">Send Payment</text>
+
+      <!-- Recipient selection -->
+      <text x="40" y="96" font-family="'Inter', sans-serif" font-size="13" fill="rgba(255,255,255,0.5)">Recipient</text>
+      <rect x="40" y="110" width="808" height="54" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+      <text x="60" y="144" font-family="'Inter', sans-serif" font-size="15" fill="#ffffff">Acme Corporation LLC · US84 TEST 0001 9283 4910</text>
+
+      <!-- Amount input -->
+      <text x="40" y="200" font-family="'Inter', sans-serif" font-size="13" fill="rgba(255,255,255,0.5)">Amount &amp; Currency</text>
+      <rect x="40" y="214" width="540" height="54" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+      <text x="60" y="248" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="600" fill="#ffffff">25,000.00</text>
+      <rect x="600" y="214" width="248" height="54" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+      <text x="724" y="248" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#c8ff00" text-anchor="middle">USD ($)</text>
+
+      <!-- FX Rate badge -->
+      <rect x="40" y="300" width="808" height="60" rx="12" fill="rgba(200, 255, 0, 0.05)" stroke="#c8ff00" stroke-opacity="0.2"/>
+      <text x="60" y="335" font-family="'Inter', sans-serif" font-size="14" fill="#c8ff00">Guaranteed rate: 1 USD = 0.9234 EUR · Zero intermediary wire fees</text>
+
+      <!-- CTA Button -->
+      <rect x="40" y="390" width="808" height="56" rx="14" fill="#c8ff00"/>
+      <text x="444" y="425" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#0a0a0a" text-anchor="middle">Execute Transfer — $25,000.00 USD</text>
+    </g>
+  </g>
+
+  <!-- Right sidebar: Live Currency Rates -->
+  <g transform="translate(980, 110)">
+    <rect width="400" height="600" rx="20" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="30" y="45" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="600" fill="#ffffff">Live FX Ticker</text>
+
+    <g transform="translate(30, 80)">
+      <rect width="340" height="70" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+      <text x="20" y="32" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#ffffff">EUR / USD</text>
+      <text x="20" y="52" font-family="'Inter', sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">Euro / US Dollar</text>
+      <text x="320" y="42" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#c8ff00" text-anchor="end">1.0829 ▲</text>
+    </g>
+
+    <g transform="translate(30, 165)">
+      <rect width="340" height="70" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+      <text x="20" y="32" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#ffffff">GBP / USD</text>
+      <text x="20" y="52" font-family="'Inter', sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">British Pound</text>
+      <text x="320" y="42" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#c8ff00" text-anchor="end">1.2941 ▲</text>
+    </g>
+
+    <g transform="translate(30, 250)">
+      <rect width="340" height="70" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+      <text x="20" y="32" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#ffffff">USD / JPY</text>
+      <text x="20" y="52" font-family="'Inter', sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">Japanese Yen</text>
+      <text x="320" y="42" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="rgba(255,255,255,0.7)" text-anchor="end">148.20 ▼</text>
+    </g>
+
+    <g transform="translate(30, 335)">
+      <rect width="340" height="70" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+      <text x="20" y="32" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#ffffff">USD / CHF</text>
+      <text x="20" y="52" font-family="'Inter', sans-serif" font-size="12" fill="rgba(255,255,255,0.4)">Swiss Franc</text>
+      <text x="320" y="42" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#c8ff00" text-anchor="end">0.8812 ▲</text>
+    </g>
+  </g>
+</svg>
